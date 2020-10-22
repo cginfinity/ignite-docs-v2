@@ -1,7 +1,7 @@
 ---
 id: handle-query-parameters
 title: Handle query parameters passed to an HTTP endpoint
-sidebar_label:Handle Query Parameters
+sidebar_label: Handle Query Parameters
 ---
 
 ## Problem
