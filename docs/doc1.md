@@ -77,9 +77,7 @@ Some text to show that the reference links can follow later.
 [link text itself]: http://www.reddit.com/
 
 ---
-~~~json
-[{"id":"75495530.2f6adc","type":"debug","z":"29efa5eb.87dd3a","name":"","active":true,"tosidebar":true,"console":false,"tostatus":false,"complete":"model","targetType":"msg","x":690,"y":140,"wires":[]},{"id":"9abf5f23.f36f5","type":"odata in","z":"29efa5eb.87dd3a","name":"","x":520,"y":140,"wires":[["75495530.2f6adc"]]},{"id":"a62b22db.8b0d6","type":"http in","z":"29efa5eb.87dd3a","name":"","url":"/root/*","method":"get","upload":false,"swaggerDoc":"","x":140,"y":140,"wires":[["cf5f06eb.87b3c8"]]},{"id":"cf5f06eb.87b3c8","type":"function","z":"29efa5eb.87dd3a","name":"users EDM","func":"msg.model = {\n    namespace: \"ignite\",\n    entityTypes: {\n        \"users\": {\n            \"id\": {\"type\": \"Edm.Int32\", \"key\": true},\n            \"name\": {\"type\": \"Edm.String\"},            \n            \"username\": {\"type\": \"Edm.String\"}            \n        }\n    },   \n    entitySets: {\n        \"users\": {\n            entityType: \"ignite.users\"\n        }\n    }\n}\nreturn msg;","outputs":1,"noerr":0,"x":350,"y":140,"wires":[["9abf5f23.f36f5"]]},{"id":"5fd96aa2.daf414","type":"http in","z":"29efa5eb.87dd3a","name":"","url":"/root/*","method":"get","upload":false,"swaggerDoc":"","x":220,"y":1040,"wires":[["b6aba800.71a568"]]},{"id":"b6aba800.71a568","type":"odata in","z":"29efa5eb.87dd3a","name":"","edm":"","x":440,"y":1040,"wires":[["9138050a.ac0888"]]},{"id":"9138050a.ac0888","type":"debug","z":"29efa5eb.87dd3a","name":"","active":true,"tosidebar":true,"console":false,"tostatus":false,"complete":"model","targetType":"msg","x":670,"y":1040,"wires":[]}]
-~~~
+
 ## Images
 
 Here's our logo (hover to see the title text):

@@ -19,6 +19,10 @@ Use the <code class="node">Range</code> node to map between the defined ranges.
 
 <b>Flow JSON</b>
 
+```json
+[{"id":"80dae67d.b4d8f8","type":"inject","z":"535331d8.55c1f","name":"","topic":"","payload":"0","payloadType":"num","repeat":"","crontab":"","once":false,"x":130,"y":380,"wires":[["81f13534.456348"]]},{"id":"81f13534.456348","type":"range","z":"535331d8.55c1f","minin":"0","maxin":"1023","minout":"0","maxout":"5","action":"clamp","round":false,"name":"","x":350,"y":420,"wires":[["e80b61d7.4b399"]]},{"id":"cb21de23.75a2f","type":"inject","z":"535331d8.55c1f","name":"","topic":"","payload":"512","payloadType":"num","repeat":"","crontab":"","once":false,"x":130,"y":420,"wires":[["81f13534.456348"]]},{"id":"342552de.255a1e","type":"inject","z":"535331d8.55c1f","name":"","topic":"","payload":"1023","payloadType":"num","repeat":"","crontab":"","once":false,"x":130,"y":460,"wires":[["81f13534.456348"]]},{"id":"e80b61d7.4b399","type":"debug","z":"535331d8.55c1f","name":"","active":true,"console":"false","complete":"false","x":550,"y":420,"wires":[]}]
+```
+
 ## Discussion
 
 The <code class="node">Range</code> node can be used to linearly scale between two
