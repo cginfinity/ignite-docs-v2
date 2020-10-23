@@ -16,7 +16,7 @@ strings.
 
 ## Example
 
-![](../assets/dataformats/generate-csv.png)
+![](../assets/data-formats/generate-csv.png)
 
 <b>Flow JSON</b>
 

@@ -19,7 +19,7 @@ node to group them into a single message.
 
 ## Example
 
-![](../assets/flowControl/join-streams.png)
+![](../assets/flow-control/join-streams.png)
 
 <b>Flow JSON</b>
 

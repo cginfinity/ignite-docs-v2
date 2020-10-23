@@ -18,7 +18,7 @@ against different values corresponding to different outputs of the node.
 
 ## Example
 
-![](../assets/flowControl/route-on-property.png)
+![](../assets/flow-control/route-on-property.png)
 
 <b>Flow JSON</b>
 

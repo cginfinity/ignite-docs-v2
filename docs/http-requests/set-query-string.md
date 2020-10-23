@@ -14,7 +14,7 @@ Use the <code class="node">HTTP Request</code> node's support for [mustache](htt
 
 ## Example
 
-![](../assets/httpRequests/set-query-string.png)
+![](../assets/http-requests/set-query-string.png)
 
 <b>Flow JSON</b>
 

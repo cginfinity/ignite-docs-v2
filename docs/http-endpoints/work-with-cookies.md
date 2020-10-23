@@ -18,7 +18,7 @@ in order to set or clear cookies.
 
 ## Example
 
-![](../assets/httpEndpoints/work-with-cookies.png)
+![](../assets/http-endpoints/work-with-cookies.png)
 
 <b>Flow JSON</b>
 

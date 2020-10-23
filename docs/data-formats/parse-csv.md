@@ -16,7 +16,7 @@ JavaScript objects from it.
 
 ## Example
 
-![](../assets/dataformats/parse-csv.png)
+![](../assets/data-formats/parse-csv.png)
 
 <b>Flow JSON</b>
 

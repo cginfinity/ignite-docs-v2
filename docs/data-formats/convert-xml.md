@@ -16,7 +16,7 @@ formats.
 
 ## Example
 
-![](../assets/dataformats/convert-xml.png)
+![](../assets/data-formats/convert-xml.png)
 
 <b>Flow JSON</b>
 

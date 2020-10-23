@@ -17,7 +17,7 @@ arrived after a defined interval.
 
 ## Example
 
-![](../assets/flowControl/trigger-timeout.png)
+![](../assets/flow-control/trigger-timeout.png)
 
 <b>Flow JSON</b>
 

@@ -14,7 +14,7 @@ Set the URL property of the <code class="node">HTTP Request</code> node.
 
 ## Example
 
-![](../assets/httpRequests/set-request-url.png)
+![](../assets/http-requests/set-request-url.png)
 
 <b>Flow JSON</b>
 

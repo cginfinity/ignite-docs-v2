@@ -17,7 +17,7 @@ unless its value has changed.
 
 ## Example
 
-![](../assets/flowControl/report-by-exception.png)
+![](../assets/flow-control/report-by-exception.png)
 
 <b>Flow JSON</b>
 

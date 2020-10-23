@@ -15,7 +15,7 @@ Change the `Return` configuration of this node to `a binary buffer` to return th
 
 ## Example
 
-![](../assets/httpRequests/get-binary-response.png)
+![](../assets/http-requests/get-binary-response.png)
 
 <b>Flow JSON</b>
 

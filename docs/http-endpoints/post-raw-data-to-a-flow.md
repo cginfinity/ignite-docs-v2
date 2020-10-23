@@ -15,7 +15,7 @@ have their `Content-Type` set to `text/plain` and access the posted data as `msg
 
 ## Example
 
-![](../assets/httpEndpoints/post-raw-data-to-a-flow.png)
+![](../assets/http-endpoints/post-raw-data-to-a-flow.png)
 
 <b>Flow JSON</b>
 

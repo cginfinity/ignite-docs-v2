@@ -22,7 +22,7 @@ to send the placeholder messages at a regular interval.
 
 ## Example
 
-![](../assets/flowControl/trigger-placeholder.png)
+![](../assets/flow-control/trigger-placeholder.png)
 
 <b>Flow JSON</b>
 

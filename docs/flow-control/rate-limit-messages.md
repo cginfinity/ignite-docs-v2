@@ -18,7 +18,7 @@ passing through it.
 
 ## Example
 
-![](../assets/flowControl/rate-limit-messages.png)
+![](../assets/flow-control/rate-limit-messages.png)
 
 <b>Flow JSON</b>
 

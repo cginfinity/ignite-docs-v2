@@ -15,7 +15,7 @@ message sent to the <code class="node">HTTP request</code> node.
 
 ## Example
 
-![](../assets/httpRequests/set-request-header.png)
+![](../assets/http-requests/set-request-header.png)
 
 <b>Flow JSON</b>
 

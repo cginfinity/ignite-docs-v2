@@ -18,7 +18,7 @@ them back into a single array.
 
 ## Example
 
-![](../assets/flowControl/operate-on-array.png)
+![](../assets/flow-control/operate-on-array.png)
 
 <b>Flow JSON</b>
 

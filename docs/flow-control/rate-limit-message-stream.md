@@ -18,7 +18,7 @@ passing through it with the option to drop intermediate messages enabled.
 
 ## Example
 
-![](../assets/flowControl/rate-limit-message-stream.png)
+![](../assets/flow-control/rate-limit-message-stream.png)
 
 <b>Flow JSON</b>
 

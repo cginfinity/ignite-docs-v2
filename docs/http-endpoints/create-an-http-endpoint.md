@@ -17,7 +17,7 @@ Use the <code class="node">HTTP In</code> node to listen for requests, a
 
 ## Example
 
-![](../assets/httpEndpoints/create-an-http-endpoint.png)
+![](../assets/http-endpoints/create-an-http-endpoint.png)
 
 <b>Flow JSON</b>
 

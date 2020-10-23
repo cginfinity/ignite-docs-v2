@@ -19,7 +19,7 @@ recombine them back into a single block of text.
 
 ## Example
 
-![](../assets/dataformats/split-text.png)
+![](../assets/data-formats/split-text.png)
 
 <b>Flow JSON</b>
 

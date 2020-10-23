@@ -15,7 +15,7 @@ time.
 
 ## Example
 
-![](../assets/flowControl/trigger-at-time.png)
+![](../assets/flow-control/trigger-at-time.png)
 
 <b>Flow JSON</b>
 

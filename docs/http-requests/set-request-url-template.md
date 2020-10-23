@@ -14,7 +14,7 @@ Configure the <code class="node">HTTP Request</code> node to generate a URL dyna
 
 ## Example
 
-![](../assets/httpRequests/set-request-url-template.png)
+![](../assets/http-requests/set-request-url-template.png)
 
 <b>Flow JSON</b>
 

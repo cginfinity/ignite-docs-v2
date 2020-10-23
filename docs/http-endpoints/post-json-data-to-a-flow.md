@@ -16,7 +16,7 @@ properties of `msg.payload`.
 
 ## Example
 
-![](../assets/httpEndpoints/post-form-data-to-a-flow.png)
+![](../assets/http-endpoints/post-form-data-to-a-flow.png)
 
 <b>Flow JSON</b>
 

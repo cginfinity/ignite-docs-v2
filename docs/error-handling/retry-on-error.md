@@ -15,7 +15,7 @@ back to the node that needs to retry the action.
 
 ## Example
 
-![](../assets/errorhandling/retry-on-error.png)
+![](../assets/error-handling/retry-on-error.png)
 
 <b>Flow JSON</b>
 

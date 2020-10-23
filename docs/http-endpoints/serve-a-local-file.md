@@ -16,7 +16,7 @@ set the `Content-Type` to the appropriate value for the file type being returned
 
 ## Example
 
-![](../assets/httpEndpoints/serve-a-local-file.png)
+![](../assets/http-endpoints/serve-a-local-file.png)
 
 <b>Flow JSON</b>
 

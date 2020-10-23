@@ -16,7 +16,7 @@ interval.
 
 ## Example
 
-![](../assets/flowControl/trigger-at-interval.png)
+![](../assets/flow-control/trigger-at-interval.png)
 
 <b>Flow JSON</b>
 

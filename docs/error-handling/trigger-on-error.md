@@ -14,7 +14,7 @@ Use the <code class="node">Catch</code> node to receive the error and trigger a 
 
 ## Example
 
-![](../assets/errorhandling/trigger-on-error.png)
+![](../assets/error-handling/trigger-on-error.png)
 
 <b>Flow JSON</b>
 

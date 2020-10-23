@@ -23,7 +23,7 @@ property and then access the specific value provided in a request using the
 
 ## Flow
 
-![](../assets/httpEndpoints/handle-url-parameters.png)
+![](../assets/http-endpoints/handle-url-parameters.png)
 
 <b>Flow JSON</b>
 

@@ -15,7 +15,7 @@ node to access the headers.
 
 ## Example
 
-![](../assets/httpEndpoints/access-http-request-headers.png)
+![](../assets/http-endpoints/access-http-request-headers.png)
 
 <b>Flow JSON</b>
 

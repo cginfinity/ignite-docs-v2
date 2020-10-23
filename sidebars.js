@@ -70,8 +70,6 @@ module.exports = {
     ],
     "Sequelize": [
       "sequelize/execute-a-query"
-    ],
-    "Default": ['doc1', 'doc2', 'doc3'],
-    "Features": ['mdx'],
+    ]
   },
 };

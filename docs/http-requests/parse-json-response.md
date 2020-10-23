@@ -16,7 +16,7 @@ can be easily accessed by downstream nodes.
 
 ## Example
 
-![](../assets/httpRequests/parse-json-response.png)
+![](../assets/http-requests/parse-json-response.png)
 
 <b>Flow JSON</b>
 

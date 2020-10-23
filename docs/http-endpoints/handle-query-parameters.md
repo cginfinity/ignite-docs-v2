@@ -17,7 +17,7 @@ node to access the parameters.
 
 ## Example
 
-![](../assets/httpEndpoints/handle-query-parameters.png)
+![](../assets/http-endpoints/handle-query-parameters.png)
 
 <b>Flow JSON</b>
 

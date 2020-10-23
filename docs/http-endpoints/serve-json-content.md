@@ -15,7 +15,7 @@ object.
 
 ## Example
 
-![](../assets/httpEndpoints/serve-json-content.png)
+![](../assets/http-endpoints/serve-json-content.png)
 
 <b>Flow JSON</b>
 
