@@ -1,7 +1,7 @@
 module.exports = {
   title: 'Ignite Docs',
-  tagline: 'LOW CODE, HIGH VALUE INTEGRATION PLATFORM',
-  url: 'https://your-docusaurus-test-site.com',
+  tagline: 'Low-Code Programming with CG Ignite',
+  url: 'https://Cybergroup-Research.github.io',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   favicon: 'img/cg-ignite-orange.png',
@@ -16,18 +16,18 @@ module.exports = {
       },
       items: [
         {
-          to: 'docs/',
+          to: 'docs/http-endpoints/create-endpoint',
           activeBasePath: 'docs',
           label: 'Docs',
           position: 'left',
         },
         {
           to: 'blog',
-          label: 'Blog',
+          label: 'Blogs',
           position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
-          label: 'GitHub',
+          href: 'https://cgignite.com',
+          label: 'CG-Ignite',
           position: 'right',
         },
       ],
@@ -90,13 +90,13 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
+            'https://github.com/Cybergroup-Research/ignite-docs-v2/edit/master/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/blog/',
+            'https://github.com/Cybergroup-Research/ignite-docs-v2/edit/master/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
