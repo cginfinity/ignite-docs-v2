@@ -23,3 +23,11 @@
   margin: 0 calc(-1 * var(--ifm-pre-padding));
   padding: 0 var(--ifm-pre-padding);
 }
+
+h1{
+  font-size: 2rem !important;
+}
+
+h2{
+  font-size: 1.5rem !important;
+}
