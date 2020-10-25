@@ -70,6 +70,11 @@ module.exports = {
     ],
     "Sequelize": [
       "sequelize/execute-a-query"
+    ],
+    "Auth": [
+      "auth/basic-auth",
+      "auth/generate-jwt",
+      "auth/verify-jwt"
     ]
   },
 };
