@@ -27,7 +27,7 @@ module.exports = {
           position: 'left'},
         {
           href: 'https://cgignite.com',
-          label: 'CG-Ignite',
+          label: 'cgignite.com',
           position: 'right',
         },
       ],

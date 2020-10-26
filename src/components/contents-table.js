@@ -20,10 +20,9 @@ class Content extends React.Component {
 				</div>
 				<div style={{width:"75%"}}>
 					<div>
-						<h1 style={{margin:"0px"}}>Ignite Cookbook</h1>
+						<h1 style={{margin:"0px"}}>Introduction</h1>
 						<hr style={{width:"100%",border:"1px solid #F46224"}}></hr>
-						<p>This is a collection of recipes for how to use Ignite to solve many common programming tasks.</p>
-						<p>Each recipe addresses a specific problem and shows by example how it can be solved using the capabilities of the platform.</p>
+						<p>This is a collection of recipes for how to use Ignite to solve many common programming tasks. Each recipe addresses a specific problem and shows by example how it can be solved using the capabilities of the platform.</p>
 						<h2>Table of Contents</h2>
 						<h3 id="messages">Messages</h3>
 						<ul>
