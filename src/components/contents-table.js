@@ -119,4 +119,4 @@ class Content extends React.Component {
 	}
 }
 
-module.exports = Content;
+export default Content;
