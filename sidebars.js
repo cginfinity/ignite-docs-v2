@@ -75,6 +75,7 @@ module.exports = {
       "auth/basic-auth",
       "auth/generate-jwt",
       "auth/verify-jwt"
-    ]
+    ],
+    "default":["doc1","doc2"]
   },
 };
