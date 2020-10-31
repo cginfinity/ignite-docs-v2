@@ -1,10 +1,10 @@
 FROM node:lts
 
-WORKDIR /app/src
+WORKDIR /app/docu
 
-EXPOSE 3000 35729
-COPY ./docs /app/docs
-COPY ./src /app/src
+EXPOSE 80
+COPY . .
 RUN npm install
+RUN npm run build
 
 CMD ["npm", "start"]
