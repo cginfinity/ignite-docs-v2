@@ -12,29 +12,31 @@ You want to define a metadata model using the EDM Node. Populate msg.model prope
 
 Drag and drop an <code class="node">Http in</code> node to recieve requests.
 Use an <code class="node">Odata-in</code> node and connect it to <code class="node">Http in</code> node. We will be using this to define our database schema.
-Use a <code class="node">Debug</code> node and connect it to the <code class="node">Odata-in</code> node to log out the msg.model in the debug window to verify.<br />
+Use a <code class="node">Debug</code> node and connect it to the <code class="node">Odata-in</code> node to log out the msg.model in the debug window to verify.
+
 Double click on <code class="node">Odata-in</code> node and select "Add new edm..."
-<br />
 
-![](../assets/odata/metadata-model-using-edm-1.png)
-<br />
+![img](../assets/odata/metadata-model-using-edm-1.png)
+
 Click edit icon and provide the Namespace name and Schema.
-<br />
-<strong>NOTE: </strong>When schema name is provided schema name is prefixed to the entity names in queries.
-<br />
 
-![](../assets/odata/metadata-model-using-edm-2.png)
-<br />
+:::note
+
+When schema name is provided schema name is prefixed to the entity names in queries.
+
+:::
+
+![img](../assets/odata/metadata-model-using-edm-2.png)
+
 To add an entity/table select "Add new entity..." and click the edit icon. 
-<br />
 
-![](../assets/odata/metadata-model-using-edm-3.png)
-<br />
+![img](../assets/odata/metadata-model-using-edm-3.png)
+
 Click "Add" and then "Done" to save your changes.
 
 ## Example
 
-![](../assets/odata/metadata-model-using-edm-4.png)
+![img](../assets/odata/metadata-model-using-edm-4.png)
 
 <b>Flow JSON</b>
 

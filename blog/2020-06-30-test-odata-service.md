@@ -20,13 +20,13 @@ For this example we will take a table (entity) Users with columns (properties) (
 
 :::note
 
-Note: Replace ServiceRoot with your Service URL in the below example URLs.
+Replace ServiceRoot with your Service URL in the below example URLs.
 
 :::
 
 To perform CRUD operations, Let's start with a GET call.
 
-><b>Requesting Data</b>
+## Requesting Data
 
 <b>Requesting Entity Collections</b>
 
@@ -46,7 +46,7 @@ _The call below will fetch FullName property from Users Table with specified key
 
 GET serviceRoot/Users(1)/FullName
 
-><b>Querying Data</b>
+## Querying Data
 
 <b>System Query Option $filter</b>
 
@@ -92,7 +92,7 @@ GET serviceRoot/Users?$orderby= Id
 * $orderby= Id asc (default)
 * $orderby= Id desc
 
-><b>Data Modification</b>
+## Data Modification
 
 <b>Create an Entity</b>
 
@@ -110,7 +110,7 @@ POST serviceRoot/Users
 
 :::important
 
-NOTE: Request body must contain the data to POST.
+Request body must contain the data to POST.
 
 :::
 
@@ -122,7 +122,7 @@ DELETE serviceRoot/Users(6)
 
 :::warning
 
-Note: The primary key for the matching record must be provided.
+The primary key for the matching record must be provided.
 
 :::
 <b>Update an Entity</b>
@@ -138,7 +138,7 @@ PATCH serviceRoot/Users(8)
 
 :::caution
 
-Note: The request body must only contain the data you want to UPDATE.
+The request body must only contain the data you want to UPDATE.
 
 :::
 

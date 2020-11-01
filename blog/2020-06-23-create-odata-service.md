@@ -18,16 +18,19 @@ In this blog I will walk you on "How to create an OData 4.0 Service from scratch
 
 To create an OData service we will need an API endpoint to serve the incoming requests, which we can create using the http-in node.
 
+## Intercepting requests
+
 Go ahead, drag and drop a http-in node and configure it. To make it compatible with incoming OData requests which comprises of dynamic URLs, you need to append a **/Root/*** or **/Serviceroot/*** variable to the endpoint. This endpoint will now serve all the incoming get requests matching in  **Serviceroot/** or **Root/**.
 
 ![img](../assets/blog-images/odata-httpin.jpg)
 
 :::note 
 
-
-Note: To enable your service to perform upsert operations, you will need to add a few other http-in nodes to support requests with other http verbs (Post, Put, Patch, Delete).  
+To enable your service to perform upsert operations, you will need to add a few other http-in nodes to support requests with other http verbs (Post, Put, Patch, Delete).  
 
 :::
+
+## Metadata model
 
 Going forward you will need to provide a database model for your service to serve incoming metadata requests. This can be achieved by using a function node and setting the **msg.model** property to a valid model and then adding a wire from http-in node to the function node. See the example below.
  
@@ -53,22 +56,30 @@ return msg;
 
 ![img](../assets/blog-images/odata-metadata.jpg)
 
+## OData magic
+
 Next, drag and drop an OData-in node and connect a wire from the function node to the OData-in node. Great job, we are halfway through now!
 
 ![img](../assets/blog-images/odata-odatain.jpg)
+
+## Database operation
 
 Drag and drop an Ignite-Sequelize node and connect a wire from the OData-in node to the Sequelize node. Configure your Sequelize node and provide your database connection variables.
 
 ![img](../assets/blog-images/odata-sequelize.jpg)
 
+## OData out
+
 Now that we have data, we need to enable our workflow to give us an OData compatible response. In order to do this add an OData-out node to your flow and draw a wire from the Sequelize node to the OData-out node.
 
 ![img](../assets/blog-images/odata-odataout.jpg)
+
+## Http response
 
 Once you reach this step, give yourself a pat on the back. Now all you need to do is add an http-response node to send that response back to the client.
 
 ![img](../assets/blog-images/odata-response.jpg)
 
-Click the "Deploy" button and your shining new OData service workflow is ready. You can now use postman client to see your service in action. See an example here.
+Click the "Deploy" button and your shining new OData service workflow is ready. You can use Postman Client to [test your service](./test-odata-service).
 
-Now that your service is ready for integration, you can [test your service](./test-odata-service) or [connect to salesforce organization](./salesforce-connect-odata) to exchange data.
+Now that your service is ready for integration, [connect to salesforce organization](./salesforce-connect-odata) to exchange data.
