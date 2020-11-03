@@ -80,6 +80,6 @@ Once you reach this step, give yourself a pat on the back. Now all you need to d
 
 ![img](../assets/blog-images/odata-response.jpg)
 
-Click the "Deploy" button and your shining new OData service workflow is ready. You can use Postman Client to [test your service](./test-odata-service).
+Click the "Deploy" button and your shining new OData service workflow is ready. You can use Postman Client to [test your service](/blog/test-odata-service).
 
-Now that your service is ready for integration, [connect to salesforce organization](./salesforce-connect-odata) to exchange data.
+Now that your service is ready for integration, [connect to salesforce organization](/blog/salesforce-connect-odata) to exchange data.

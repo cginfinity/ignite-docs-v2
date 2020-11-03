@@ -10,7 +10,7 @@ tags: [OData, Connect, Integration, Testing]
 
 Browse OData 4.0 Service Using `OData Client` Node or Postman Client.
 
-Hey there folks!<br />You must be here for a reason, We know you have created an OData Service with Ignite and now you can't wait to see it in action. well, if you haven't created one yet, learn how to create an OData Service [here](./create-odata-service).
+Hey there folks!<br />You must be here for a reason, We know you have created an OData Service with Ignite and now you can't wait to see it in action. well, if you haven't created one yet, learn how to create an OData Service [here](/blog/create-odata-service).
 
 Well, fasten you seat-belts because now we are going to get a live tour of our service.
 You can either use `OData Client` node or Postman Client to access your APIs as per your convenience. There will be no changes in the requests no matter which client you use. We will be Postman Client for this tutorial.
