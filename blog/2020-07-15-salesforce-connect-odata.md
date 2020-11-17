@@ -10,8 +10,6 @@ tags: [Salesforce, OData, Connect, Integration]
 
 How to connect salesforce with your odata service
 
-**Under Development**
-
 > Connect and configure your service in Salesforce External Data Source.
 
 To be able to create and configure an external data source, you must Set up Salesforce Connect. This [trail](https://trailhead.salesforce.com/en/content/learn/modules/lightning_connect/lightning_connect_setup) on [trailhead.salesforce.com](https://trailhead.salesforce.com/en/home) will walk you through the necessary steps. 

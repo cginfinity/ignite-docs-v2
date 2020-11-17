@@ -12,7 +12,7 @@ module.exports = {
       // title: 'My Site',
       logo: {
         alt: 'My Site Logo',
-        src: 'img/cg-ignite-icon-orange.png',
+        src: 'img/ignite-orange.png',
       },
       items: [
         {
