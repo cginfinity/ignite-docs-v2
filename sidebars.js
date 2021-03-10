@@ -34,14 +34,10 @@ module.exports = {
     "Ignite Ecosystem": [
       {
         "Runtime": [
-          'doc1',
-          'doc2',
-          'doc3'
+
         ],
         "Editor": [
-          'doc1',
-          'doc2',
-          'doc3'
+
         ],
         "Monitor": [
           "ignite-ecosystem/monitor/monitor-introduction",
@@ -54,9 +50,7 @@ module.exports = {
           "ignite-ecosystem/explorer/jsonata-explorer"
         ],
         "Dashboard": [
-          'doc1',
-          'doc2',
-          'doc3'
+
         ]
       }
     ],
@@ -134,14 +128,10 @@ module.exports = {
         ]
       }
     ],
-    "Tutorials": [
-      {
-        "abcd": [
-          'doc1',
-          'doc2',
-          'doc3'
-        ]
-      }
+    "Tutorials":[
+      'doc1',
+      'doc2',
+      'doc3'
     ],
     "Connectors": [
       {
