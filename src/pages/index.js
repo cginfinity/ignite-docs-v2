@@ -12,28 +12,26 @@ const features = [
     imageUrl: 'img/undraw_docusaurus_mountain.svg',
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Ignite is designed keeping non-technical professionals in mind.
+        Drag and drop <code>connectors</code> to easily build complex integrations.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    imageUrl: 'img/editor-view.png',
+    title: 'Everything in One Place',
+    imageUrl: 'img/undraw_docusaurus_tree.svg',
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Ignite brings you apps and tools to your table where you need them the most, so you can focus on things that matter.
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'Powered by Open Source',
     imageUrl: 'img/undraw_docusaurus_react.svg',
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        You can extend or customize your runtime capabilites using a vast library of Ignite and community connectors.
       </>
     ),
   },
@@ -60,7 +58,7 @@ export default function Home() {
   return (
     <Layout
       title={`${siteConfig.title} Docs`}
-      description="Description will go into a meta tag in <head />">
+      description="Ignite Docs">
       <header className={clsx('hero hero--primary', styles.heroBanner)}>
         <div className="container">
           <h1 className="hero__title">{siteConfig.title}</h1>
@@ -71,7 +69,7 @@ export default function Home() {
                 'button button--outline button--secondary button--lg',
                 styles.getStarted,
               )}
-              to={useBaseUrl('docs/')}>
+              to={useBaseUrl('docs/getting-started/introduction')}>
               Get Started
             </Link>
           </div>

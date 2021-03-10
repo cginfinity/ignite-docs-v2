@@ -23,57 +23,65 @@ module.exports = {
           label: 'Docs',
           position: 'left',
         },
-        {to: 'blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
-          label: 'GitHub',
-          position: 'right',
+          to: 'blog',
+          label: 'Blogs',
+          position: 'left'
         },
+        // {
+        //   href: 'https://github.com/facebook/docusaurus',
+        //   label: 'GitHub',
+        //   position: 'right',
+        // },
       ],
     },
     footer: {
       style: 'light',
       links: [
         {
-          title: 'Docs',
+          title: 'Ignite',
           items: [
             {
-              label: 'Style Guide',
-              to: 'docs/',
+              label: 'Docs',
+              to: '/docs',
             },
             {
-              label: 'Second Doc',
-              to: 'docs/doc2/',
+              label: 'Blogs',
+              to: '/blog',
+            },
+            {
+              label: 'Deploy',
+              href: 'https://github.com/Cybergroup-Research/ignite-runtime-image',
+            }
+          ],
+        },
+        {
+          title: 'Apps',
+          items: [
+            {
+              label: 'Dashboard',
+              href: 'https://dashboard.cgignite.io/apps',
+            },
+            {
+              label: 'API Designer',
+              href: 'https://designer.cgignite.io/',
+            },
+            {
+              label: 'JSONata Explorer',
+              href: 'https://jsonata.cgignite.io/',
             },
           ],
         },
         {
-          title: 'Community',
+          title: 'Company',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              label: 'CG Ignite',
+              href: 'https://www.cgignite.com/',
             },
             {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
-            },
-          ],
-        },
-        {
-          title: 'More',
-          items: [
-            {
-              label: 'Blog',
-              to: 'blog',
-            },
-            {
-              label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              label: 'Cyber Group',
+              href: 'https://www.cygrp.com/',
             },
           ],
         },
