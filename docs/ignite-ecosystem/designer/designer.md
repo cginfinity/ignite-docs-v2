@@ -1,7 +1,7 @@
 ---
 id: designer
-title: Designer
-sidebar_label: Designer
+title: How to use Designer
+sidebar_label: How to use Designer
 ---
 
 ## About
@@ -14,7 +14,7 @@ Editor pane is in left side and preview pane is in right side. When you edit con
 
 ### Basic Edit
 
-In the editor pane, you can change title, description, version, schemes, paths, summary, response etc to design you API document. Below are few of the basic edits for your reference.
+In the editor pane, you can change title, description, version, schemes, paths, summary, response etc to design your API document. Below are few of the basic edits for your reference.
 
 ![img](/assets/docs/designer/ignite-designer-edit.gif)
 

@@ -47,15 +47,13 @@ module.exports = {
           "ignite-ecosystem/monitor/monitor-introduction",
           "ignite-ecosystem/monitor/how-to-use"
         ],
-        "Dashboard": [
-          'doc1',
-          'doc2',
-          'doc3'
-        ],
         "Designer": [
           "ignite-ecosystem/designer/designer"
         ],
         "Explorer": [
+          "ignite-ecosystem/explorer/jsonata-explorer"
+        ],
+        "Dashboard": [
           'doc1',
           'doc2',
           'doc3'
@@ -171,9 +169,15 @@ module.exports = {
       }
     ],
     "Devops Practices": [
-      'doc1',
-      'doc2',
-      'doc3'
+      {
+        "Release Management": [
+          "devops-practices/release-management/upload-download-release-packages"
+        ],
+        "CI/CD": [
+          "devops-practices/ci-cd/introduction",
+          "devops-practices/ci-cd/installation"
+        ]
+      }
     ]
   }
 };
