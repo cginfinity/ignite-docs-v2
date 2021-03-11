@@ -63,7 +63,7 @@ You can redirect to Ignite JSONata from the editor
 
 ![img](/assets/docs/explorer/ignite-jsonata-example.png)
 
-![img](/assets/docs/explorer/ignite-jsonata-sample.gif)
+![img](/assets/docs/explorer/ignite-jsonata-sample-1.gif)
 
 ## Example
 
