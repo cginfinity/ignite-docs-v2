@@ -124,7 +124,18 @@ module.exports = {
       },
       {
         "Advanced": [
+          {
+            "OData":[
+              "developer-guide/advanced/odata/define-metadata-model",
+              "developer-guide/advanced/odata/metadata-model-using-edm",
+              "developer-guide/advanced/odata/convert-req-to-query",
+              "developer-guide/advanced/odata/read-only-odata-service",
+              "developer-guide/advanced/odata/create-an-odata-service"
+            ],
+            "Sequelize":[
 
+            ],
+          }
         ]
       }
     ],
