@@ -5,27 +5,31 @@ module.exports = {
       "getting-started/what-is-ignite",
       {
         "Try Ignite": [
-          "getting-started/try-ignite/deep-dive",
+          "getting-started/try-ignite/introduction",
           {
-            "Deploy to AWS": [
-              // "getting-started/try-ignite/deploy-an-app/deploy-to-aws/introduction",
-              // "getting-started/try-ignite/deploy-an-app/deploy-to-aws/getting-started",
-              // "getting-started/try-ignite/deploy-an-app/deploy-to-aws/deploy-on-aws-lightsail",
-              // "getting-started/try-ignite/deploy-an-app/deploy-to-aws/manage-application"
-            ],
-            "Deploy to Azure": [
-              "getting-started/try-ignite/deploy-an-app/deploy-to-azure/introduction",
-              "getting-started/try-ignite/deploy-an-app/deploy-to-azure/getting-started",
-              "getting-started/try-ignite/deploy-an-app/deploy-to-azure/deploy-on-azure",
-              "getting-started/try-ignite/deploy-an-app/deploy-to-azure/manage-application",
-              "getting-started/try-ignite/deploy-an-app/deploy-to-azure/cicd",
-            ],
-            "Deploy to Heroku": [
-              "getting-started/try-ignite/deploy-an-app/deploy-to-heroku/introduction",
-              "getting-started/try-ignite/deploy-an-app/deploy-to-heroku/getting-started",
-              "getting-started/try-ignite/deploy-an-app/deploy-to-heroku/deploy-on-heroku",
-              "getting-started/try-ignite/deploy-an-app/deploy-to-heroku/manage-application",
-              "getting-started/try-ignite/deploy-an-app/deploy-to-heroku/cicd",
+            "Deploy an App": [
+              {
+                "Deploy to AWS": [
+                  // "getting-started/try-ignite/deploy-an-app/deploy-to-aws/introduction",
+                  // "getting-started/try-ignite/deploy-an-app/deploy-to-aws/getting-started",
+                  // "getting-started/try-ignite/deploy-an-app/deploy-to-aws/deploy-on-aws-lightsail",
+                  // "getting-started/try-ignite/deploy-an-app/deploy-to-aws/manage-application"
+                ],
+                "Deploy to Azure": [
+                  "getting-started/try-ignite/deploy-an-app/deploy-to-azure/introduction",
+                  "getting-started/try-ignite/deploy-an-app/deploy-to-azure/getting-started",
+                  "getting-started/try-ignite/deploy-an-app/deploy-to-azure/deploy-on-azure",
+                  "getting-started/try-ignite/deploy-an-app/deploy-to-azure/manage-application",
+                  "getting-started/try-ignite/deploy-an-app/deploy-to-azure/cicd",
+                ],
+                "Deploy to Heroku": [
+                  "getting-started/try-ignite/deploy-an-app/deploy-to-heroku/introduction",
+                  "getting-started/try-ignite/deploy-an-app/deploy-to-heroku/getting-started",
+                  "getting-started/try-ignite/deploy-an-app/deploy-to-heroku/deploy-on-heroku",
+                  "getting-started/try-ignite/deploy-an-app/deploy-to-heroku/manage-application",
+                  "getting-started/try-ignite/deploy-an-app/deploy-to-heroku/cicd",
+                ]
+              }
             ]
           }
         ]
@@ -125,29 +129,29 @@ module.exports = {
       {
         "Advanced": [
           {
-            "Breakpoint":[
+            "Breakpoint": [
               "developer-guide/advanced/breakpoint/introduction",
               "developer-guide/advanced/breakpoint/how-to-use"
             ],
-            "JSONata":[
+            "JSONata": [
               "developer-guide/advanced/jsonata/introduction",
             ],
-            "OData":[
+            "OData": [
               "developer-guide/advanced/odata/define-metadata-model",
               "developer-guide/advanced/odata/metadata-model-using-edm",
               "developer-guide/advanced/odata/convert-req-to-query",
               "developer-guide/advanced/odata/read-only-odata-service",
               "developer-guide/advanced/odata/create-an-odata-service"
             ],
-            "OpenAPI":[
+            "OpenAPI": [
               "developer-guide/advanced/open-api/introduction",
               "developer-guide/advanced/open-api/open-api-client",
               "developer-guide/advanced/open-api/open-api-router"
             ],
-            "Sequelize":[
+            "Sequelize": [
               "developer-guide/advanced/sequelize/execute-a-query"
             ],
-            "Security":[
+            "Security": [
               "developer-guide/advanced/security/basic-authentication",
               "developer-guide/advanced/security/generate-jwt",
               "developer-guide/advanced/security/verify-jwt"
@@ -156,7 +160,7 @@ module.exports = {
         ]
       }
     ],
-    "Tutorials":[
+    "Tutorials": [
 
     ],
     "Connectors": [
