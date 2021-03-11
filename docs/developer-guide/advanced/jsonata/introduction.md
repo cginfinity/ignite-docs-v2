@@ -1,14 +1,14 @@
 ---
 id: introduction
-title: JSONata
-sidebar_label: JSONata
+title: Introduction to JSONata Node
+sidebar_label: Introduction
 ---
 
 ## Introduction
 
 An Ignite JSONata node is used to extract meaningful/customized data from your input JSON and JSONata query. Based on the JSONata query passed to the Ignite JSONata node, it will return the result in JSON structure.
 
-## How To Use
+## How to use
 
 Drag and drop an "inject" node to inject a message into a flow. Use a template node, define your JSON and JSONata query and connect it to an "inject" node. Connect a template node with an "ignite-jsonata" node and connect it to the debug node to get the value of resultant data from the "jsonataResult" field.
 
@@ -24,7 +24,7 @@ Drag and drop an "inject" node to inject a message into a flow. Use a template n
 
 ![img](/assets/docs/jsonata/ignite-jsonata-node.gif)
 
-## How To Install Ignite-JSONata Node
+## How to install Ignite-JSONata node
 
 To install an "ignite-jsonata" node, you can go to the “Manage palette" section and search for "ignite-jsoanata" node and then simply install it.
 

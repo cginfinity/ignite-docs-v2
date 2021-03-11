@@ -19,7 +19,7 @@ Imagine you have an order with several items and you need to calculate an averag
 
 With JSONata, such data transformations can be completed in a matter of several minutes and you will be able to watch in real-time how your data transforms according to your conditions
 
-## What Is JSONata Explorer
+## What is JSONata Explorer
 
 It is an Open-editor to explore your JSON. It has 3 sections as shown in the below image:
 
@@ -31,13 +31,13 @@ It is an Open-editor to explore your JSON. It has 3 sections as shown in the bel
 
 ![img](/assets/docs/explorer/ignite-jsonata-editor-detail.png)
 
-## Redirect To JSONata Explorer From Ignite Editor
+## Redirect to Explorer from Editor
 
 You can redirect to Ignite JSONata from the editor
 
 ![img](/assets/docs/explorer/ignite-editor-link-to-jsonata-explorer.gif)
 
-## How To Use JSONata Explorer
+## How to use the Explorer
 
 - <b>Step-1:</b> Open <a href="https://jsonata.cgignite.io/" target="_blank">JSONata Explorer</a>
 
@@ -89,7 +89,7 @@ Here are some example expressions and their results when applied to the JSON doc
 
 ![img](/assets/docs/explorer/ignite-jsonata-numeric-expressions.gif)
 
-## Additional Resource
+## Additional Resources
 
    [df1]: <https://docs.jsonata.org/overview>
 
