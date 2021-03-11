@@ -125,6 +125,10 @@ module.exports = {
       {
         "Advanced": [
           {
+            "Breakpoint":[
+              "developer-guide/advanced/breakpoint/introduction",
+              "developer-guide/advanced/breakpoint/how-to-use"
+            ],
             "OData":[
               "developer-guide/advanced/odata/define-metadata-model",
               "developer-guide/advanced/odata/metadata-model-using-edm",
@@ -133,7 +137,7 @@ module.exports = {
               "developer-guide/advanced/odata/create-an-odata-service"
             ],
             "Sequelize":[
-
+              "developer-guide/advanced/sequelize/execute-a-query"
             ],
           }
         ]
