@@ -125,6 +125,9 @@ module.exports = {
       {
         "Advanced": [
           {
+            "JSONata":[
+              "developer-guide/advanced/jsonata/introduction",
+            ],
             "OData":[
               "developer-guide/advanced/odata/define-metadata-model",
               "developer-guide/advanced/odata/metadata-model-using-edm",
