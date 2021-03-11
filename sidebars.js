@@ -8,10 +8,10 @@ module.exports = {
           "getting-started/try-ignite/deep-dive",
           {
             "Deploy to AWS": [
-              "getting-started/try-ignite/deploy-an-app/deploy-to-aws/introduction",
-              "getting-started/try-ignite/deploy-an-app/deploy-to-aws/getting-started",
-              "getting-started/try-ignite/deploy-an-app/deploy-to-aws/deploy-on-aws-lightsail",
-              "getting-started/try-ignite/deploy-an-app/deploy-to-aws/manage-application"
+              // "getting-started/try-ignite/deploy-an-app/deploy-to-aws/introduction",
+              // "getting-started/try-ignite/deploy-an-app/deploy-to-aws/getting-started",
+              // "getting-started/try-ignite/deploy-an-app/deploy-to-aws/deploy-on-aws-lightsail",
+              // "getting-started/try-ignite/deploy-an-app/deploy-to-aws/manage-application"
             ],
             "Deploy to Azure": [
               "getting-started/try-ignite/deploy-an-app/deploy-to-azure/introduction",
@@ -175,8 +175,8 @@ module.exports = {
           "devops-practices/release-management/upload-download-release-packages"
         ],
         "CI/CD": [
-          "devops-practices/ci-cd/introduction",
-          "devops-practices/ci-cd/installation"
+          // "devops-practices/ci-cd/introduction",
+          // "devops-practices/ci-cd/installation"
         ]
       }
     ]
