@@ -28,7 +28,7 @@ Drag and drop an "inject" node to inject a message into a flow. Use a template n
 
 To install an "ignite-jsonata" node, you can go to the “Manage palette" section and search for "ignite-jsoanata" node and then simply install it.
 
-![img](/assets/docs/jsonata/ignite-jsonata-node-install.gif)
+![img](/assets/docs/jsonata/ignite-jsonata-node-install-1.gif)
 
 ## Discussion
 
