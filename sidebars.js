@@ -125,6 +125,10 @@ module.exports = {
       {
         "Advanced": [
           {
+            "Breakpoint":[
+              "developer-guide/advanced/breakpoint/introduction",
+              "developer-guide/advanced/breakpoint/how-to-use"
+            ],
             "JSONata":[
               "developer-guide/advanced/jsonata/introduction",
             ],
@@ -136,7 +140,7 @@ module.exports = {
               "developer-guide/advanced/odata/create-an-odata-service"
             ],
             "Sequelize":[
-
+              "developer-guide/advanced/sequelize/execute-a-query"
             ],
             "Security":[
               "developer-guide/advanced/security/basic-authentication",
