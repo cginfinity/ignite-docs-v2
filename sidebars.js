@@ -139,6 +139,11 @@ module.exports = {
               "developer-guide/advanced/odata/read-only-odata-service",
               "developer-guide/advanced/odata/create-an-odata-service"
             ],
+            "OpenAPI":[
+              "developer-guide/advanced/open-api/introduction",
+              "developer-guide/advanced/open-api/open-api-client",
+              "developer-guide/advanced/open-api/open-api-router"
+            ],
             "Sequelize":[
               "developer-guide/advanced/sequelize/execute-a-query"
             ],
