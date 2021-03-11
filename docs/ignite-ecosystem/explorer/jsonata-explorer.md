@@ -29,7 +29,7 @@ It is an Open-editor to explore your JSON. It has 3 sections as shown in the bel
 
 - <b>Section-3:</b> You will get the customized result value.
 
-![img](/assets/docs/explorer/ignite-jsonata-editor-detail.png)
+![img](/assets/docs/explorer/ignite-jsonata-editor-detail-1.png)
 
 ## Redirect to Explorer from Editor
 
