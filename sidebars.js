@@ -128,6 +128,7 @@ module.exports = {
             "Breakpoint":[
               "developer-guide/advanced/breakpoint/introduction",
               "developer-guide/advanced/breakpoint/how-to-use"
+            ],
             "JSONata":[
               "developer-guide/advanced/jsonata/introduction",
             ],
