@@ -4,7 +4,7 @@ title: Manage Application in AWS Lightsail
 sidebar_label: Manage Application in AWS Lightsail
 ---
 
-## Manage Application in AWS Lightsail
+## Manage application in AWS lightsail
 
 ### Find all application list
  

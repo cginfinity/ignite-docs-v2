@@ -8,7 +8,7 @@ This website is built using [Docusaurus 2](https://v2.docusaurus.io/), a modern 
 yarn install
 ```
 
-## Local Development
+## Local development
 
 ```console
 yarn start

@@ -4,7 +4,7 @@ title: Deploy on AWS Lightsail
 sidebar_label: Deploy on AWS Lightsail
 ---
 
-## Deploy application in AWS Lightsail
+## Deploy application on AWS lightsail
 
 ### Create Instance
 
@@ -14,21 +14,21 @@ Click on button **“Create instance”**.
 
 ![img](/assets/docs/deploy-to-aws/create-instance.png)
 
-### Select Platform
+### Select a platform
 
 Select suitable platform for you among Linux/Unix and Windows.
 
 ![img](/assets/docs/deploy-to-aws/select-platform.png)
 
-### Select a Blueprint
+### Select a blueprint
 
 ![img](/assets/docs/deploy-to-aws/select-blueprint.png)
 
-### Select Instance Plan
+### Select an instance plan
 
 ![img](/assets/docs/deploy-to-aws/select-instance-plan.png)
 
-### Create Instance 
+### Create instance 
 
 Provide suitable instance name.
 
@@ -46,7 +46,7 @@ Once processing completed, application will start running.
 
 ![img](/assets/docs/deploy-to-aws/app-running.png)
 
-### Set Static IP
+### Set static IP
 
 Click on Application instance name and select Networking tab and click on link button **“Create static IP”**.
 
@@ -68,7 +68,7 @@ After static Ip will create, this will look like below-
 
 ![img](/assets/docs/deploy-to-aws/app-static-ip-attached.png)
 
-### Add Port Number
+### Add Port number
 
 You can add port number from link button **“Add rule”** under **“Networking”** tab.
 
@@ -82,7 +82,7 @@ You can see the latest added rule.
 
 ![img](/assets/docs/deploy-to-aws/app-rule-list.png)
 
-### Setup Instance
+### Setup instance
 
 Select tab **“Instances”**, there you can see your newly added instance. Click on the console icon in the instance (Make sure instance is in Running status).
 
@@ -106,7 +106,7 @@ Run the following commands
 
 ![img](/assets/docs/deploy-to-aws/app-console-command.png)
 
-### Run Application on Browser
+### Run application on browser
 
 Now open the static IP in the browser, you will find that application will be running there.
 

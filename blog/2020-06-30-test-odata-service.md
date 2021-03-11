@@ -26,7 +26,7 @@ Replace ServiceRoot with your Service URL in the below example URLs.
 :::
 
 
-## Requesting Data
+## Requesting data
 
 ### Entity collections
 
@@ -46,7 +46,7 @@ _The call below will fetch FullName property from Users table with specified key
 
 GET serviceRoot/Users(1)/FullName
 
-## Querying Data
+## Querying data
 
 ### $top
 
@@ -98,7 +98,7 @@ New version of OData Nodes support filter function, will be added here soon
 
 :::
 
-## Data Modification
+## Data modification
 
 ### Create a record
 

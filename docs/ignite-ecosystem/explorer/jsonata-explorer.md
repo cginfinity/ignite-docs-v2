@@ -4,7 +4,7 @@ title: JSONata Explorer
 sidebar_label: JSONata Explorer 
 ---
 
-## What Is JSONata
+## What is JSONata
 
 - Open-source lanuage for querying and transforming JSON
 - A way to extract specific meaningful data using a relatively simple logic
@@ -89,7 +89,7 @@ Here are some example expressions and their results when applied to the JSON doc
 
 ![img](/assets/docs/explorer/ignite-jsonata-numeric-expressions.gif)
 
-## Additional Resources
+## Additional resources
 
    [df1]: <https://docs.jsonata.org/overview>
 

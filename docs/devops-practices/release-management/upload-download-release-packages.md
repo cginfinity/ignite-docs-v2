@@ -10,13 +10,13 @@ This is the feature to download the complete flow from one editor and upload the
 
 ![img](/assets/docs/release-management/ignite-release-capability.png)
 
-## Download Package
+## Download a package
 
 Click on dropdown option from the Deploy button, you will get the option to Download Package
 
 ![img](/assets/docs/release-management/ignite-release-capability-download.png)
 
-## Upload Package
+## Upload a package
 
 Click on dropdown option from the Deploy button, you will get the option to Download Package
 
