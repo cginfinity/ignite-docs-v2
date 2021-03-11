@@ -157,34 +157,32 @@ module.exports = {
       }
     ],
     "Tutorials":[
-      'doc1',
-      'doc2',
-      'doc3'
+
     ],
     "Connectors": [
-      {
-        "SalesForce": [
-          'doc1'
-        ],
-        "Netsuite": [
-          'doc1'
-        ],
-        "Plaid": [
-          'doc1'
-        ],
-        "MySql": [
-          'doc1'
-        ],
-        "Sql Server": [
-          'doc1'
-        ],
-        "Twilio": [
-          'doc1'
-        ],
-        "Sendgrid": [
-          'doc1'
-        ]
-      }
+      // {
+      //   "SalesForce": [
+      //     'doc1'
+      //   ],
+      //   "Netsuite": [
+      //     'doc1'
+      //   ],
+      //   "Plaid": [
+      //     'doc1'
+      //   ],
+      //   "MySql": [
+      //     'doc1'
+      //   ],
+      //   "Sql Server": [
+      //     'doc1'
+      //   ],
+      //   "Twilio": [
+      //     'doc1'
+      //   ],
+      //   "Sendgrid": [
+      //     'doc1'
+      //   ]
+      // }
     ],
     "Devops Practices": [
       {
