@@ -138,6 +138,11 @@ module.exports = {
             "Sequelize":[
 
             ],
+            "Security":[
+              "developer-guide/advanced/security/basic-authentication",
+              "developer-guide/advanced/security/generate-jwt",
+              "developer-guide/advanced/security/verify-jwt"
+            ],
           }
         ]
       }
