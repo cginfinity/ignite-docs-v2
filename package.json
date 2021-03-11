@@ -6,6 +6,10 @@
     "name": "Ravi Kant Sharma",
     "github": "Ravi-Kaushish"
   },
+  "engines": {
+    "node": "12.x",
+    "npm": "6.x"
+  },
   "scripts": {
     "docusaurus": "docusaurus",
     "start": "docusaurus start",
