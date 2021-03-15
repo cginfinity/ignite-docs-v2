@@ -11,7 +11,7 @@ module.exports = {
               {
                 "Deploy to AWS": [
                   // "getting-started/try-ignite/deploy-an-app/deploy-to-aws/introduction",
-                  // "getting-started/try-ignite/deploy-an-app/deploy-to-aws/getting-started",
+                  // "getting-started/try-ignite/deploy-an-app/deploy-to-aws/getting-started", 
                   // "getting-started/try-ignite/deploy-an-app/deploy-to-aws/deploy-on-aws-lightsail",
                   // "getting-started/try-ignite/deploy-an-app/deploy-to-aws/manage-application"
                 ],
