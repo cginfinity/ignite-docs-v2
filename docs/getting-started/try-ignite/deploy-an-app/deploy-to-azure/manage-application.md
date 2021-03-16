@@ -4,7 +4,7 @@ title: Manage Application in Azure
 sidebar_label: Manage Application in Azure
 ---
 
-## Find all application list
+## Find All Application List
  
 To view all your azure application list, just go to Dashboard screen. You can find the option from below screen-
 
@@ -16,7 +16,7 @@ You will find the list of all your applications under section "All resources"
 
 ![img](/assets/docs/deploy-to-azure/azure-app-list.png)
 
-## Get details about the specific application
+## Get Details About the Specific Application
 
 Click on any application from the application list, you will get details about the selected application
 
@@ -29,7 +29,7 @@ You can get different section with specific details about the application
 - App Service Plan: Azure plan for the application
 - Health Check: You can configure the health check for the application at some application end point.
 
-## Check log 
+## Check Log 
 
 To check the log for your deployed application, click from left menu option "Deployment Center"
 
@@ -39,7 +39,7 @@ You will get the log information from the right pane under log menu.
 
 ![img](/assets/docs/deploy-to-azure/app-log.png)
 
-## Configure application
+## Configure Application
 
 To configure azure deployed app for ignite, click from left menu option "Configuration"
 

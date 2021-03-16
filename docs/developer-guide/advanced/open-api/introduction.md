@@ -28,7 +28,7 @@ This node is used to load and hit open api end points.
 
 ![img](/assets/docs/open-api/ignite-open-api-client.png)
 
-## Parameter configuration
+## Parameter Configuration
 
 Each parameter has an input-field corresponding to its type. You can further define that a parameter shall be read from the incoming message object or define a jsonata expression.
 
@@ -38,7 +38,7 @@ JSON parameters may define a sample structure. You can set this as the value by 
 
 If the API requires an authentification token, you can log in using the standard `http-request` node of Node-RED. The JWT token you get as a response must then be put into `msg.openApiToken` to be automatically placed in the request-header as bearer authentification.
 
-## Error handling
+## Error Handling
 
 You can choose how to handle a returning server error. The last server response object will be placed in msg.response instead of msg.error. This ensures that all 3 ways react the same.
 
@@ -46,6 +46,6 @@ You can choose how to handle a returning server error. The last server response 
 * `Separate output`: Your flow will take a different way.
 * `Throw an exception`: Throws an node.error which can be catched by the standard 'catch' node (usefull for many nodes with the same error handling).
 
-## How to install
+## How to Install
 
 ![img](/assets/docs/open-api/ignite-open-api-install.gif)

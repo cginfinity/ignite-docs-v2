@@ -1,7 +1,7 @@
 ---
 id: convert-xml
-title: Convert to/from XML
-sidebar_label: Convert to/from XML
+title: Convert to/From XML
+sidebar_label: Convert to/From XML
 ---
 
 ## Problem

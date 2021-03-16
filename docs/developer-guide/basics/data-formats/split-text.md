@@ -1,7 +1,7 @@
 ---
 id: split-text
-title: Split text into one message per line
-sidebar_label: Split text
+title: Split Text Into One Message per Line
+sidebar_label: Split Text
 ---
 
 ## Problem

@@ -1,7 +1,7 @@
 ---
 id: generate-csv
-title: Generate CSV output
-sidebar_label: Generate CSV output
+title: Generate CSV Output
+sidebar_label: Generate CSV Output
 ---
 
 ## Problem

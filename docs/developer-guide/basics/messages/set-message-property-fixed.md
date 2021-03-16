@@ -1,6 +1,6 @@
 ---
 id: set-message-property-fixed
-title: Set a message property to a fixed value
+title: Set a Message Property to a Fixed Value
 sidebar_label: Set Property Fixed
 ---
 

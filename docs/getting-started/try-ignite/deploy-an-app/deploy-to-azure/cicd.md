@@ -63,19 +63,19 @@ Use the classic editor
 
 ![img](/assets/docs/deploy-to-azure/configure-pipeline.png)
 
-### 2.	Select a source
+### 2.	Select a Source
 
 Select Repository & **“Dev”** Branch
 
 ![img](/assets/docs/deploy-to-azure/select-source.png)
 
-### 3.	Select a template
+### 3.	Select a Template
 
 Search and Select Docker container
 
 ![img](/assets/docs/deploy-to-azure/select-template.png)
 
-### 4.	Select Agent pool
+### 4.	Select Agent Pool
 
 ![img](/assets/docs/deploy-to-azure/select-agent-pool.png)
 
@@ -109,7 +109,7 @@ On Image Name
 ![img](/assets/docs/deploy-to-azure/ignite-platform-dev-build.png)
 
 
-## Custom Deployment using Private Repository (Local Development)
+## Custom Deployment Using Private Repository (Local Development)
 
 Deploy using private repository (local development)
 

@@ -1,7 +1,7 @@
 ---
 id: convert-yaml
-title: Convert to/from YAML
-sidebar_label: Convert to/from YAML
+title: Convert to/From YAML
+sidebar_label: Convert to/From YAML
 ---
 
 ## Problem

@@ -1,6 +1,6 @@
 ---
 id: delete-property
-title: Delete a message property
+title: Delete a Message Property
 sidebar_label: Delete Message Property
 ---
 

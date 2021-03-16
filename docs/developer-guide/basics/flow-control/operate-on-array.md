@@ -1,7 +1,7 @@
 ---
 id: operate-on-array
-title: Perform an operation on each element in an array
-sidebar_label: Operate On Array
+title: Perform an Operation on Each Element in an Array
+sidebar_label: Operate on Array
 ---
 
 ## Problem

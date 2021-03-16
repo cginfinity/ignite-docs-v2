@@ -1,6 +1,6 @@
 ---
 id: handle-query-parameters
-title: Handle query parameters passed to an HTTP endpoint
+title: Handle Query Parameters Passed to an HTTP Endpoint
 sidebar_label: Handle Query Parameters
 ---
 

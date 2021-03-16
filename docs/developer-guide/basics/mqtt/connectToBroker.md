@@ -1,7 +1,7 @@
 ---
 id: connect-to-broker
-title: Connect to an MQTT broker
-sidebar_label: MQTT broker
+title: Connect to an MQTT Broker
+sidebar_label: MQTT Broker
 ---
 
 ## Problem

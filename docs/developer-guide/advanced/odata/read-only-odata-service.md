@@ -1,6 +1,6 @@
 ---
 id: read-only-odata-service
-title: OData Service with Read Only Support
+title: OData Service With Read Only Support
 sidebar_label: Read Only OData Service
 ---
 

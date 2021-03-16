@@ -26,27 +26,27 @@ Replace ServiceRoot with your Service URL in the below example URLs.
 :::
 
 
-## Requesting data
+## Requesting Data
 
-### Entity collections
+### Entity Collections
 
 _The call below will fetch us data from Users table._
 
 GET serviceRoot/Users
 
-### Individual entity
+### Individual Entity
 
 _The call below call will fetch us data from Users table with specified key(primary key)._
 
 GET serviceRoot/Users(1)
 
-### Specific fields
+### Specific Fields
 
 _The call below will fetch FullName property from Users table with specified key(primary key)._
 
 GET serviceRoot/Users(1)/FullName
 
-## Querying data
+## Querying Data
 
 ### $top
 
@@ -98,9 +98,9 @@ New version of OData Nodes support filter function, will be added here soon
 
 :::
 
-## Data modification
+## Data Modification
 
-### Create a record
+### Create a Record
 
 _The request below will create a new resource in Users table._
 
@@ -120,7 +120,7 @@ Request body must contain the data to POST.
 
 :::
 
-### Delete a record
+### Delete a Record
 
 _The call below will delete the record with Id 6 from Users table._
 
@@ -131,7 +131,7 @@ DELETE serviceRoot/Users(6)
 The primary key for the matching record must be provided.
 
 :::
-### Update a record
+### Update a Record
 
 PATCH serviceRoot/Users(8)
 

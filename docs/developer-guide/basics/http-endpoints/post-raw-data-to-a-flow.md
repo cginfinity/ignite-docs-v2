@@ -1,6 +1,6 @@
 ---
 id: post-raw-data
-title: Post raw data to a flow
+title: Post Raw Data to a Flow
 sidebar_label: Post Data
 ---
 

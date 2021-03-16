@@ -1,7 +1,7 @@
 ---
 id: route-on-context
-title: Route a message based on a context value
-sidebar_label: Route On Context
+title: Route a Message Based on a Context Value
+sidebar_label: Route on Context
 ---
 
 ## Problem

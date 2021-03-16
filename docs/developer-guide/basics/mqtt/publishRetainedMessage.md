@@ -1,6 +1,6 @@
 ---
 id: publish-retained-message
-title: Publish a retained message to a topic
+title: Publish a Retained Message to a Topic
 sidebar_label: Publish Retained Message
 ---
 

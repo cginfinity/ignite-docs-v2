@@ -1,6 +1,6 @@
 ---
 id: move-property
-title: Move a message property
+title: Move a Message Property
 sidebar_label: Move Property
 ---
 

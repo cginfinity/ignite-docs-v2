@@ -1,6 +1,6 @@
 ---
 id: set-request-headers
-title: Set a request header
+title: Set a Request Header
 sidebar_label: Set Request Header
 ---
 

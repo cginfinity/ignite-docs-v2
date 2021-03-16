@@ -1,6 +1,6 @@
 ---
 id: serve-json-content
-title: Serve JSON content
+title: Serve JSON Content
 sidebar_label: Serve JSON
 ---
 

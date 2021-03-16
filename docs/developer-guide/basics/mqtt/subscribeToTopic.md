@@ -1,7 +1,7 @@
 ---
 id: subscribe
-title: Subscribe to a topic
-sidebar_label: Subscribe to a topic
+title: Subscribe to a Topic
+sidebar_label: Subscribe to a Topic
 ---
 
 ## Problem

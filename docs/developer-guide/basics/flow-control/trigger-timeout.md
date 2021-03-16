@@ -1,6 +1,6 @@
 ---
 id: trigger-timeout
-title: Trigger a flow if a message isn’t received after a defined time
+title: Trigger a Flow if a Message Isn’t Received After a Defined Time
 sidebar_label: Trigger Timeout
 ---
 

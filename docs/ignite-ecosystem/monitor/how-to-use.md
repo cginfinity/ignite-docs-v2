@@ -1,7 +1,7 @@
 ---
 id: how-to-use
-title: How to use Monitor
-sidebar_label: How to use Monitor
+title: How to Use Monitor
+sidebar_label: How to Use Monitor
 ---
 
 ## Usage

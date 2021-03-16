@@ -4,7 +4,7 @@ title: Deploy on Azure
 sidebar_label: Deploy on Azure
 ---
 
-## Deploy application using docker hub public repository
+## Deploy Application Using Docker Hub Public Repository
 
 After the Ignite Platform team provisions your account, you may use the following **"Deploy to Azure"** button to get started.
 

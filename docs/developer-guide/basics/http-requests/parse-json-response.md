@@ -1,6 +1,6 @@
 ---
 id: get-parsed-JSON
-title: Get a parsed JSON Response
+title: Get a Parsed JSON Response
 sidebar_label: Parse JSON
 ---
 

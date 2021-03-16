@@ -1,7 +1,7 @@
 ---
 id: metadata-model-using-edm
-title: Define Metadata Model using EDM
-sidebar_label: Define Metadata Model using EDM
+title: Define Metadata Model Using EDM
+sidebar_label: Define Metadata Model Using EDM
 ---
 
 ## Problem

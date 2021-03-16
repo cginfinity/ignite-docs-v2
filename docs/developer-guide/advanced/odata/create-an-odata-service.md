@@ -1,6 +1,6 @@
 ---
 id: create-an-odata-service
-title: Create an OData 4.0 service
+title: Create an OData 4.0 Service
 sidebar_label: Create an OData Service
 ---
 

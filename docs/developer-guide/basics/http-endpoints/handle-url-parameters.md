@@ -1,6 +1,6 @@
 ---
 id: handle-url-parameters
-title:  Handle url parameters in an HTTP endpoint
+title:  Handle URL Parameters in an HTTP Endpoint
 sidebar_label: Handle Url Parameters
 ---
 

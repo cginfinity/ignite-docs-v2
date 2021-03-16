@@ -1,6 +1,6 @@
 ---
 id: get-binary-response
-title: Get binary response
+title: Get Binary Response
 sidebar_label: Binary Response
 ---
 

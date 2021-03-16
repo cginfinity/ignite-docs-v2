@@ -1,6 +1,6 @@
 ---
 id: set-query-string-params
-title: Set the query string parameters in a URL
+title: Set the Query String Parameters in a URL
 sidebar_label: Set Query String
 ---
 

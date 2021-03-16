@@ -1,7 +1,7 @@
 ---
 id: trigger-at-time
-title: Trigger a flow at a specific time
-sidebar_label: Trigger At Time
+title: Trigger a Flow at a Specific Time
+sidebar_label: Trigger at Time
 ---
 
 ## Problem

@@ -4,7 +4,7 @@ title: What Is Ignite
 sidebar_label: What Is Ignite
 ---
 
-## What is Ignite?
+## About Ignite
 
  - Ignite is a low-code integration solution
  - Platform that connecting systems together
@@ -18,7 +18,7 @@ sidebar_label: What Is Ignite
    Salesforce with minimal effort.
  - Ignite has been specifically designed to target integration requirements for Salesforce that usually need customization
 
-## Who needs Ignite?
+## Who Needs Ignite?
 
  - Fragmented Enterprise
  - Line of Business Development & Operations
@@ -27,7 +27,7 @@ sidebar_label: What Is Ignite
  - Companies focused on customer experience, engagement,
    retention, marketing
 
-## What does Ignite solve?
+## What Does Ignite Solve?
 
  - Multiple **"sources of truth"**
  - Silo data and departments

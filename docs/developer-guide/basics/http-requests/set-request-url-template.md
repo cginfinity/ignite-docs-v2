@@ -1,7 +1,7 @@
 ---
 id: set-url-using-template
-title: Set the URL of a request using a template
-sidebar_label: Set URL using Template
+title: Set the URL of a Request Using a Template
+sidebar_label: Set URL Using Template
 ---
 
 ## Problem

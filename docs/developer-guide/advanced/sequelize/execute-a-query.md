@@ -1,6 +1,6 @@
 ---
 id: execute-a-query
-title: Execute a query - Sequelize node
+title: Execute a Query - Sequelize Node
 sidebar_label: Execute a Query
 ---
 

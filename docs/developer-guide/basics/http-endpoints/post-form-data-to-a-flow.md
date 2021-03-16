@@ -1,6 +1,6 @@
 ---
 id: post-form-data
-title: Post form data to a flow
+title: Post Form Data to a Flow
 sidebar_label: Post Form Data
 ---
 

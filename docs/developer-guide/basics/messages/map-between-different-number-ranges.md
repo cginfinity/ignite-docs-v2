@@ -1,6 +1,6 @@
 ---
 id: map-range
-title: Map a property between different numeric ranges
+title: Map a Property Between Different Numeric Ranges
 sidebar_label: Map Range
 ---
 

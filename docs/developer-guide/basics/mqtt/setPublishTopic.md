@@ -1,7 +1,7 @@
 ---
 id: set-topic
-title: Set the topic of a published message
-sidebar_label: Set the topic
+title: Set the Topic of a Published Message
+sidebar_label: Set the Topic
 ---
 
 ## Problem

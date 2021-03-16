@@ -1,6 +1,6 @@
 ---
 id: publish-message
-title: Publish messages to a topic
+title: Publish Messages to a Topic
 sidebar_label: Publish Message
 ---
 
