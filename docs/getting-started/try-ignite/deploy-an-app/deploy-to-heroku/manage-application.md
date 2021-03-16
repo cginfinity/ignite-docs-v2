@@ -29,11 +29,6 @@ Select Deploy tab, you will get option to add/modify pipeline for release
 
 ![img](/assets/docs/deploy-to-heroku/heroku-my-app-pipeline.png)
 
-### Deploy Using Your Repository
-
-You can select, the suitable method for your deployment. GitHub is widely used for managing your deployment.
-
-![img](/assets/docs/deploy-to-heroku/heroku-my-app-deploy-using-repo.png)
 
 ### Application Setting
 

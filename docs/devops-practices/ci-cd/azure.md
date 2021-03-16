@@ -1,10 +1,12 @@
 ---
-id: cicd
-title: CI/CD
-sidebar_label: CI/CD
+id: azure
+title: Azure + Azure Devops
+sidebar_label: Azure + Azure Devops
 ---
 
 ## Configure PostgreSQL
+
+Create and configure PostgreSQL database for storing your app related information. This databae will be managed by Ignite App and required for App registration.
 
 ### 1.	Setup PostgreSQL:
 
