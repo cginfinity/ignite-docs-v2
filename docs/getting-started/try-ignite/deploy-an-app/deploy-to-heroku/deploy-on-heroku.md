@@ -8,7 +8,7 @@ sidebar_label: Deploy on Heroku
 
 You may use the following **"Deploy to Heroku"** button to get started.
 
-<a href="https://heroku.com/deploy?template=https://github.com/Cybergroup-Research/ignite-runtime-image" target="_blank">![img](/assets/docs/deploy-to-heroku/deploy-to-heroku.png)</a>
+<a href="https://heroku.com/deploy?template=https://github.com/Cybergroup-Research/ignite-runtime-image" target="_blank"><img src="/assets/docs/deploy-to-heroku/deploy-to-heroku.png"></img></a>
 
 Provide suitable app name and click on button **“Deploy App”**
 

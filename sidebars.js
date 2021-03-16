@@ -19,15 +19,14 @@ module.exports = {
                   "getting-started/try-ignite/deploy-an-app/deploy-to-azure/introduction",
                   "getting-started/try-ignite/deploy-an-app/deploy-to-azure/getting-started",
                   "getting-started/try-ignite/deploy-an-app/deploy-to-azure/deploy-on-azure",
-                  "getting-started/try-ignite/deploy-an-app/deploy-to-azure/manage-application",
-                  "getting-started/try-ignite/deploy-an-app/deploy-to-azure/cicd",
+                  "getting-started/try-ignite/deploy-an-app/deploy-to-azure/manage-application"
                 ],
                 "Deploy to Heroku": [
                   "getting-started/try-ignite/deploy-an-app/deploy-to-heroku/introduction",
                   "getting-started/try-ignite/deploy-an-app/deploy-to-heroku/getting-started",
                   "getting-started/try-ignite/deploy-an-app/deploy-to-heroku/deploy-on-heroku",
                   "getting-started/try-ignite/deploy-an-app/deploy-to-heroku/manage-application",
-                  "getting-started/try-ignite/deploy-an-app/deploy-to-heroku/cicd",
+                  "getting-started/try-ignite/deploy-an-app/deploy-to-heroku/upgrade-runtime"
                 ]
               }
             ]
@@ -194,8 +193,8 @@ module.exports = {
           "devops-practices/release-management/upload-download-release-packages"
         ],
         "CI/CD": [
-          // "devops-practices/ci-cd/introduction",
-          // "devops-practices/ci-cd/installation"
+           "devops-practices/ci-cd/azure",
+           "devops-practices/ci-cd/heroku"
         ]
       }
     ]

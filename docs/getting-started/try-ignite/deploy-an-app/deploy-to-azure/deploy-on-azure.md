@@ -4,11 +4,64 @@ title: Deploy on Azure
 sidebar_label: Deploy on Azure
 ---
 
-## Deploy Application Using Docker Hub Public Repository
+## 1. Configure PostgreSQL
+
+Create and configure PostgreSQL database for storing your app related information. This databae will be managed by Ignite App and required for App registration.
+
+### Setup PostgreSQL:
+
+**<u><a href="https://portal.azure.com/#create/Microsoft.PostgreSQLServer" target="_blank">https://portal.azure.com/#create/Microsoft.PostgreSQLServer</a></u>**
+
+![img](/assets/docs/deploy-to-azure/postgresql-basic.png)
+
+### Review & Create:
+
+### Database Credential
+
+Now create your DATABASE_URL as below format by using above values
+
+postgres://{username}:{password}@{host}:{port}/{database}
+
+Copy or save this DATABASE_URL for <u>**[Azure App Registration Step](#3-deploy-application-using-docker-hub-public-repository)**</u>
+
+## 2. Create App and Get Ignite Keys in Cgignite Dashboard
+
+<hr></hr>
+
+### Create App
+
+Visit: **<u><a href="https://dashboard.cgignite.io/apps" target="_blank">https://dashboard.cgignite.io/apps</a></u>**
+
+Click on button **“New App”**
+
+![](/assets/docs/deploy-to-azure/new-app.png)
+
+### Set App Name
+
+Provide a suitable name for your application and click on button **“Create App”**
+
+![](/assets/docs/deploy-to-azure/new-app-popup.png)
+
+### Get Key for AWS Container Creation
+
+You will get the IGNIT_EDITOR_API_SECRET key, copy or save this key for later use in <u>**[Azure App Registration Step](#3-deploy-application-using-docker-hub-public-repository)**</u>.
+
+![](/assets/docs/deploy-to-azure/ignite-runtime-registration.png)
+
+### Set Ignite Runtime URL
+
+We will setup this URL once we will finish the "<u>**[deploy-on-azure](#set-cgignite-dashboard-app)**</u>".
+
+![](/assets/docs/deploy-to-azure/ignite-runtime-url-popup.png)
+
+
+
+
+## 3. Deploy Application Using Docker Hub Public Repository
 
 After the Ignite Platform team provisions your account, you may use the following **"Deploy to Azure"** button to get started.
 
-<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FCybergroup-Research%2Fignite-runtime-image%2Fmaster%2Fazure-app-service-dockerhub-public-image.json" target="_blank">![img](/assets/docs/deploy-to-azure/deploy-to-azure.png)</a>
+<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FCybergroup-Research%2Fignite-runtime-image%2Fmaster%2Fazure-app-service-dockerhub-public-image.json" target="_blank"><img src="/assets/docs/deploy-to-azure/deploy-to-azure.png"></img></a>
 
 > *You may need a Microsoft Azure account.*
 
@@ -34,9 +87,9 @@ All resources in an Azure subscription are billed together.
 - **Web_App_Name:** Create a unique and suitable web application name. Your deployed application will be running with your web app name. for example, if Web_App_name is "myDemo" then application will be hosted in URL 
     > **[https://myDemo.azurewebsites.net/](#)**
 
-- **ENV_DATABASE_URL:** This URL includes protocol, user credentials, host and port. Refer to your database configurations
+- **ENV_DATABASE_URL:** This URL includes protocol, user credentials, host and port. Refer to [database configurations](#database-credential)
 
-- **ENV_IGNITE_EDITOR_API_SECRET:** This API key is found within the **<u><a href="https://dashboard.cgignite.io/apps" target="_blank">Ignite Dashboard</a></u>** when registering an app
+- **ENV_IGNITE_EDITOR_API_SECRET:** This API key is found within the **<u><a href="https://dashboard.cgignite.io/apps" target="_blank">Ignite Dashboard</a></u>** when registering an app. Refer to [Get Ignite Keys](#2-create-app-and-get-ignite-keys-in-cgignite-dashboard)
 
 - **ENV_DB_SSL_OPTION:** If your database supports or requires SSL, it is recommended to turn this on
 
