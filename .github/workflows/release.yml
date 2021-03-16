@@ -1,11 +1,12 @@
 # This is a basic workflow to help you get started with Actions
 
-name: CI & CD - Stage
+name: CI & CD - Production
 
 # Controls when the action will run. 
 on:
-   push:
-    branches: [ master ]
+  release:
+    types:
+      - released
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -21,6 +22,6 @@ jobs:
       uses: akhileshns/heroku-deploy@v3.8.8
       with:
         heroku_api_key: ${{secrets.HEROKU_API_KEY}}
-        heroku_app_name: "ignite-docs-v2-stage"
+        heroku_app_name: "ignite-docs-v2"
         heroku_email: "bijay.shah@cygrp.com"
         usedocker: true
