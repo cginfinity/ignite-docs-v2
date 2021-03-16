@@ -1,6 +1,6 @@
 ---
 id: trigger-placeholder
-title: Send placeholder messages when a stream stops sending
+title: Send Placeholder Messages When a Stream Stops Sending
 sidebar_label: Trigger Placeholder
 ---
 

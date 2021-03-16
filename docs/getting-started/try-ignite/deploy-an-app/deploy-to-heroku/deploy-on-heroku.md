@@ -4,7 +4,7 @@ title: Deploy on Heroku
 sidebar_label: Deploy on Heroku
 ---
 
-## Deploy application in Heroku
+## Deploy Application in Heroku
 
 You may use the following **"Deploy to Heroku"** button to get started.
 

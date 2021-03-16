@@ -6,7 +6,7 @@ sidebar_label: Manage Application in Heroku
 
 ## Manage Application in Heroku
 
-### Find all application list
+### Find All Application List
  
 To view all your Heroku application list, just go to Dashboard 
 
@@ -16,20 +16,20 @@ You will find all the deployed application in Heroku. Click on your application 
 
 ![img](/assets/docs/deploy-to-heroku/heroku-my-app.png)
 
-### Configure Add-ons
+### Configure Add-Ons
 
 Click on the link “Configure Add-ons” for modify/delete the addon, change the plan
 
 ![img](/assets/docs/deploy-to-heroku/heroku-my-app-configure-addone.png)
 
 
-### Add/modify pipeline
+### Add/Modify Pipeline
 
 Select Deploy tab, you will get option to add/modify pipeline for release
 
 ![img](/assets/docs/deploy-to-heroku/heroku-my-app-pipeline.png)
 
-### Deploy using your repository
+### Deploy Using Your Repository
 
 You can select, the suitable method for your deployment. GitHub is widely used for managing your deployment.
 

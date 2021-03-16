@@ -1,6 +1,6 @@
 ---
 id: basic-authentication
-title: Secure Endpoints with Basic Authentication
+title: Secure Endpoints With Basic Authentication
 sidebar_label: Basic Authentication
 ---
 

@@ -10,7 +10,7 @@ Just like Ignite, we have simplified deployment processes for various cloud prov
 
 Your completely functional Ignite runtime is just few clicks away. A user can deploy as many apps they want for their project pipelines.
 
-## How to deploy
+## How to Deploy
 
 Go to our [runtime page](https://github.com/Cybergroup-Research/ignite-runtime-image) and click the button that has the name of your cloud provider.
 

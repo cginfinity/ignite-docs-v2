@@ -1,7 +1,7 @@
 ---
 id: convert-json
-title: Convert to/from JSON
-sidebar_label: Convert to/from JSON
+title: Convert to/From JSON
+sidebar_label: Convert to/From JSON
 ---
 
 ## Problem

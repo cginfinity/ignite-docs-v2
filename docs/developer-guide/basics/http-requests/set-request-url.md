@@ -1,6 +1,6 @@
 ---
 id: set-request-url
-title: Set the URL of a request
+title: Set the URL of a Request
 sidebar_label: Set URL
 ---
 

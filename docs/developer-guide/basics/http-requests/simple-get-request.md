@@ -1,6 +1,6 @@
 ---
 id: get-request
-title: Simple GET request
+title: Simple Get Request
 sidebar_label: GET Request
 ---
 
@@ -22,7 +22,6 @@ Use the <code class="node">HTTP Request</code> node to make an HTTP request and 
 ~~~json
 [{"id":"d88dd470.0ac7b8","type":"inject","z":"18c99b30.cf9d35","name":"make request","topic":"","payload":"","payloadType":"date","repeat":"","crontab":"","once":false,"x":130,"y":180,"wires":[["874a3d4e.9b666"]]},{"id":"874a3d4e.9b666","type":"http request","z":"18c99b30.cf9d35","name":"","method":"GET","ret":"txt","url":"https://nodered.org","tls":"","x":294.5,"y":180,"wires":[["90243cc1.87edc"]]},{"id":"7403c68f.21d7c8","type":"debug","z":"18c99b30.cf9d35","name":"","active":true,"console":"false","complete":"false","x":650,"y":180,"wires":[]},{"id":"90243cc1.87edc","type":"html","z":"18c99b30.cf9d35","name":"","property":"","tag":".Ignite-latest-version","ret":"text","as":"single","x":471.5,"y":180,"wires":[["7403c68f.21d7c8"]]}]
 ~~~
-
 
 
 ## Discussion

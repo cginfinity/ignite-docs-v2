@@ -1,6 +1,6 @@
 ---
 id: join-streams
-title: Create a single message from separate streams of messages
+title: Create a Single Message From Separate Streams of Messages
 sidebar_label: Join Streams
 ---
 

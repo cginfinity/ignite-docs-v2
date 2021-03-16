@@ -1,7 +1,7 @@
 ---
 id: route-on-property
-title: Route a message based on one of its properties
-sidebar_label: Route On Property
+title: Route a Message Based on One of Its Properties
+sidebar_label: Route on Property
 ---
 
 ## Problem

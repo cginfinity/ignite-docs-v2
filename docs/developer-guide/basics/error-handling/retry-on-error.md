@@ -1,7 +1,7 @@
 ---
 id: retry-on-error
-title: Automatically retry an action after an error
-sidebar_label: Retry On Error
+title: Automatically Retry an Action After an Error
+sidebar_label: Retry on Error
 ---
 
 ## Problem

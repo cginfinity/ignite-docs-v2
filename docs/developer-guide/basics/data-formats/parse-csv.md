@@ -1,7 +1,7 @@
 ---
 id: parse-csv
-title: Parse CSV input
-sidebar_label: Parse CSV input
+title: Parse CSV Input
+sidebar_label: Parse CSV Input
 ---
 
 ## Problem

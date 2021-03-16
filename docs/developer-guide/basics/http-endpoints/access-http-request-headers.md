@@ -1,6 +1,6 @@
 ---
 id: access-request-headers
-title: Access HTTP request headers
+title: Access HTTP Request Headers
 sidebar_label: Access Headers
 ---
 

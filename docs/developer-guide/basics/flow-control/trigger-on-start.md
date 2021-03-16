@@ -1,7 +1,7 @@
 ---
 id: trigger-on-start
-title: Trigger a flow whenever Ignite Runtime starts
-sidebar_label: Trigger On Start
+title: Trigger a Flow Whenever Ignite Runtime Starts
+sidebar_label: Trigger on Start
 ---
 
 ## Problem

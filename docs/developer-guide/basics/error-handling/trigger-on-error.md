@@ -1,7 +1,7 @@
 ---
 id: trigger-on-error
-title: Trigger a flow when a node throws an error
-sidebar_label: Trigger On Error
+title: Trigger a Flow When a Node Throws an Error
+sidebar_label: Trigger on Error
 ---
 
 ## Problem

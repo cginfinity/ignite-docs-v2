@@ -1,7 +1,7 @@
 ---
 id: parsed-json
-title: Receive a parsed JSON message
-sidebar_label: Receive a parsed JSON message
+title: Receive a Parsed JSON Message
+sidebar_label: Receive a Parsed JSON Message
 ---
 
 ## Problem

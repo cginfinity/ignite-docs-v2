@@ -1,6 +1,6 @@
 ---
 id: work-with-cookies
-title: Work with cookies
+title: Work With Cookies
 sidebar_label: Cookies
 ---
 

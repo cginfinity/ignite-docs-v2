@@ -1,7 +1,7 @@
 ---
 id: trigger-at-interval
-title: Trigger a flow at regular intervals
-sidebar_label: Trigger At Interval
+title: Trigger a Flow at Regular Intervals
+sidebar_label: Trigger at Interval
 ---
 
 ## Problem

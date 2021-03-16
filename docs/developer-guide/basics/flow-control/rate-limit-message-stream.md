@@ -1,6 +1,6 @@
 ---
 id: rate-limit-message-stream
-title: Handle messages at a regular rate
+title: Handle Messages at a Regular Rate
 sidebar_label: Rate Limit Message Stream
 ---
 

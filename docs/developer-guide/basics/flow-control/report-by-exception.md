@@ -1,6 +1,6 @@
 ---
 id: report-by-exception
-title: Drop messages that have not changed value
+title: Drop Messages That Have Not Changed Value
 sidebar_label: Report By Exception
 ---
 

@@ -1,6 +1,6 @@
 ---
 id: rate-limit-messages
-title: Slow down messages passing through a flow
+title: Slow Down Messages Passing Through a Flow
 sidebar_label: Rate Limit Messages
 ---
 
