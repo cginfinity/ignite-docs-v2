@@ -8,7 +8,7 @@ sidebar_label: Deploy on Azure
 
 After the Ignite Platform team provisions your account, you may use the following **"Deploy to Azure"** button to get started.
 
-<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FCybergroup-Research%2Fignite-runtime-image%2Fmaster%2Fazure-app-service-dockerhub-public-image.json" target="_blank">![img](/assets/docs/deploy-to-azure/deploy-to-azure.png)</a>
+<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FCybergroup-Research%2Fignite-runtime-image%2Fmaster%2Fazure-app-service-dockerhub-public-image.json" target="_blank"><img src="/assets/docs/deploy-to-azure/deploy-to-azure.png"></img></a>
 
 > *You may need a Microsoft Azure account.*
 
