@@ -10,5 +10,6 @@ Projects are a new way to manage your flow files. They represent everything you 
 
 They are backed by a Git repository, meaning all of the files are fully version controlled and allow developers to use familiar workflows to collaborate with others.
 
+To setup ignite in the local system, please follow the [steps](/docs/getting-started/try-ignite/deploy-an-app/deploye-to-local/how-to-setup).
 
 ![](/assets/docs/deploye-to-local/version-control-ci-cd.png)
