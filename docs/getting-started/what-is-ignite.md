@@ -1,7 +1,7 @@
 ---
 id: what-is-ignite
-title: What Is Ignite
-sidebar_label: What Is Ignite
+title: What is Ignite
+sidebar_label: What is Ignite
 ---
 
 ## About Ignite
