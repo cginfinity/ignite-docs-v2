@@ -31,7 +31,8 @@ module.exports = {
                 "Deploy to Local": [
                   "getting-started/try-ignite/deploy-an-app/deploye-to-local/introduction",
                   "getting-started/try-ignite/deploy-an-app/deploye-to-local/getting-started",
-                  "getting-started/try-ignite/deploy-an-app/deploye-to-local/how-to-setup"
+                  "getting-started/try-ignite/deploy-an-app/deploye-to-local/how-to-setup",
+                  "getting-started/try-ignite/deploy-an-app/deploye-to-local/manage-application"
                 ]
               }
             ]
