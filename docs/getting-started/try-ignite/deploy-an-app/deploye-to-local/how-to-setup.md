@@ -50,7 +50,7 @@ The Ignite Container includes a server, so that you can build and serve your app
 
 ![](/assets/docs/deploye-to-local/create-docker-compose-file.png)
 
-See, Appendix [Docker Compose](#appendix) for reference.
+See, Appendix [Docker Compose](/docs/getting-started/try-ignite/deploy-an-app/deploye-to-local/manage-application#docker-compose) for reference.
 **cybergroupignite/runtime:v2.0.0** is our latest docker image, 
 following environment variable are required to start local development.
 
