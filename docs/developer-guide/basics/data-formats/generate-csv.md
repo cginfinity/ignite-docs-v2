@@ -61,7 +61,7 @@ The second flow injects an array of objects with randomly generated values:
 ]
 ```
 
-Again the CSV node has been configured with the column names to use. It has also
+Again, the CSV node has been configured with the column names to use. It has also
 been configured to include the column names as the first row of output.
 
 ```javascript

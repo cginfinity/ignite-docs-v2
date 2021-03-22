@@ -117,7 +117,7 @@ This provides three options:
 
 **Open an existing project**
 
-Runtime only runs one project at any time. By opening another project you change what flows are running. 
+Runtime only runs one project at any time. By opening another project, you change what flows are running. 
 
 The ‘open project’ view also allows you to delete projects by hovering over them in the list and clicking the delete button. You cannot delete the active project.
 
@@ -127,9 +127,9 @@ This lets you create a new project. It provides the same options as the ‘creat
 
 **Clone a project repository**
 
-This lets you clone an existing remote repository. You can use either an http(s) or git/ssh url for the repository. If the repository requires authentication you must provide it here.
+This lets you clone an existing remote repository. You can use either an http(s) or git/ssh URL for the repository. If the repository requires authentication you must provide it here.
 
-Note: for http urls, do not include your username and/or password in the url itself. You can should provide those separately when prompted.
+Note: for http URLs, do not include your username and/or password in the URL itself. You can should provide those separately when prompted.
 
 ## Build
 
@@ -218,4 +218,4 @@ RUN echo BUILD_VERSION=${BUILD_VERSION} >> .env
 COPY . ./build
 RUN npm run compile
 ```
-Checkout <span class="link">[Example](https://github.com/Cybergroup-Research/ignite-example-build)</span> Git repository to build docker image using <span class="link">[git action](https://github.com/Cybergroup-Research/ignite-example-build/blob/main/.github/workflows/main-build-deploy.yml)</span> & deploy to Heroku. -->
+Checkout <span class="link">[Example](https://github.com/Cybergroup-Research/ignite-example-build)</span> Git repository to build docker image using <span class="link">[git action](https://github.com/Cybergroup-Research/ignite-example-build/blob/main/.github/workflows/main-build-deploy.yml)</span> & deploy to Heroku.

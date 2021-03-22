@@ -11,7 +11,7 @@ This node, is used to load and hit openAPI end point
 
 ## Usage
 
-Enter the URL to your openAPI configuration (json or yaml file) and push the <b>Load Specification</b> button. That's it. You can now select the operation you want to run.
+Enter the URL to your openAPI configuration (JSON or YAML file) and push the <b>Load Specification</b> button. That's it. You can now select the operation you want to run.
 
 ### Example
 
@@ -29,4 +29,4 @@ Enter the URL to your openAPI configuration (json or yaml file) and push the <b>
 
 ## View in Designer
 
-By clicking on button 'View in Desinger' it will load the OpenAPI in Ignite Desinger in a new tab.
+By clicking on button 'View in Designer' it will load the OpenAPI in Ignite Designer in a new tab.

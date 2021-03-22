@@ -11,7 +11,7 @@ This node, creates end points within ignite runtime, based on the openAPI URL pr
 
 ## Usage
 
-Enter the URL to your OpenAPI configuration (json or yaml file) and push the <b>Load specification</b> button. You will get the list of end points. Once you will deploy this change, all the list of end points will be creating separate end point within the ignite-runtime.
+Enter the URL to your OpenAPI configuration (JSON or YAML file) and push the <b>Load specification</b> button. You will get the list of end points. Once you will deploy this change, all the list of end points will be creating separate end point within the ignite-runtime.
 
 ### Example
 
@@ -29,4 +29,4 @@ Enter the URL to your OpenAPI configuration (json or yaml file) and push the <b>
 
 ## View in Designer
 
-By clicking on button 'View in Desinger' it will load the OpenAPI in Ignite Desinger in a new tab.
+By clicking on button 'View in Designer' it will load the OpenAPI in Ignite Designer in a new tab.

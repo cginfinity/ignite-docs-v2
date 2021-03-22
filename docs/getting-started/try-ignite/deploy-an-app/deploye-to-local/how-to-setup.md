@@ -68,15 +68,24 @@ following environment variable are required to start local development.
 ```
 version: "3.9"
 services:
-    web:
-        image: cybergroupignite/runtime:v2.0.0
-        ports:
-            - "1881:1881"
-        environment:
-            IGNITE_EDITOR_API_SECRET: "<Your Ignite Secret key>"
-            DATABASE_URL: "postgres://admin:admin@[ignite_local_postgres]:5432/postgres"
-            DB_SSL_OPTION: "false" 
-            START_MODE: "PROJECT"
+  ignite_local_postgres:
+    image: postgres
+    restart: always
+    environment:
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: admin
+  ignite_local_app:
+    image: cybergroupignite/runtime:v2.0.0
+    ports:
+      - "1881:1881"
+    environment:
+      IGNITE_EDITOR_API_SECRET: "<Your Ignite Secret key>"
+      DATABASE_URL: "postgres://admin:admin@[ignite_local_postgres]:5432/postgres"
+      DB_SSL_OPTION: "false" 
+      START_MODE: "PROJECT"
+      PORT: "1881"
+    depends_on:
+      - ignite_local_postgres
 ```
 
 4.	Open my-app in the terminal and run the following command:

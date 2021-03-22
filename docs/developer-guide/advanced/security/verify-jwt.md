@@ -10,9 +10,9 @@ You want to verify a JSON web token.
 
 ## Solution
 
-Drag and drop an <code class="node">Http in</code> node to create an endpoint to recieve the http requests.
-Use a <code class="node">jwt</code> node and configure the settings, select "Verify" from the dropdown.
-As soon as you click done, you'll see two outputs from the jwt node. First one is for the Good case[JWT is valid] while the second one is for the Bad case[JWT is corrupt or expired]. Implement your business logic accordignly and send the response back to the client. For this example we are just going to tell the user if the jwt is valid or not.
+Drag and drop an <code class="node">Http in</code> node to create an endpoint to receive the http requests.
+Use a <code class="node">JWT</code> node and configure the settings, select "Verify" from the dropdown.
+As soon as you click done, you'll see two outputs from the JWT node. First one is for the Good case [JWT is valid] while the second one is for the Bad case [JWT is corrupt or expired]. Implement your business logic accordingly and send the response back to the client. For this example, we are just going to tell the user if the JWT is valid or not.
 Use an <code class="node">Http response</code> node to send the response back to the client.
 
 ## Example
@@ -29,4 +29,4 @@ Use an <code class="node">Http response</code> node to send the response back to
 
 This flow verifies the Authorization header of an incoming request against the one defined within the basic-auth settings.
 
-The jwt node simplifies the authorization process so that our users can focus more on the business logic.
+The JWT node simplifies the authorization process so that our users can focus more on the business logic.

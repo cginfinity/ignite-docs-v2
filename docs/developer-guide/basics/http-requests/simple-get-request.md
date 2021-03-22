@@ -31,8 +31,7 @@ useful tool.  Using the browser, right click on a page element to see the tags,
 ids and classes applied to an element as shown.
 
 In this example we retrieve the latest version of Ignite.
-Using the inspector we can see the version is located in a `<span>` tag with the
+Using the inspector, we can see the version is located in a `<span>` tag with the
 class `Ignite-latest-version`.
 
-The <code class="node">HTML</code> node can be configured with the CSS selector
-`.Ignite-latest-version` to return a message for each matching element.
+The <code class="node">HTML</code> node can be configured with the CSS selector. `Ignite-latest-version` to return a message for each matching element.

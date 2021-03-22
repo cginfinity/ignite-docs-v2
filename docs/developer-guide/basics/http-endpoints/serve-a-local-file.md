@@ -7,7 +7,7 @@ sidebar_label: Serve Local File
 ## Problem
 
 You want to create an HTTP endpoint that responds to GET requests with content
-from a local file, such an png image.
+from a local file, such a PNG image.
 
 ## Solution
 

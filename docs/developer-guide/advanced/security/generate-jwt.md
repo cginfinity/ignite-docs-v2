@@ -11,8 +11,8 @@ You want to generate a JSON web token for authentication.
 ## Solution
 
 Drag and drop an <code class="node">Http in</code> node to create an endpoint to receive the http requests.
-Use a <code class="node">Function</code> node and set some data as as payload for the JWT.
-Drag and drop a <code class="node">jwt</code> node and define your jwt configuration.
+Use a <code class="node">Function</code> node and set some data as payload for the JWT.
+Drag and drop a <code class="node">JWT</code> node and define your JWT configuration.
 Select "Generate" as the action from the dropdown.
 Use another <code class="node">Function</code> node to send the token as an access_token back to the client
 
@@ -28,6 +28,6 @@ Use another <code class="node">Function</code> node to send the token as an acce
 
 ## Discussion
 
-This flow generates a jwt from the given payload and sends it back to the client as the access_token.
+This flow generates a JWT from the given payload and sends it back to the client as the access_token.
 
-JWTs are helful in authorizing users requesting for a particular resource.
+JWTs are helpful in authorizing users requesting for a particular resource.

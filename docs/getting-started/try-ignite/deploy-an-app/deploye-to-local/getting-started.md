@@ -15,10 +15,6 @@ To use the Ignite Project, you should be familiar with the following:
 
 You can start project in two ways
 
- - **[Project](/docs/getting-started/try-ignite/deploy-an-app/deploye-to-local/how-to-setup/#setting-up-the-local-environment-and-workspace) :** For git based application development. 
+ - **[Project](/docs/getting-started/try-ignite/deploy-an-app/deploye-to-local/how-to-setup/#setting-up-the-local-environment-and-workspace) :** For git-based application development. 
 
-- **[Build](/docs/getting-started/try-ignite/deploy-an-app/deploye-to-local/how-to-setup/#build) :** For docker container based development.
-
-
-
-
+- **[Build](/docs/getting-started/try-ignite/deploy-an-app/deploye-to-local/how-to-setup/#build) :** For docker container-based development.

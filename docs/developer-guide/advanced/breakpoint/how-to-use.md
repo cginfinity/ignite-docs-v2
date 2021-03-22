@@ -6,7 +6,7 @@ sidebar_label: How to Use
 
 ## How to Use
 
-Input the breakpoint node with some JSON message or other message. Set the timer for the amount of time thay you want to pause the execution of the flow for. When you inject some value, the value will pause for the time you specified. You can find the status of the node just below the node. 
+Input the breakpoint node with some JSON message or other message. Set the timer for the amount of time for which you want to pause the execution of the flow for. When you inject some value, the value will pause for the time you specified. You can find the status of the node just below the node. 
 When the node is in Running status, if you click on the button <b>"Explore with JSONata"</b>, your JSON data (msg.payload) will automatically load into <a href="https://jsonata.cgignite.io/" target="_blank">Ignite JSONata Explorer</a> and open in a new tab. Once the specified time passes, flow will resume the execution and data will automatically wiped out.
 
 

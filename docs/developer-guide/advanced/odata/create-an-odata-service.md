@@ -10,7 +10,7 @@ You want to create an OData Service inside Ignite using Ignite-Odata & Ignite-Se
 
 ## Solution
 
-Drag and drop an <code class="node">Http in</code> node to receive the http requests for each http verb(GET, POST, PUT, PATCH, DELETE) and connect it to an <code class="node">Odata-in</code> node.
+Drag and drop an <code class="node">Http in</code> node to receive the http requests for each http verb (GET, POST, PUT, PATCH, DELETE) and connect it to an <code class="node">Odata-in</code> node.
 Use a <code class="node">Function</code> node before the <code class="node">Odata-in</code> node OR an <code class="node">EDM</code> node inside the <code class="node">Odata-in</code> node to define your database schema.
 Connect the <code class="node">Odata-in</code> node to a <code class="node">Sequelize</code> node and configure your database settings.
 Draw a wire from the <code class="node">Sequelize</code> node to an <code class="node">Odata-out</code> node to formulate an OData compliant response.
@@ -30,7 +30,7 @@ Use an <code class="node">Http response</code> node to send the http response ba
 
 An OData service can be used to create OData compliant REST APIs.
 
-In the example flow, we have defined a sample edm "users" using both a <code class="node">Function</code> node and the <code class="node">EDM</code> node.
+In the example flow, we have defined a sample EDM "users" using both a <code class="node">Function</code> node and the <code class="node">EDM</code> node.
 
 The <code class="node">Catch</code> node receives the error which passes the message back to the <code class="node">Function</code> node to send an error response.
 

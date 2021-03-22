@@ -6,13 +6,13 @@ sidebar_label: Execute a Query
 
 ## Problem
 
-You want to execute a sql query using Ignite-Sequelize node.
+You want to execute a SQL query using Ignite-Sequelize node.
 
 ## Solution
 
 Drag and drop an <code class="node">Inject</code> node to start the flow.
 Use a <code class="node">Sequelize</code> node and draw a wire from inject node to <code class="node">sequelize</code> node.
-Use the config node inside <code class="node">Sequelize</code> node to define your database configurataion.
+Use the config node inside <code class="node">Sequelize</code> node to define your database configuration.
 Drag and drop a <code class="node">Debug</code> node and connect to sequelize node to print out the response in the debug window.
 
 ## Example
@@ -31,6 +31,6 @@ Sequelize node can be used to connect to a variety of Databases.
 
 In the example flow, we are executing a simple select statement using a <code class="node">Sequelize</code> node.
 
-The <code class="node">Catch</code> receives the error which passes the message back to the <code class="node">Function</code> node to sebd an error response.
+The <code class="node">Catch</code> receives the error which passes the message back to the <code class="node">Function</code> node to an error response.
 
-You can also supply query via payload by ticking the checkbox against "Use Query From Payload".
+You can also supply query via payload by ticking the checkbox against **"Use Query From Payload"**.

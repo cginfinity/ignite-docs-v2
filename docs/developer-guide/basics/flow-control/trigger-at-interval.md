@@ -7,7 +7,7 @@ sidebar_label: Trigger at Interval
 ## Problem
 
 You want to trigger a flow at regular intervals. For example, to periodically
-call an api to retrieve its current state.
+call an API to retrieve its current state.
 
 ## Solution
 

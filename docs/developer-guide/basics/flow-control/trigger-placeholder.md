@@ -11,7 +11,7 @@ sensor stops sending messages, you want to send placeholder messages at the same
 rate.
 
 For example, the sensor data may be feeding a Dashboard chart. If the sensor
-stops sending, the chart will stop updating. So placeholder messages are needed
+stops sending, the chart will stop updating. So, placeholder messages are needed
 for the chart to update with a `0` value to highlight the sensor has stopped.
 
 ## Solution

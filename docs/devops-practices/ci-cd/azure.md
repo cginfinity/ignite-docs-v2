@@ -6,7 +6,7 @@ sidebar_label: Azure + Azure Devops
 
 ## Configure PostgreSQL
 
-Create and configure PostgreSQL database for storing your app related information. This databae will be managed by Ignite App and required for App registration.
+Create and configure PostgreSQL database for storing your app related information. This database will be managed by Ignite App and required for App registration.
 
 ### 1.	Setup PostgreSQL:
 
@@ -136,8 +136,7 @@ You will find **IGNITE_EDITOR_API_SECRET**
 
 After the Ignite Platform team provisions your account, you may use the following **"Deploy to Azure"** button to get started your deployment using local development with private repository.
 
-<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FCybergroup-Research%2Fignite-runtime-image%2Fmaster%2Fazure-app-service-docker-private-image.json" target="_blank">![img](/assets/docs/deploy-to-azure/deploy-to-azure.png)</a>
-    
+<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FCybergroup-Research%2Fignite-runtime-image%2Fmaster%2Fazure-app-service-docker-private-image.json" target="_blank"><img src="/assets/docs/deploy-to-azure/deploy-to-azure.png"></img> </a>  
 
  > You may need a Microsoft Azure account, docker account with azure container registry
 
@@ -209,8 +208,8 @@ Search deployment and select Azure App Service deployment
 
 ### 5.	Enable Continuous Deployment
 
-Enter Tag Filter: **^beta-**     for Dev
-Enter Tag Filter: ^v for      for QA/Prod
+Enter Tag Filter: **^beta-** for Dev
+Enter Tag Filter: ^v for QA/Prod
 
 ![img](/assets/docs/deploy-to-azure/enable-continuous-deployment.png)
 

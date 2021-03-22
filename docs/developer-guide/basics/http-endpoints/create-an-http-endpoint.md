@@ -12,7 +12,7 @@ content, such as an HTML page or CSS stylesheet.
 ## Solution
 
 Use the <code class="node">HTTP In</code> node to listen for requests, a
-<code class="node">Template</code> node to include the static content, and an
+<code class="node">Template</code> node to include the static content, and an 
 <code class="node">HTTP Response</code> node to reply to the request.
 
 ## Example

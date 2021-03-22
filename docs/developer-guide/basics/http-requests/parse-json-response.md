@@ -6,7 +6,7 @@ sidebar_label: Parse JSON
 
 ## Problem
 
-You want to return the JSON response of an HTTP request as a parsed Javascript object.
+You want to return the JSON response of an HTTP request as a parsed JavaScript object.
 
 ## Solution
 
@@ -35,4 +35,4 @@ node has been modified to display only the `title` property of the parsed JSON r
 
 ## Discussion
 
-If your HTTP request returns XML, the <code class="node">XML</code> node can be used to parse Javascript objects from XML documents.
+If your HTTP request returns XML, the <code class="node">XML</code> node can be used to parse JavaScript objects from XML documents.

@@ -6,14 +6,14 @@ sidebar_label: Read Only OData Service
 
 ## Problem
 
-You want to create an OData Service with read support(GET) only.
+You want to create an OData Service with read support (GET) only.
 
 ## Solution
 
 Drag and drop an <code class="node">Http in</code> node to receive with GET method and connect it to an <code class="node">Odata-in</code> node.
-Use a <code class="node">Function</code> node before the<code class="node">Odata-in</code> node OR an <code class="node">EDM</code> node inside the<code class="node">Odata-in</code> node to define your database schema.
+Use a <code class="node">Function</code> node before the <code class="node">Odata-in</code> node OR an <code class="node">EDM</code> node inside the <code class="node">Odata-in</code> node to define your database schema.
 Connect the <code class="node">Odata-in</code> node to a <code class="node">Sequelize</code> node and configure your database settings.
-Draw a wire from the<code class="node">Sequelize</code> node to an<code class="node">Odata-out</code> node to formulate an OData compliant response.
+Draw a wire from the <code class="node">Sequelize</code> node to an <code class="node">Odata-out</code> node to formulate an OData compliant response.
 Use an <code class="node">Http response</code> node to send the http response back to the client.
 
 ## Example
@@ -30,6 +30,6 @@ Use an <code class="node">Http response</code> node to send the http response ba
 
 The above OData service can be used to create OData compliant REST APIs with read support only.
 
-In the example flow, we have defined a sample edm "users" using both, a <code class="node">Function</code> node and the <code class="node">EDM</code> node.
+In the example flow, we have defined a sample EDM "users" using both, a <code class="node">Function</code> node and the <code class="node">EDM</code> node.
 
-Using this flow you can send data from your Database to another OData Consumer.
+Using this flow, you can send data from your Database to another OData Consumer.

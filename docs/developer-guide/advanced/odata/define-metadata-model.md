@@ -28,6 +28,6 @@ Use a <code class="node">Debug</code> node and connect it to the <code class="no
 
 The metadata model is used to generate model specific queries and exchange metadata with the OData Connector.
 
-In the example flow, we have defined a sample "users" edm using a <code class="node">Function</code> node.
+In the example flow, we have defined a sample "users" EDM using a <code class="node">Function</code> node.
 
 This model is used to generate EDMX response for metadata requests.

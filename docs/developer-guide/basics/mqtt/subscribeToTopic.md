@@ -33,7 +33,7 @@ to use - it cannot be changed dynamically.
 One possible workaround is to set the topic to an environment variable such as
 `$(MY_TOPIC)`. When the Ignite runtime starts it will substitute the environment
 variable value into that property of the node. This does allow the topic to be changed, although
-doing so does require a restart of Ignite to pickup changes to the environment variable.
+doing so does require a restart of Ignite to pick up changes to the environment variable.
 
 You can also use MQTT wildcards, `+` for a single topic level or `#` for multiple. This allows
 you to receive multiple topics with a single node. The messages will be sent from

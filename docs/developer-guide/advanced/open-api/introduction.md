@@ -17,26 +17,26 @@ Ignite openAPI contains two nodes.
 ### [OpenAPI router](./open-api-router "Open API Router")
 
 
-This node creates end points within ignite runtime, based on the openAPI url provided.
+This node creates end points within ignite runtime, based on the openAPI URL provided.
 
 
 ![img](/assets/docs/open-api/ignite-open-api-router.png)
 
 ### [Open API client](./open-api-client "Open API Client")
 
-This node is used to load and hit open api end points.
+This node is used to load and hit open API end points.
 
 ![img](/assets/docs/open-api/ignite-open-api-client.png)
 
 ## Parameter Configuration
 
-Each parameter has an input-field corresponding to its type. You can further define that a parameter shall be read from the incoming message object or define a jsonata expression.
+Each parameter has an input-field corresponding to its type. You can further define that a parameter shall be read from the incoming message object or define a JSONata expression.
 
 JSON parameters may define a sample structure. You can set this as the value by clicking the corresponding button - either with only the required keys (set required) or with all keys (set default).
 
-## Authentification
+## Authentication
 
-If the API requires an authentification token, you can log in using the standard `http-request` node of Node-RED. The JWT token you get as a response must then be put into `msg.openApiToken` to be automatically placed in the request-header as bearer authentification.
+If the API requires an authentication token, you can log in using the standard `http-request` node of Node-RED. The JWT token you get as a response must then be put into `msg.openApiToken` to be automatically placed in the request-header as bearer authentication.
 
 ## Error Handling
 
@@ -44,7 +44,7 @@ You can choose how to handle a returning server error. The last server response 
 
 * `Standard`: The flow moves on normally. You have to handle an server error in your flow.
 * `Separate output`: Your flow will take a different way.
-* `Throw an exception`: Throws an node.error which can be catched by the standard 'catch' node (usefull for many nodes with the same error handling).
+* `Throw an exception`: Throws an node.error which can be catch by the standard 'catch' node (useful for many nodes with the same error handling).
 
 ## How to Install
 
