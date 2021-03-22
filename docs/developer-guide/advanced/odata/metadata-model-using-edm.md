@@ -6,23 +6,23 @@ sidebar_label: Define Metadata Model Using EDM
 
 ## Problem
 
-You want to define a metadata model using the EDM Node. Populate msg.model property with EntitySets and EntityTypes.
+You want to define a metadata model using the EDM Node. Populate msg.model property with Entity Sets and Entity Types.
 
 ## Solution
 
-Drag and drop an <code class="node">Http in</code> node to recieve requests.
+Drag and drop an <code class="node">Http in</code> node to receive requests.
 Use an <code class="node">Odata-in</code> node and connect it to <code class="node">Http in</code> node. We will be using this to define our database schema.
 
 
 Use a <code class="node">Debug</code> node and connect it to the <code class="node">Odata-in</code> node to log out the msg.model in the debug window to verify.
-Double click on <code class="node">Odata-in</code> node and select "Add new edm..."
+Double click on <code class="node">Odata-in</code> node and select "Add new EDM..."
 
 ![img](/assets/docs/odata/metadata-model-using-edm-1.png)
 
 Click edit icon and provide the Namespace name and Schema.
 
 
-<strong>NOTE: </strong>When schema name is provided schema name is prefixed to the entity names in queries.
+<strong>NOTE: </strong>When schema name is provided schema, name is prefixed to the entity names in queries.
 
 
 ![img](/assets/docs/odata/metadata-model-using-edm-2.png)
@@ -50,6 +50,6 @@ Click "Add" and then "Done" to save your changes.
 
 The metadata model is used to generate model specific queries and exchange metadata with the OData Connector.
 
-In the example flow, we have defined a sample "users" edm using the <code class="node">EDM</code> node which resides inside the <code class="node">Odata-in</code> node.
+In the example flow, we have defined a sample "users" EDM using the <code class="node">EDM</code> node which resides inside the <code class="node">Odata-in</code> node.
 
 This model is used to generate EDMX response for metadata requests.

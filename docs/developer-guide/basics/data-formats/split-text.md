@@ -47,7 +47,7 @@ The <code class="node">Change</code> node modifies each message payload using
 a JSONata expression: `(parts.index+1) & ": " & payload` - which uses `msg.parts.index`
 to get the line number and prepends it to the existing `msg.payload`.
 
-Finally the <code class="node">Join</code> node reassembles the messages into
+Finally, the <code class="node">Join</code> node reassembles the messages into
 a single block of text:
 
 ~~~text

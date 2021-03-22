@@ -32,7 +32,7 @@ Below are the properties of breakpoint node.
 ### Timeout
 
 
-Set the amout of time that you want to pause the execution of the flow and want to explore data into the <a href="https://jsonata.cgignite.io/" target="_blank">Ignite JSONata Explorer</a>. After the timeout period, the data will be automatically wiped out and the node status will be <b>Resumed</b>.
+Set the amount of time that you want to pause the execution of the flow and want to explore data into the <a href="https://jsonata.cgignite.io/" target="_blank">Ignite JSONata Explorer</a>. After the timeout period, the data will be automatically wiped out and the node status will be <b>Resumed</b>.
 
 ### Explore With JSONata
 

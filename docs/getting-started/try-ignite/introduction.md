@@ -14,7 +14,7 @@ Your completely functional Ignite runtime is just few clicks away. A user can de
 
 Go to our [runtime page](https://github.com/Cybergroup-Research/ignite-runtime-image) and click the button that has the name of your cloud provider.
 
-If you dont see a link for your cloud provider, you can follow the intructions on the Readme file to deploy an app (Updated regularly).
+If you don't see a link for your cloud provider, you can follow the instructions on the Readme file to deploy an app (Updated regularly).
 
 ## Support
 

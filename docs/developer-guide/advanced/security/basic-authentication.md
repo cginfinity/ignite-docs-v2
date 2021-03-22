@@ -15,7 +15,7 @@ Please follow below steps to setup basic auth.
 ### Drag Nodes
 
 Drag and drop an <code class="node">Http in</code> node to receive the http requests.
-Use a <code class="node">basic-auth</code>node and configure the settings. Check how to configure basic-auth setting.
+Use a <code class="node">basic-auth</code> node and configure the settings. Check how to configure basic-auth setting.
 Drag and drop two <code class="node">Function</code> nodes and set the response for good and bad cases.
 Use an <code class="node">Http response</code> node to send the response back to the client
 

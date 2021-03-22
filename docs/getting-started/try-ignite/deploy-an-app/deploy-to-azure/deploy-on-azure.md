@@ -6,7 +6,7 @@ sidebar_label: Deploy on Azure
 
 ## 1. Configure PostgreSQL
 
-Create and configure PostgreSQL database for storing your app related information. This databae will be managed by Ignite App and required for App registration.
+Create and configure PostgreSQL database for storing your app related information. This database will be managed by Ignite App and required for App registration.
 
 ### Setup PostgreSQL:
 
@@ -93,7 +93,7 @@ All resources in an Azure subscription are billed together.
 
 - **ENV_DB_SSL_OPTION:** If your database supports or requires SSL, it is recommended to turn this on
 
-- **ENV_START_MODE:** Select desired start mode (Required for git based application development)
+- **ENV_START_MODE:** Select desired start mode (Required for git-based application development)
 
 ### Observation 1: 
 If someone else is using the same web app name then during deployment, you will get error like below-

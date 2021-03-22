@@ -38,5 +38,3 @@ msg.headers['X-Auth-User'] = 'mike';
 msg.headers['X-Auth-Key'] = 'fred-key';
 return msg;
 ~~~
-{: .javascript}
-

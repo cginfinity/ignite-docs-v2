@@ -34,5 +34,5 @@ it to JSON.
 
 The <code class="node">JSON</code> will, by default, detect what it is being given
 to convert. It can also be configured to ensure the property is a given type. For
-example if your flow could receive either JSON or an Object, the <code class="node">JSON</code>
+example, if your flow could receive either JSON or an Object, the <code class="node">JSON</code>
 node can be configured to ensure the property is an Object.
