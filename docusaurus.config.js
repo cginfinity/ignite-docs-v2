@@ -2,7 +2,7 @@
 module.exports = {
   title: 'Ignite',
   tagline: 'Connect systems by building automated flows using drag and drop!',
-  url: 'https://www.cgignite.com/',
+  url: 'https://docs.cgignite.com/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -13,7 +13,7 @@ module.exports = {
     navbar: {
       // title: 'My Site',
       logo: {
-        alt: 'My Site Logo',
+        alt: 'ignite',
         src: 'img/ignite-full-orange.png',
       },
       items: [
@@ -43,11 +43,11 @@ module.exports = {
           items: [
             {
               label: 'Docs',
-              to: '/docs',
+              to: '/docs/',
             },
             {
               label: 'Blogs',
-              to: '/blog',
+              to: '/blog/',
             },
             {
               label: 'Deploy',
