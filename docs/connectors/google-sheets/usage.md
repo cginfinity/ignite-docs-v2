@@ -1,7 +1,7 @@
 ---
-id: how-to-use
-title: How to use
-sidebar_label: How to Use
+id: usage
+title: Using the Google Sheet Connector
+sidebar_label: Using the Google Sheet Connector
 ---
 
 ## Prerequisite
@@ -12,7 +12,7 @@ sidebar_label: How to Use
 
  - [Install node-red-contrib-function-npm node](/docs/connectors/google-sheets/install-npm-function/)
 
-## How to use
+## Usage
 
 Open **Connectors** library from right menu.
 

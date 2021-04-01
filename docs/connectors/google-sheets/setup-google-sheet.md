@@ -24,6 +24,6 @@ Click on the **Share** button in the upper right corner. In the people field put
 
 Take the ID part from the https link of the spreadsheet. The sheet ID can be found in the URL of your google sheet, for example in https://docs.google.com/spreadsheets/d/1eMwVSUK-vXWleH8YDLVH655ktRY_Ny0zHZxkzWxt1Jk/edit#gid=0. The ID would be 1eMwVSUK-vXWleH8YDLVH655ktRY_Ny0zHZxkzWxt1Jk. 
 
-This information will be used to **[Set up Google Sheet Connector](/docs/connectors/google-sheets/how-to-use#set-up-google-connector-properties)**.
+This information will be used to **[Set up Google Sheet Connector](/docs/connectors/google-sheets/usage#set-up-google-sheet-connector-properties)**.
 
 ![img](/assets/docs/google-sheet/open-google-sheet1.png)

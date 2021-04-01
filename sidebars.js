@@ -174,7 +174,7 @@ module.exports = {
           "connectors/google-sheets/setup-google-service",
           "connectors/google-sheets/setup-google-sheet",
           "connectors/google-sheets/install-npm-function",
-          "connectors/google-sheets/how-to-use"
+          "connectors/google-sheets/usage"
          ],
       //   "Netsuite": [
       //     'doc1'
