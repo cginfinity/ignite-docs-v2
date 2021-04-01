@@ -169,10 +169,13 @@ module.exports = {
 
     ],
     "Connectors": [
-      // {
-      //   "SalesForce": [
-      //     'doc1'
-      //   ],
+       {
+         "Google Sheet": [
+          "connectors/google-sheets/setup-google-service",
+          "connectors/google-sheets/setup-google-sheet",
+          "connectors/google-sheets/install-npm-function",
+          "connectors/google-sheets/how-to-use"
+         ],
       //   "Netsuite": [
       //     'doc1'
       //   ],
@@ -191,7 +194,7 @@ module.exports = {
       //   "Sendgrid": [
       //     'doc1'
       //   ]
-      // }
+       }
     ],
     "Devops Practices": [
       {
