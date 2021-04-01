@@ -87,6 +87,6 @@ A key file of josn type will be download to your system.
 
 ![img](/assets/docs/google-sheet/private-key-saved.png)
 
-Now open the downloaded **JSON** file and copy all information from the file. This information will be used to **[Set up Google Sheet Connector](/docs/connectors/google-sheets/how-to-use#set-up-google-sheet-connector-properties)**.
+Now open the downloaded **JSON** file and copy all information from the file. This information will be used to **[Set up Google Sheet Connector](/docs/connectors/google-sheets/usage#set-up-google-sheet-connector-properties)**.
 
 
