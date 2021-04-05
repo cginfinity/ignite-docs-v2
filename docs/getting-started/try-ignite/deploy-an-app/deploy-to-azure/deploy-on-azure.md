@@ -50,11 +50,9 @@ You will get the IGNIT_EDITOR_API_SECRET key, copy or save this key for later us
 
 ### Set Ignite Runtime URL
 
-We will setup this URL once we will finish the "<u>**[deploy-on-azure](#set-cgignite-dashboard-app)**</u>".
+We will setup this URL once we will finish the "<u>**[deploy-on-azure](#3-deploy-application-using-docker-hub-public-repository)**</u>".
 
 ![](/assets/docs/deploy-to-azure/ignite-runtime-url-popup.png)
-
-
 
 
 ## 3. Deploy Application Using Docker Hub Public Repository
@@ -87,9 +85,9 @@ All resources in an Azure subscription are billed together.
 - **Web_App_Name:** Create a unique and suitable web application name. Your deployed application will be running with your web app name. for example, if Web_App_name is "myDemo" then application will be hosted in URL 
     > **[https://myDemo.azurewebsites.net/](#)**
 
-- **ENV_DATABASE_URL:** This URL includes protocol, user credentials, host and port. Refer to [database configurations](#database-credential)
+- **ENV_DATABASE_URL:** This URL includes protocol, user credentials, host and port. Refer to [database credential](#database-credential)
 
-- **ENV_IGNITE_EDITOR_API_SECRET:** This API key is found within the **<u><a href="https://dashboard.cgignite.io/apps" target="_blank">Ignite Dashboard</a></u>** when registering an app. Refer to [Get Ignite Keys](#2-create-app-and-get-ignite-keys-in-cgignite-dashboard)
+- **ENV_IGNITE_EDITOR_API_SECRET:** This API key is found within the **<u><a href="https://dashboard.cgignite.io/apps" target="_blank">Ignite Dashboard</a></u>** when registering an app. Refer to [Get Ignite Keys](#get-key-for-aws-container-creation)
 
 - **ENV_DB_SSL_OPTION:** If your database supports or requires SSL, it is recommended to turn this on
 
@@ -112,5 +110,14 @@ Once deployment completed you will get message as below–
 
 ![img](/assets/docs/deploy-to-azure/deployment-complete-msg.png)
 
+## 4. Finish Ignite Runtime URL
 
+ - Once azure application will be deployed successfully you will get the application url like **[https://myDemo.azurewebsites.net/](#)**
 
+- Go back to [Runtime regisration step](#set-ignite-runtime-url) and paste the runtime url and click on **"Test Connection"** 
+
+![img](/assets/docs/deploy-to-azure/finish-runtime-registration.png)
+
+- Click **Launch** button on your application in the [Dashboard](https://dashboard.cgignite.io/apps) and start execution.
+
+    ![img](/assets/docs/deploy-to-azure/launch-app.png)

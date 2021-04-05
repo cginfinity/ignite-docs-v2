@@ -203,7 +203,7 @@ module.exports = {
         ],
         "CI/CD": [
            "devops-practices/ci-cd/azure",
-           "devops-practices/ci-cd/heroku"
+           //"devops-practices/ci-cd/heroku"
         ]
       }
     ]
