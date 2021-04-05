@@ -115,24 +115,34 @@ On Image Name
 
 Deploy using private repository (local development)
 
-### 1.	Get Ignite Keys
+### 1. Create App
 
-Visit **<u><a href="https://dashboard.heroku.com/apps" target="_blank">https://dashboard.heroku.com/apps</a></u>**
+Visit: **<u><a href="https://dashboard.cgignite.io/apps" target="_blank">https://dashboard.cgignite.io/apps</a></u>**
 
-Select your deployed application from Heroku dashboard
+Click on button **“New App”**
 
-![img](/assets/docs/deploy-to-azure/heroku-app.png)
+![](/assets/docs/deploy-to-azure/new-app.png)
 
-Go to Settings tab and click on **"Reveal Config Vars"**
+### 2. Set App Name
 
-![img](/assets/docs/deploy-to-azure/heroku-setting.png)
+Provide a suitable name for your application and click on button **“Create App”**
 
-You will find **IGNITE_EDITOR_API_SECRET**
+![](/assets/docs/deploy-to-azure/new-app-popup.png)
 
-![img](/assets/docs/deploy-to-azure/heroku-keys.png)
+### 3. Get Ignite Keys
+
+You will get the IGNIT_EDITOR_API_SECRET key, copy or save this key for later use in <u>**[Deploy to Azure](#4-deploy-to-azure)**</u>.
+
+![](/assets/docs/deploy-to-azure/ignite-runtime-registration.png)
+
+### 4. Set Ignite Runtime URL
+
+We will setup this URL once we will finish the "<u>**[deploy-on-azure](#3-deploy-to-azure)**</u>".
+
+![](/assets/docs/deploy-to-azure/ignite-runtime-url-popup.png)
 
 
-### 2.	Deploy to Azure
+### 5. Deploy to Azure
 
 After the Ignite Platform team provisions your account, you may use the following **"Deploy to Azure"** button to get started your deployment using local development with private repository.
 
@@ -162,9 +172,9 @@ All resources in an Azure subscription are billed together.
 - **Web_App_Name:** Create a unique and suitable web application name. Your deployed application will be running with your web app name. for example, if Web_App_name is "myDemo" then application will be hosted in URL 
     > **[https://myDemo.azurewebsites.net/](#)**
 
-- **ENV_DATABASE_URL:** This URL includes protocol, user credentials, host and port. Refer to your database configurations
+- **ENV_DATABASE_URL:** This URL includes protocol, user credentials, host and port. Refer to [database credential](#3-database-credential)
 
-- **ENV_IGNITE_EDITOR_API_SECRET:** This API key is found within the **<u><a href="https://dashboard.cgignite.io/apps" target="_blank">Ignite Dashboard</a></u>** when registering an app
+- **ENV_IGNITE_EDITOR_API_SECRET:** This API key is found within the **<u><a href="https://dashboard.cgignite.io/apps" target="_blank">Ignite Dashboard</a></u>** when registering an app. Refer to [Get Ignite Keys](#3-get-ignite-keys)
 
 - **ENV_DB_SSL_OPTION:** If your database supports or requires SSL, it is recommended to turn this on
 
@@ -177,6 +187,19 @@ All resources in an Azure subscription are billed together.
 - **Env_DOCKER_REGISTRY_SERVER_USERNAME** Provide docker registry server username
 
 - **Env_DOCKER_REGISTRY_SERVER_PASSWORD** Provide docker registry server password
+
+
+### 6. Finish Ignite Runtime URL
+
+ - Once azure application will be deployed successfully you will get the application url like **[https://myDemo.azurewebsites.net/](#)**
+
+- Go back to [Runtime regisration step](#4-set-ignite-runtime-url) and paste the runtime url and click on **"Test Connection"** 
+
+![img](/assets/docs/deploy-to-azure/finish-runtime-registration.png)
+
+- Click **Launch** button on your application in the [Dashboard](https://dashboard.cgignite.io/apps) and start execution.
+
+    ![img](/assets/docs/deploy-to-azure/launch-app.png)
 
 Repeat above steps for others environment like Dev, QA, and Prod
 
