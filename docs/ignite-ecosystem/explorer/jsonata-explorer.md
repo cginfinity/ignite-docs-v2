@@ -4,7 +4,7 @@ title: JSONata Explorer
 sidebar_label: JSONata Explorer 
 ---
 
-## What Is JSONata
+## What is JSONata
 
 - Open-source lanuage for querying and transforming JSON
 - A way to extract specific meaningful data using a relatively simple logic
@@ -19,7 +19,7 @@ Imagine you have an order with several items and you need to calculate an averag
 
 With JSONata, such data transformations can be completed in a matter of several minutes and you will be able to watch in real-time how your data transforms according to your conditions
 
-## What Is JSONata Explorer
+## What is JSONata Explorer
 
 It is an Open-editor to explore your JSON. It has 3 sections as shown in the below image:
 

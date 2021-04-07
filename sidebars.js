@@ -1,5 +1,5 @@
 module.exports = {
-  someSidebar: {
+  Docs: {
     "Getting Started": [
       "getting-started/introduction",
       "getting-started/what-is-ignite",

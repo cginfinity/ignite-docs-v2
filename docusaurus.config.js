@@ -10,6 +10,7 @@ module.exports = {
   organizationName: 'Cyber Group Ignite', // Usually your GitHub org/user name.
   projectName: 'docusaurus', // Usually your repo name.
   themeConfig: {
+    hideableSidebar: true,
     navbar: {
       // title: 'My Site',
       logo: {
