@@ -168,7 +168,7 @@ module.exports = {
     "Tutorials": [
 
     ],
-    "Connectors": [
+    "Ignite Connectors": [
        {
          "Google Sheet": [
           "connectors/google-sheets/setup-google-service",
