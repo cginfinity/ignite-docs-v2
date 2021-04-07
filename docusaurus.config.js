@@ -11,29 +11,47 @@ module.exports = {
   projectName: 'docusaurus', // Usually your repo name.
   themeConfig: {
     hideableSidebar: true,
+    respectPrefersColorScheme: true,
     navbar: {
       // title: 'My Site',
       logo: {
         alt: 'ignite',
         src: 'img/ignite-full-orange.png',
+        srcDark: 'img/ignite-full-white.png', 
       },
+      hideOnScroll: true,
       items: [
         {
-          to: 'docs/getting-started/introduction/',
-          activeBasePath: 'docs',
           label: 'Docs',
           position: 'left',
+          items: [
+            {
+              label: 'Getting Started',
+              href: '/docs/getting-started/introduction/',
+            },
+            {
+              label: 'Ignite Ecosystem',
+              href: '/docs/ignite-ecosystem/runtime/runtime-introduction/',
+            },
+            {
+              label: 'Developer Guide',
+              href: '/docs/developer-guide/basics/messages/set-message-property-fixed/',
+            },
+            {
+              label: 'Ignite Connectors',
+              href: '/docs/connectors/google-sheets/setup-google-service/',
+            },
+            {
+              label: 'Devops Practices',
+              href: '/docs/devops-practices/release-management/upload-download-release-packages',
+            }
+          ],
         },
         {
           to: 'blog',
           label: 'Blogs',
           position: 'left'
-        },
-        // {
-        //   href: 'https://github.com/facebook/docusaurus',
-        //   label: 'GitHub',
-        //   position: 'right',
-        // },
+        }
       ],
     },
     footer: {
