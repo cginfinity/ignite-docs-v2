@@ -46,7 +46,7 @@ Click **"Deploy"**
 [{"id":"2efaf863.f0c7a8","type":"http response","z":"99f38f53.62683","name":"","statusCode":"","headers":{"content-type":"application/json"},"x":710,"y":280,"wires":[]},{"id":"f115185f.c4bcd8","type":"function","z":"99f38f53.62683","name":"Setting jwt as access_token","func":"msg.payload = {\n    \"access_token\" : msg.payload\n}\nreturn msg;","outputs":1,"noerr":0,"x":480,"y":280,"wires":[["2efaf863.f0c7a8"]]},{"id":"91ef189c.6f3fb8","type":"jwt","z":"99f38f53.62683","name":"creating jwt","jwtconfig":"766dcb94.6ebc04","generatejwt":"true","outputs":1,"x":210,"y":280,"wires":[["f115185f.c4bcd8"]]},{"id":"34c70aa9.45ad56","type":"function","z":"99f38f53.62683","name":"Setting payload to encode","func":"msg.payload = {\n    \"name\" : \"CYber Group Inc.\",\n    \"Domain\" : \"Information Technology & Services\",\n    \"Offices\" : {\n        \"Dallas\" :  \"12900 Preston Road, Ste 900, Dallas, TX, 75230\",\n        \"India\" : \"30/1 Knowledge Park III, Greater Noida\"\n    }\n}\nreturn msg;","outputs":1,"noerr":0,"x":370,"y":180,"wires":[["91ef189c.6f3fb8"]]},{"id":"588127fb.fa4d78","type":"http in","z":"99f38f53.62683","name":"","url":"/jwt/generate","method":"get","upload":false,"swaggerDoc":"","x":130,"y":180,"wires":[["34c70aa9.45ad56"]]},{"id":"766dcb94.6ebc04","type":"jwt-config","z":"","name":"igniteadmin","expiresin":"86400","algorithm":"HS256"}]
 ~~~
 
-## Get access token
+## Get Access Token
 Copy runtime URL from menu.
 
 ![img](/assets/docs/security/copy-runtime-url.png)
