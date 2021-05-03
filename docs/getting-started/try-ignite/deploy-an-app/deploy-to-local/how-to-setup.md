@@ -22,17 +22,17 @@ For more information on installing Docker Desktop, see <a href="https://www.dock
 
 ### Runtime Registration Page
 
-1.  Signup and login into <a href="https://dashboard.cgignite.io/apps" target="_blank">Ignite App</a>. 
+1.  Signup and login into <a href="https://dashboard.cgignite.io/#/apps" target="_blank">Ignite App</a>. 
  
-2.	Navigate to <a href="https://dashboard.cgignite.io/apps" target="_blank">Ignite App</a> and create a new app and provide the name, such as my-app
+2.	Navigate to <a href="https://dashboard.cgignite.io/#/apps" target="_blank">Ignite App</a> and create a new app and provide the name, such as my-app
 
-    ![](/assets/docs/deploye-to-local/new-app-button.png)
+    ![](/assets/docs/deploy-to-local/new-app-button.png)
 
-    ![](/assets/docs/deploye-to-local/create-new-app.png)
+    ![](/assets/docs/deploy-to-local/create-new-app.png)
 
 3.	The **Create App** action, will navigate to registration page which will provide information to start & register Ignite container.
 
-    ![](/assets/docs/deploye-to-local/runtime-registration.png)
+    ![](/assets/docs/deploy-to-local/runtime-registration.png)
 
     Copy the **IGNITE_EDITOR_API_SECRET**, this key will require to create Docker compose file in step [Docker Compose File](#docker-compose-file)
 
@@ -44,13 +44,13 @@ The Ignite Container includes a server, so that you can build and serve your app
 
 1.	Open explorer, Create new workspace folder, such as my-app.
 
-![](/assets/docs/deploye-to-local/create-new-folder.png)
+![](/assets/docs/deploy-to-local/create-new-folder.png)
 
 2.	Create a file **docker-compose.yml** inside the workspace directory, you just created above. 
 
-![](/assets/docs/deploye-to-local/create-docker-compose-file.png)
+![](/assets/docs/deploy-to-local/create-docker-compose-file.png)
 
-See, Appendix [Docker Compose](/docs/getting-started/try-ignite/deploy-an-app/deploye-to-local/manage-application#docker-compose) for reference.
+See, Appendix [Docker Compose](/docs/getting-started/try-ignite/deploy-an-app/deploy-to-local/manage-application#docker-compose) for reference.
 **cybergroupignite/runtime:v2.0.0** is our latest docker image, 
 following environment variable are required to start local development.
 
@@ -94,7 +94,7 @@ services:
     docker-compose up
     ```
 
-![](/assets/docs/deploye-to-local/docker-compose-execution.png)
+![](/assets/docs/deploy-to-local/docker-compose-execution.png)
 
 The **docker-compose up** command launches the server, watch the logs, wait for container to start.
 
@@ -102,7 +102,7 @@ When application is ready to accept the request, open **http://localhost:1881/**
 
 If your installation and setup was successful, you should see a page similar to the following
 
-![](/assets/docs/deploye-to-local/ignite-runtime.png)
+![](/assets/docs/deploy-to-local/ignite-runtime.png)
 
 Copy this URL **http://localhost:1881/**, this URL will require to register your runtime in step [Complete Your Runtime Registration](#complete-your-runtime-registration)
 
@@ -112,7 +112,7 @@ To start the application development, register your application on registration 
 
 1.	Select **Project** as start mode & Enter **http://localhost:1881/** on Ignite Runtime URL textbox
 
-![](/assets/docs/deploye-to-local/select-runtime-environment.png)
+![](/assets/docs/deploy-to-local/select-runtime-environment.png)
 
 2.	Click on **Test Connection** button to test and complete the registration process
 
@@ -120,6 +120,6 @@ To start the application development, register your application on registration 
 
 If your environment variable is correct, you should see a page similar to the following,
 
-![](/assets/docs/deploye-to-local/create-project-page.png)
+![](/assets/docs/deploy-to-local/create-project-page.png)
 
-So far you have successfully setup **Ignite applicaiton** in your local system. Now to know how to manage application localy [visit here](/docs/getting-started/try-ignite/deploy-an-app/deploye-to-local/manage-application).
+So far you have successfully setup **Ignite applicaiton** in your local system. Now to know how to manage application localy [visit here](/docs/getting-started/try-ignite/deploy-an-app/deploy-to-local/manage-application).

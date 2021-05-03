@@ -43,7 +43,7 @@ Once you have created your project, you can continue to use the editor just as y
 
 The Info sidebar now shows what project you are working on at the top. Next to the project name is a button that opens up the Project Settings dialog.
 
-![](/assets/docs/deploye-to-local/project-setting-dialogue.png)
+![](/assets/docs/deploy-to-local/project-setting-dialogue.png)
 
 You can also access this from the Projects -> Project Settings option in the main menu.
 
@@ -59,7 +59,7 @@ The dialog has three tabs:
 
 Each project has its own package.json file that includes a list of node modules the project depends on. The editor tracks what nodes you are using in a flow and helps you to keep that list of dependencies up to date.
 
-![](/assets/docs/deploye-to-local/project-dependencies.png)
+![](/assets/docs/deploy-to-local/project-dependencies.png)
 
 In the screenshot above, the current project has three modules listed in its package.json file, each in a different state:
 
@@ -89,7 +89,7 @@ Whenever you change a project file, such as by deploying a new flow configuratio
 
 When you have staged the files you want to commit, click the commit button, enter a message and confirm.
     
-![](/assets/docs/deploye-to-local/local-changes.png)
+![](/assets/docs/deploy-to-local/local-changes.png)
 
 ##### Commit History
 
@@ -99,7 +99,7 @@ At the top of the list is the ‘Branch’ button. That allows you to checkout/c
 
 If your repository has a remote repository configured, there is also a button that shows how many commits ahead and/or behind your local repository is compared with the remote. It allows you to pick the remote/branch to track, and push/pull your changes to the remote.
 
-![](/assets/docs/deploye-to-local/commit-history.png)
+![](/assets/docs/deploy-to-local/commit-history.png)
 
 This is one area that the editor tries to simplify the user experience, and doesn’t expose all of the various options git provides. This is an area we welcome feedback on. For example, it does not provide options to rebase your local commits, or force push your changes to the remote. You can still do those things by falling back to the command line.
 
