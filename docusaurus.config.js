@@ -89,6 +89,9 @@ module.exports = {
       ],
       copyright: `Copyright © ${new Date().getFullYear()} Cyber Group Inc.`,
     },
+    googleAnalytics: {
+      trackingID: 'UA-87617200-3',
+  },
   },
   presets: [
     [
