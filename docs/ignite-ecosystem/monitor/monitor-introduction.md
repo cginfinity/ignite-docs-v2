@@ -41,7 +41,7 @@ If you will scheduled any job, then you will get information about the scheduled
 
 ### Audit
 
-This part consist of user,s deployment log information like which user deploy flow at which time and what type was the deployment.
+This part consist of user's deployment log information like which user deploy flow at which time and what type was the deployment.
 
 ![img](/assets/docs/monitor/ignite-monitor-audit.png)
 
