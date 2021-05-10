@@ -36,6 +36,16 @@ module.exports = {
         // },
       ],
     },
+    algolia: {
+      apiKey: '57a55a57c7306080bda3a61d8cadfa69',
+      indexName: 'ignite',
+      appId: 'HERN1HJCXU'
+
+      // Optional: see doc section bellow
+      // contextualSearch: true,
+
+      //... other Algolia params
+    },
     footer: {
       style: 'light',
       links: [
