@@ -8,13 +8,13 @@ sidebar_label: Deploy on Azure
 
 Create and configure PostgreSQL database for storing your app related information. This database will be managed by Ignite App and required for App registration.
 
-### Setup PostgreSQL:
+### Setup PostgreSQL
 
 **<u><a href="https://portal.azure.com/#create/Microsoft.PostgreSQLServer" target="_blank">https://portal.azure.com/#create/Microsoft.PostgreSQLServer</a></u>**
 
 ![img](/assets/docs/deploy-to-azure/postgresql-basic.png)
 
-### Review & Create:
+### Review & Create
 
 ### Database Credential
 
@@ -93,13 +93,13 @@ All resources in an Azure subscription are billed together.
 
 - **ENV_START_MODE:** Select desired start mode (Required for git-based application development)
 
-### Observation 1: 
+### Observation 1 
 If someone else is using the same web app name then during deployment, you will get error like below-
 
 ![img](/assets/docs/deploy-to-azure/deployment-failed.png)
 ![img](/assets/docs/deploy-to-azure/website-already-exist.png)
 
-### Observation 2: 
+### Observation 2
 If there is any validation issue, you will get the status like below–
 
 ![img](/assets/docs/deploy-to-azure/custom-deployment-failed.png)
