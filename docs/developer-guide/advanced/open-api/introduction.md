@@ -14,7 +14,7 @@ It is based on <a href="https://github.com/swagger-api/swagger-js" target="_blan
 
 Ignite openAPI contains two nodes.
 
-### [OpenAPI router](./open-api-router "Open API Router")
+### [OpenAPI router](./open-api-router "OpenAPI Router")
 
 
 This node creates end points within ignite runtime, based on the openAPI URL provided.
@@ -22,7 +22,7 @@ This node creates end points within ignite runtime, based on the openAPI URL pro
 
 ![img](/assets/docs/open-api/ignite-open-api-router.png)
 
-### [Open API client](./open-api-client "Open API Client")
+### [OpenAPI client](./open-api-client "OpenAPI Client")
 
 This node is used to load and hit open API end points.
 
