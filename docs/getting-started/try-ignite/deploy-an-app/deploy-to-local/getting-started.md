@@ -15,6 +15,18 @@ To use the Ignite Project, you should be familiar with the following:
 
 You can start project in two ways
 
- - **[Project](/docs/getting-started/try-ignite/deploy-an-app/deploy-to-local/how-to-setup/#setting-up-the-local-environment-and-workspace) :** For git-based application development. 
+- **[Project](#project-mode)**  
+- **[Build](#build-mode)**
 
-- **[Build](/docs/getting-started/try-ignite/deploy-an-app/deploy-to-local/how-to-setup/#build) :** For docker container-based development.
+## Project Mode
+
+This mode is used for git-based application development. Runtime running with **Project** mode allow user to manage the local changes with the git repository.
+User will find additional changes symbol in the project that we can push/pull in the git repository. Learn more **[how to manage git based application](/docs/getting-started/try-ignite/deploy-an-app/deploy-to-local/manage-application/) :**
+
+![](/assets/docs/deploy-to-local/project-mode.png)
+
+## Build Mode
+
+This mode is used for docker container-based application development. Our **Recommendation** to run application in **Build Mode**
+
+![](/assets/docs/deploy-to-local/build-mode.png)
