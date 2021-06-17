@@ -22,9 +22,9 @@ For more information on installing Docker Desktop, see <a href="https://www.dock
 
 ### Runtime Registration Page
 
-1.  Signup and login into <a href="https://dashboard.cgignite.io/#/apps" target="_blank">Ignite App</a>. 
+1.  Signup and login and Navigate to <a href="https://dashboard.cgignite.io/#/apps" target="_blank">Ignite App</a>. 
  
-2.	Navigate to <a href="https://dashboard.cgignite.io/#/apps" target="_blank">Ignite App</a> and create a new app and provide the name, such as my-app
+2.	Create a new app and provide the name, such as my-app
 
     ![](/assets/docs/deploy-to-local/new-app-button.png)
 
@@ -118,8 +118,12 @@ To start the application development, register your application on registration 
 
 3.	On Successful connection browser will be redirected to editor.
 
-If your environment variable is correct, you should see a page similar to the following,
+If your environment variable is correct, you should see a page similar to the following-
 
+In case of **Project Mode**
 ![](/assets/docs/deploy-to-local/create-project-page.png)
 
-So far you have successfully setup **Ignite applicaiton** in your local system. Now to know how to manage application localy [visit here](/docs/getting-started/try-ignite/deploy-an-app/deploy-to-local/manage-application).
+In case of **Build Mode**
+![](/assets/docs/deploy-to-local/editor-page.png)
+
+So far you have successfully setup **Ignite application** in your locally system. Now to know how to manage application localy [visit here](/docs/getting-started/try-ignite/deploy-an-app/deploy-to-local/manage-application).

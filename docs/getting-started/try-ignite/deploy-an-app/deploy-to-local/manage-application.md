@@ -5,6 +5,7 @@ sidebar_label: Manage Application in Local
 ---
 
 ## Manage Application Locally
+(For **Project Mode** only)
 
 After setting up ignite application locally, now you can manage your application. Following are the steps-
 
