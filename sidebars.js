@@ -48,13 +48,6 @@ module.exports = {
         "Editor": [
 
         ],
-        "Monitor": [
-          "ignite-ecosystem/monitor/monitor-introduction",
-          "ignite-ecosystem/monitor/how-to-use"
-        ],
-        "Designer": [
-          "ignite-ecosystem/designer/designer"
-        ],
         "Explorer": [
           "ignite-ecosystem/explorer/jsonata-explorer"
         ],
