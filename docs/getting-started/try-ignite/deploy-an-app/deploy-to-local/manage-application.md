@@ -4,8 +4,10 @@ title: Manage Application in Local
 sidebar_label: Manage Application in Local
 ---
 
-## Manage Application Locally
-(For **Project Mode** only)
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+## Project Mode (Git  Based Application)
 
 After setting up ignite application locally, now you can manage your application. Following are the steps-
 
@@ -13,62 +15,63 @@ After setting up ignite application locally, now you can manage your application
 
 When you open the **Editor**, you’ll be greeted by a welcome screen that invites you to create your first project using your existing flow files.
 
-It will take you through the following steps:
+It will take you through the following steps-
 
-1.	Setup your version control client
+#### 1.	Setup your version control client
 
-    Ignite uses the open source tool Git for version control. It tracks changes to your project files and lets you push them to remote repositories.
+  Ignite uses the open source tool Git for version control. It tracks changes to your project files and lets you push them to remote repositories.
 
-    When you commit a set of changes, Git records who made the changes with a username and email address. The Username can be anything you want - it does not need to be your real name.
+  When you commit a set of changes, Git records who made the changes with a username and email address. The Username can be anything you want - it does not need to be your real name.
 
-    You can change these settings at any time via the main **settings** dialog.
+  You can change these settings at any time via the main **settings** dialog.
 
-2.	Create your project
+#### 2.	Create your project
 
-    The next step lets you name your project and given it a description.
+  The next step lets you name your project and given it a description.
 
-3.	Create your project files
+#### 3.	Create your project files
 
-    Ignite will automatically migrate your existing flow files into your project. You can choose to rename them here if you want.
+  Ignite will automatically migrate your existing flow files into your project. You can choose to rename them here if you want.
 
-4.	Setup encryption of your credentials file
+#### 4.	Setup encryption of your credentials file
 
-    As you may choose to share your project on public sites such as GitHub, it is strongly recommended that you encrypt your credentials file.
+  As you may choose to share your project on public sites such as GitHub.
+  
+:::info Note
+
+It is strongly recommended that you encrypt your credentials file.
+
+:::
+
 To encrypt it, you need to choose a key that will be used to secure the file. This key is not stored within the project. If someone else clones your project, you will need to provide them the key to decrypt the credentials file. Otherwise they will need to edit the flow to provide their own credentials.
 
 ### Working with projects
 
-Once you have created your project, you can continue to use the editor just as you always have. There are some new parts of the editor that have been added to work with your project.
+Once you have created your project, you can continue to use the editor just as you always have. There are some new parts of the editor that have been added to work with your project-
 
 #### Accessing Project Settings
 
 The Info sidebar now shows what project you are working on at the top. Next to the project name is a button that opens up the Project Settings dialog.
 
-![](/assets/docs/deploy-to-local/project-setting-dialogue.png)
-
 You can also access this from the Projects -> Project Settings option in the main menu.
 
-The dialog has three tabs:
+The dialog has three tabs-
 
-**Project** lets you edit the project’s README.md file.
-
-**Dependencies** - manage the list of node modules your project depends on
-
-**Settings** - manage the project settings, including the git remotes
+<Tabs
+  defaultValue="Project"
+  values={[
+    {label: 'Project', value: 'Project'},
+    {label: 'Dependencies', value: 'Dependencies'},
+    {label: 'Settings', value: 'Settings'},
+  ]}>
+  <TabItem value="Project">Lets you edit the project’s README.md file.</TabItem>
+  <TabItem value="Dependencies">Manage the list of node modules your project depends on.</TabItem>
+  <TabItem value="Settings-Mode">Manage the project settings, including the git remotes.</TabItem>
+</Tabs>
 
 **Project Dependencies**
 
-Each project has its own package.json file that includes a list of node modules the project depends on. The editor tracks what nodes you are using in a flow and helps you to keep that list of dependencies up to date.
-
-![](/assets/docs/deploy-to-local/project-dependencies.png)
-
-In the screenshot above, the current project has three modules listed in its package.json file, each in a different state:
-
--	**@cgignite/ignite-auth** is not currently installed
--	**@cgignite/ignite-sendgrid** is used by the current flow
--	**@cgignite/ignite-breakpoint** is listed, but is unused by the current flow
- 
-Finally, **@cgignite/ignite-metrics** provides a node that is used by the current flow, but that module is not listed as a dependency.
+Each project has its own **package.json** file that includes a list of node modules the project depends on. The editor tracks what nodes you are using in a flow and helps you to keep that list of dependencies up to date.
 
 Keeping the dependency list up to date is important if you want to share the project with others - as it will help users to install the necessary modules.
 
@@ -78,31 +81,31 @@ The project settings tab lets you manage your flow files, the encryption configu
 
 **Version Control**
 
-A new history tab has been added to the sidebar. This is where you manage the version control of your project. The tab has two sections:
+A new history tab has been added to the sidebar. This is where you manage the version control of your project. The tab has two sections-
 
-- **Local Changes** - shows project files that have changed, allowing you to stage and commit them.
-
-- **Commit History** - a list of all commits in the repository, with tools to push commits to remote repositories.
-
-##### Local Changes
-
-Whenever you change a project file, such as by deploying a new flow configuration, it will be listed in the ‘Local files’ section. You can click on the file name to see a diff of what has changed. When you hover over the file, you’ll see a + button - clicking that will stage the file - moving it down to the ‘Changes to commit’ list.
-
-When you have staged the files you want to commit, click the commit button, enter a message and confirm.
-    
-![](/assets/docs/deploy-to-local/local-changes.png)
-
-##### Commit History
-
-The Commit History section lists all of the commits in the current branch of the repository. When you create a project, Editor automatically commits the initial set of default files for the project.
-
-At the top of the list is the ‘Branch’ button. That allows you to checkout/create branches within the repository.
-
-If your repository has a remote repository configured, there is also a button that shows how many commits ahead and/or behind your local repository is compared with the remote. It allows you to pick the remote/branch to track, and push/pull your changes to the remote.
-
-![](/assets/docs/deploy-to-local/commit-history.png)
-
-This is one area that the editor tries to simplify the user experience, and doesn’t expose all of the various options git provides. This is an area we welcome feedback on. For example, it does not provide options to rebase your local commits, or force push your changes to the remote. You can still do those things by falling back to the command line.
+<Tabs
+  defaultValue="Local-Changes"
+  values={[
+    {label: 'Local-Changes', value: 'Local-Changes'},
+    {label: 'Commit-History', value: 'Commit-History'}
+  ]}>
+  <TabItem value="Local-Changes">Shows project files that have changed, allowing you to stage and commit them.
+  <br/><br/>
+  Whenever you change a project file, such as by deploying a new flow configuration, it will be listed in the ‘Local files’ section. You can click on the file name to see a diff of what has changed. When you hover over the file, you’ll see a + button - clicking that will stage the file - moving it down to the <b>‘Changes to commit’</b> list.
+  <br/><br/>
+  When you have staged the files you want to commit, click the commit button, enter a message and confirm.
+  </TabItem>
+  <TabItem value="Commit-History">A list of all commits in the repository, with tools to push commits to remote repositories.
+  <br/><br/>
+  The Commit History section lists all of the commits in the current branch of the repository. When you create a project, Editor automatically commits the initial set of default files for the project.
+  <br/><br/>
+  At the top of the list is the <b>‘Branch’</b> button. That allows you to checkout/create branches within the repository.
+  <br/><br/>
+  If your repository has a remote repository configured, there is also a button that shows how many commits ahead and/or behind your local repository is compared with the remote. It allows you to pick the remote/branch to track, and push/pull your changes to the remote.
+  <br/><br/>
+  This is one area that the editor tries to simplify the user experience, and doesn’t expose all of the various options git provides. This is an area we welcome feedback on. For example, it does not provide options to rebase your local commits, or force push your changes to the remote. You can still do those things by falling back to the command line.
+  </TabItem> 
+</Tabs>
 
 ##### Creating new projects
 
@@ -110,27 +113,31 @@ After you have created your first project by migrating your existing flow files 
 
 Selecting Projects -> New from the menu opens the Projects dialog.
 
-This provides three options:
+This provides three options-
 
--   open an existing project
--   create a new project
--   clone a project repository
+-   Open an existing project
+-   Create a new project
+-   Clone a project repository
 
 **Open an existing project**
 
 Runtime only runs one project at any time. By opening another project, you change what flows are running. 
 
-The ‘open project’ view also allows you to delete projects by hovering over them in the list and clicking the delete button. You cannot delete the active project.
+The **‘Open project’** view also allows you to delete projects by hovering over them in the list and clicking the delete button. You cannot delete the active project.
 
 **Create a new project**
 
-This lets you create a new project. It provides the same options as the ‘create your first project’ set of screens, but collapsed into one. 
+This lets you create a new project. It provides the same options as the **‘Create your first project’** set of screens, but collapsed into one. 
 
 **Clone a project repository**
 
 This lets you clone an existing remote repository. You can use either an http(s) or git/ssh URL for the repository. If the repository requires authentication you must provide it here.
 
-Note: for http URLs, do not include your username and/or password in the URL itself. You can should provide those separately when prompted.
+:::info Note
+
+For http URLs, do not include your username and/or password in the URL itself. You can should provide those separately when prompted.
+
+:::
 
 ## Build
 
@@ -197,7 +204,6 @@ services:
       PORT: "1881"
     depends_on:
       - postgres
-
 ```
 This Compose file defines two services: ignite and postgres. 
 
