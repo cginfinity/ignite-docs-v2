@@ -29,8 +29,6 @@ module.exports = {
                   "getting-started/try-ignite/deploy-an-app/deploy-to-heroku/upgrade-runtime"
                 ],
                 "Deploy to Local": [
-                  "getting-started/try-ignite/deploy-an-app/deploy-to-local/introduction",
-                  "getting-started/try-ignite/deploy-an-app/deploy-to-local/getting-started",
                   "getting-started/try-ignite/deploy-an-app/deploy-to-local/how-to-setup",
                   "getting-started/try-ignite/deploy-an-app/deploy-to-local/manage-application"
                 ]
