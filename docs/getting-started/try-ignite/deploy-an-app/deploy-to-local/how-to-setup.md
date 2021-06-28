@@ -4,66 +4,87 @@ title: How to Setup
 sidebar_label: How to Setup
 ---
 
- ## Setting up the Local Environment and Workspace
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
 
-This guide explains how to set up your environment for Ignite Project development using the Docker & Postgres. It includes information about prerequisites, creating an initial workspace and starter app, and running that app locally to verify your setup.
+ ## Introduction
 
-### Prerequisite
+Ignite lets you deploy, run and manage application on your local system. Local Ignite is much faster and it’s a new way to manage your flow files. Our simple and user-friendly interface allow you to deploy ignite on your local system easily. 
 
-To use the Ignite Project, you should be familiar with the following:
+This guide explains how to set up your environment for Ignite Project development using the Docker & Postgres. It includes information about prerequisites, creating an initial workspace, setup and running that app locally to verify your setup.
+
+To setup ignite in the local system, please follow the below steps-
+
+## Prerequisite
+
+To setup the Ignite locally, you should be familiar with the following:
 1.  <a href="https://docs.docker.com/get-started/overview/" target="_blank">Docker</a>
-2.  Knowledge of <a href="https://docs.docker.com/compose/" target="_blank">**Docker Compose**</a> is helpful.
-To install Ignite Project on your local system, you need the following:
+2.  <a href="https://www.postgresql.org/docs/13/index.html" target="_blank">PostgreSQL</a>
+2.  <a href="https://docs.github.com/en/get-started/quickstart/set-up-git" target="_blank">Git</a>
 
-### Download and Install Docker for Windows
+## Download and Install Docker
 
-Ignite requires a latest version of Docker Desktop.
-For more information on installing Docker Desktop, see <a href="https://www.docker.com/products/" target="_blank">docker-desktop</a>. 
+Ignite requires a latest version of **Docker Desktop**.
+See more information about installing **<a href="https://www.docker.com/products/" target="_blank">Docker-Desktop</a>**. 
 
-### Runtime Registration Page
+## Start Registration Page
 
-1.  Signup and login and Navigate to <a href="https://dashboard.cgignite.io/#/apps" target="_blank">Ignite App</a>. 
+1.  Signup, login and Navigate to <a href="https://dashboard.cgignite.io/#/apps" target="_blank">Ignite App</a>. 
  
-2.	Create a new app and provide the name, such as my-app
-
-    ![](/assets/docs/deploy-to-local/new-app-button.png)
-
-    ![](/assets/docs/deploy-to-local/create-new-app.png)
+2.	Create a new app and provide the name, such as my-app.
 
 3.	The **Create App** action, will navigate to registration page which will provide information to start & register Ignite container.
 
-    ![](/assets/docs/deploy-to-local/runtime-registration.png)
 
-    Copy the **IGNITE_EDITOR_API_SECRET**, this key will require to create Docker compose file in step [Docker Compose File](#docker-compose-file)
+## Knowing Start Mode
 
-    DO not click on button **"Test Connection"** now. Keep this page open.
+We support below start modes to setup Ignite in local-
 
-### Docker Compose File
+<Tabs
+  defaultValue="Postgres"
+  values={[
+    {label: 'Postgres', value: 'Postgres'},
+    {label: 'Build', value: 'Build'},
+    {label: 'Project-Mode', value: 'Project-Mode'},
+  ]}>
+  <TabItem value="Postgres">This is the default and basic mode which will allow user to manage Ignite app related data (flow, models) into their PostgreSQL database server.</TabItem>
+  <TabItem value="Build">This mode is used for docker container-based application development. Our <b>Recommendation</b> to run application in Build Mode.</TabItem>
+  <TabItem value="Project-Mode">This mode is used for git-based application development. Runtime running with <b>Project</b> mode allow user to manage the local changes with the git repository.
+User will find additional changes symbol in the project that we can push/pull in the git repository. Learn more <b><a href="/docs/getting-started/try-ignite/deploy-an-app/deploy-to-local/manage-application/#project-mode-git--based-application">how to manage git based application</a></b> </TabItem>
+</Tabs>
 
-The Ignite Container includes a server, so that you can build and serve your app locally.
+## Knowing Connection Type
 
-1.	Open explorer, Create new workspace folder, such as my-app.
+We support below connection types to setup Ignite in local-
 
-![](/assets/docs/deploy-to-local/create-new-folder.png)
+<Tabs
+  defaultValue="Server-Side"
+  values={[
+    {label: 'Server-Side', value: 'Server-Side'},
+    {label: 'Client-Side', value: 'Client-Side'}
+  ]}>
+  <TabItem value="Server-Side">Verify authenticity of Runtime from server machine.</TabItem>
+  <TabItem value="Client-Side">Verify authenticity of Runtime from client machine.</TabItem>
+</Tabs>
 
-2.	Create a file **docker-compose.yml** inside the workspace directory, you just created above. 
 
-![](/assets/docs/deploy-to-local/create-docker-compose-file.png)
+## Setup Ignite Secret Key
 
-See, Appendix [Docker Compose](/docs/getting-started/try-ignite/deploy-an-app/deploy-to-local/manage-application#docker-compose) for reference.
-**cybergroupignite/runtime:v2.0.0** is our latest docker image, 
-following environment variable are required to start local development.
+ - Select start mode (Build mode - Recommended).
+ - Select connection type (Client-side - Recommended)
+ - Copy the **IGNITE_EDITOR_API_SECRET** from runtime registration page. This key will require to create Docker compose file in [Docker Compose File](#setup-and-run-docker-file)
 
-```
-    IGNITE_EDITOR_API_SECRET: “<your editor key>” 
-    DATABASE_URL: “<your database url>”
-    START_MODE: "PROJECT" required for git based application development
-    DB_SSL_OPTION: “true” or "false” based on your Postgres Database installation 
-```
+:::info Note
 
-3.  Provide **IGNITE_EDITOR_API_SECRET** from [Runtime Registration Page](#runtime-registration-page). 
+Do not click on button **"Test Connection"** now. Keep this page open.
 
-[docker-compose.yml](https://github.com/Cybergroup-Research/ignite-application-development/blob/master/docker-compose.yml) file will look like as below-
+:::
+
+## Setup and Run Docker File
+
+ 1. Open explorer, Create new workspace directory.
+ 2. Create a file **docker-compose.yml** inside the workspace directory, you just created above
+ 3. Add below content in the **docker-compose.yml** file.
 
 ```
 version: "3.9"
@@ -88,42 +109,29 @@ services:
       - ignite_local_postgres
 ```
 
-4.	Open my-app in the terminal and run the following command:
+Sample <span class="link">[docker-compose.yml](https://github.com/Cybergroup-Research/ignite-application-development/blob/master/docker-compose.yml)</span> file for application development.
 
-    ```
-    docker-compose up
-    ```
+ 4. Replace **IGNITE_EDITOR_API_SECRET** in the above file from [Setup-Ignite-Secret-Key](#setup-ignite-secret-key).
 
-![](/assets/docs/deploy-to-local/docker-compose-execution.png)
+ 5. Open your workspace directory in the terminal and run the following command.
 
-The **docker-compose up** command launches the server, watch the logs, wait for container to start.
+```
+  docker-compose up
+```
 
-When application is ready to accept the request, open **http://localhost:1881/**.
+ 6. Above command will launch the server, watch the logs, wait for container to start.
 
-If your installation and setup was successful, you should see a page similar to the following
+ 7. When application is ready to accept the request, open <u>**http://localhost:1881/**</u> and confirm that you can see the Ignite Runtime App page.
 
-![](/assets/docs/deploy-to-local/ignite-runtime.png)
+## Complete Runtime Registration
 
-Copy this URL **http://localhost:1881/**, this URL will require to register your runtime in step [Complete Your Runtime Registration](#complete-your-runtime-registration)
+ - Copy the Ignite Runtime URL <u>**http://localhost:1881/**</u>
+ - Go back to the Runtime Registration Page [Setup-Ignite-Secret-Key](#setup-ignite-secret-key).
+ - Paste in Ignite Runtime URL text box and hit **Test Connection**.
+ - On Successful connection browser will be redirected to editor.
 
-### Complete Your Runtime Registration
+:::tip Successfully Setup
 
-To start the application development, register your application on registration page. 
+So far you have successfully setup **Ignite application** in your local system. Now to know how to manage application locally [visit here](/docs/getting-started/try-ignite/deploy-an-app/deploy-to-local/manage-application).
 
-1.	Select **Project** as start mode & Enter **http://localhost:1881/** on Ignite Runtime URL textbox
-
-![](/assets/docs/deploy-to-local/select-runtime-environment.png)
-
-2.	Click on **Test Connection** button to test and complete the registration process
-
-3.	On Successful connection browser will be redirected to editor.
-
-If your environment variable is correct, you should see a page similar to the following-
-
-In case of **Project Mode**
-![](/assets/docs/deploy-to-local/create-project-page.png)
-
-In case of **Build Mode**
-![](/assets/docs/deploy-to-local/editor-page.png)
-
-So far you have successfully setup **Ignite application** in your locally system. Now to know how to manage application localy [visit here](/docs/getting-started/try-ignite/deploy-an-app/deploy-to-local/manage-application).
+:::
