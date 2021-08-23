@@ -71,11 +71,7 @@ module.exports = {
           items: [
             {
               label: 'Dashboard',
-              href: 'https://dashboard.cgignite.io/apps',
-            },
-            {
-              label: 'API Designer',
-              href: 'https://designer.cgignite.io/',
+              href: 'https://dashboard.cgignite.io/#/apps',
             },
             {
               label: 'JSONata Explorer',
