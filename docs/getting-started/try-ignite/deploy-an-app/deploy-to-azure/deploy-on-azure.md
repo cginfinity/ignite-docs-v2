@@ -30,7 +30,7 @@ Copy or save this DATABASE_URL for <u>**[Azure App Registration Step](#3-deploy-
 
 ### Create App
 
-Visit: **<u><a href="https://dashboard.cgignite.io/apps" target="_blank">https://dashboard.cgignite.io/apps</a></u>**
+Visit: **<u><a href="https://dashboard.cgignite.io/#/apps" target="_blank">https://dashboard.cgignite.io/#/apps</a></u>**
 
 Click on button **“New App”**
 
@@ -87,7 +87,7 @@ All resources in an Azure subscription are billed together.
 
 - **ENV_DATABASE_URL:** This URL includes protocol, user credentials, host and port. Refer to [database credential](#database-credential)
 
-- **ENV_IGNITE_EDITOR_API_SECRET:** This API key is found within the **<u><a href="https://dashboard.cgignite.io/apps" target="_blank">Ignite Dashboard</a></u>** when registering an app. Refer to [Get Ignite Keys](#get-key-for-aws-container-creation)
+- **ENV_IGNITE_EDITOR_API_SECRET:** This API key is found within the **<u><a href="https://dashboard.cgignite.io/#/apps" target="_blank">Ignite Dashboard</a></u>** when registering an app. Refer to [Get Ignite Keys](#get-key-for-aws-container-creation)
 
 - **ENV_DB_SSL_OPTION:** If your database supports or requires SSL, it is recommended to turn this on
 
@@ -118,6 +118,6 @@ Once deployment completed you will get message as below–
 
 ![img](/assets/docs/deploy-to-azure/finish-runtime-registration.png)
 
-- Click **Launch** button on your application in the [Dashboard](https://dashboard.cgignite.io/apps) and start execution.
+- Click **Launch** button on your application in the [Dashboard](https://dashboard.cgignite.io/#/apps) and start execution.
 
     ![img](/assets/docs/deploy-to-azure/launch-app.png)
