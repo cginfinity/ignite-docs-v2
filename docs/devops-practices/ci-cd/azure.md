@@ -117,7 +117,7 @@ Deploy using private repository (local development)
 
 ### 1. Create App
 
-Visit: **<u><a href="https://dashboard.cgignite.io/apps" target="_blank">https://dashboard.cgignite.io/apps</a></u>**
+Visit: **<u><a href="https://dashboard.cgignite.io/#/apps" target="_blank">https://dashboard.cgignite.io/#/apps</a></u>**
 
 Click on button **“New App”**
 
