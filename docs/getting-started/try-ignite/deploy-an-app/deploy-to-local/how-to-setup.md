@@ -41,16 +41,16 @@ See more information about installing **<a href="https://www.docker.com/products
 We support below start modes to setup Ignite in local-
 
 <Tabs
-  defaultValue="Postgres"
+  defaultValue="Standard"
   values={[
-    {label: 'Postgres', value: 'Postgres'},
-    {label: 'Build', value: 'Build'},
-    {label: 'Project-Mode', value: 'Project-Mode'},
+    {label: 'Standard', value: 'Standard'},
+    {label: 'Development', value: 'Development'},
+    {label: 'Advanced', value: 'Advanced'},
   ]}>
-  <TabItem value="Postgres">This is the default and basic mode which will allow user to manage Ignite app related data (flow, models) into their PostgreSQL database server.</TabItem>
-  <TabItem value="Build">This mode is used for docker container-based application development. Our <b>Recommendation</b> to run application in Build Mode.</TabItem>
-  <TabItem value="Project-Mode">This mode is used for git-based application development. Runtime running with <b>Project</b> mode allow user to manage the local changes with the git repository.
+  <TabItem value="Standard">This is the default and basic mode which will allow user to manage Ignite app related data (flow, models) into their PostgreSQL database server.</TabItem>
+  <TabItem value="Development">This mode is used for git-based application development. Runtime running with <b>Project</b> mode allow user to manage the local changes with the git repository.
 User will find additional changes symbol in the project that we can push/pull in the git repository. Learn more <b><a href="/docs/getting-started/try-ignite/deploy-an-app/deploy-to-local/manage-application/#project-mode-git--based-application">how to manage git based application</a></b> </TabItem>
+  <TabItem value="Advanced">This mode is used for docker container-based application development. Our <b>Recommendation</b> to run application in Advanced Mode.</TabItem>
 </Tabs>
 
 ## Knowing Connection Type

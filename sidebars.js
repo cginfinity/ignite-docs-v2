@@ -50,7 +50,7 @@ module.exports = {
           "ignite-ecosystem/explorer/jsonata-explorer"
         ],
         "Dashboard": [
-
+          "ignite-ecosystem/dashboard/monitoring"
         ]
       }
     ],
