@@ -29,10 +29,8 @@ module.exports = {
                   "getting-started/try-ignite/deploy-an-app/deploy-to-heroku/upgrade-runtime"
                 ],
                 "Deploy to Local": [
-                  "getting-started/try-ignite/deploy-an-app/deploye-to-local/introduction",
-                  "getting-started/try-ignite/deploy-an-app/deploye-to-local/getting-started",
-                  "getting-started/try-ignite/deploy-an-app/deploye-to-local/how-to-setup",
-                  "getting-started/try-ignite/deploy-an-app/deploye-to-local/manage-application"
+                  "getting-started/try-ignite/deploy-an-app/deploy-to-local/how-to-setup",
+                  "getting-started/try-ignite/deploy-an-app/deploy-to-local/manage-application"
                 ]
               }
             ]
@@ -48,18 +46,11 @@ module.exports = {
         "Editor": [
 
         ],
-        "Monitor": [
-          "ignite-ecosystem/monitor/monitor-introduction",
-          "ignite-ecosystem/monitor/how-to-use"
-        ],
-        "Designer": [
-          "ignite-ecosystem/designer/designer"
-        ],
         "Explorer": [
           "ignite-ecosystem/explorer/jsonata-explorer"
         ],
         "Dashboard": [
-
+          "ignite-ecosystem/dashboard/monitoring"
         ]
       }
     ],

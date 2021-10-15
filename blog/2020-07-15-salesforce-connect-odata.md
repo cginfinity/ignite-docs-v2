@@ -74,7 +74,7 @@ Hooray! We're done and the end result is even sweeter than you expected.
 
 * Data from your database will directly populate your dashboards in real-time.
 
-## Additional Links:
+## Additional Links
 
 To perform CRUD operations on your database, try creating a custom tab. Follow this trail's [View External Data](https://trailhead.salesforce.com/en/content/learn/modules/lightning_connect/lightning_connect_setup) section to create custom tabs.
 

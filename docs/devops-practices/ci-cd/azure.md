@@ -8,13 +8,13 @@ sidebar_label: Azure + Azure Devops
 
 Create and configure PostgreSQL database for storing your app related information. This database will be managed by Ignite App and required for App registration.
 
-### 1.	Setup PostgreSQL:
+### 1.	Setup PostgreSQL
 
 **<u><a href="https://portal.azure.com/#create/Microsoft.PostgreSQLServer" target="_blank">https://portal.azure.com/#create/Microsoft.PostgreSQLServer</a></u>**
 
 ![img](/assets/docs/deploy-to-azure/postgresql-basic.png)
 
-### 2.	Review & Create:
+### 2.	Review & Create
 
 ### 3.	Database Credential
 
@@ -117,7 +117,7 @@ Deploy using private repository (local development)
 
 ### 1. Create App
 
-Visit: **<u><a href="https://dashboard.cgignite.io/apps" target="_blank">https://dashboard.cgignite.io/apps</a></u>**
+Visit: **<u><a href="https://dashboard.cgignite.io/#/apps" target="_blank">https://dashboard.cgignite.io/#/apps</a></u>**
 
 Click on button **“New App”**
 
