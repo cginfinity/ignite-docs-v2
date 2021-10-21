@@ -14,7 +14,7 @@ Use the <code class="node">Change</code> node to set the property of the message
 
 ## Example
 
-![img](/assets/docs/messages/set-message-property-fixed.png)
+![img](https://igniteresources.blob.core.windows.net/public/docs/static/assets/docs/messages/set-message-property-fixed.png)
 
 <b>Flow JSON</b>
 

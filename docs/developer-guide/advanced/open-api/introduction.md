@@ -20,13 +20,13 @@ Ignite openAPI contains two nodes.
 This node creates end points within ignite runtime, based on the openAPI URL provided.
 
 
-![img](/assets/docs/open-api/ignite-open-api-router.png)
+![img](https://igniteresources.blob.core.windows.net/public/docs/static/assets/docs/open-api/ignite-open-api-router.png)
 
 ### [OpenAPI client](./open-api-client "OpenAPI Client")
 
 This node is used to load and hit open API end points.
 
-![img](/assets/docs/open-api/ignite-open-api-client.png)
+![img](https://igniteresources.blob.core.windows.net/public/docs/static/assets/docs/open-api/ignite-open-api-client.png)
 
 ## Parameter Configuration
 
@@ -48,4 +48,4 @@ You can choose how to handle a returning server error. The last server response 
 
 ## How to Install
 
-![img](/assets/docs/open-api/ignite-open-api-install.gif)
+![img](https://igniteresources.blob.core.windows.net/public/docs/static/assets/docs/open-api/ignite-open-api-install.gif)

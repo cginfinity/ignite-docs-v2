@@ -16,7 +16,7 @@ set the `Content-Type` to the appropriate value for the file type being returned
 
 ## Example
 
-![img](/assets/docs/http-endpoints/serve-a-local-file.png)
+![img](https://igniteresources.blob.core.windows.net/public/docs/static/assets/docs/http-endpoints/serve-a-local-file.png)
 
 <b>Flow JSON</b>
 

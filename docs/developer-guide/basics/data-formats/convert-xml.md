@@ -16,7 +16,7 @@ formats.
 
 ## Example
 
-![img](/assets/docs/data-formats/convert-xml.png)
+![img](https://igniteresources.blob.core.windows.net/public/docs/static/assets/docs/data-formats/convert-xml.png)
 
 <b>Flow JSON</b>
 

@@ -15,7 +15,7 @@ object.
 
 ## Example
 
-![img](/assets/docs/http-endpoints/serve-json-content.png)
+![img](https://igniteresources.blob.core.windows.net/public/docs/static/assets/docs/http-endpoints/serve-json-content.png)
 
 <b>Flow JSON</b>
 

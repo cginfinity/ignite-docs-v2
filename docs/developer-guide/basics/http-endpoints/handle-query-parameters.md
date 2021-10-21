@@ -17,7 +17,7 @@ node to access the parameters.
 
 ## Example
 
-![img](/assets/docs/http-endpoints/handle-query-parameters.png)
+![img](https://igniteresources.blob.core.windows.net/public/docs/static/assets/docs/http-endpoints/handle-query-parameters.png)
 
 <b>Flow JSON</b>
 

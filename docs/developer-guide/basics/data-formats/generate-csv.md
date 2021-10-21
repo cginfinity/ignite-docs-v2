@@ -16,7 +16,7 @@ strings.
 
 ## Example
 
-![img](/assets/docs/data-formats/generate-csv.png)
+![img](https://igniteresources.blob.core.windows.net/public/docs/static/assets/docs/data-formats/generate-csv.png)
 
 <b>Flow JSON</b>
 

@@ -14,7 +14,7 @@ Use the <code class="node">HTTP Request</code> node's support for [mustache](htt
 
 ## Example
 
-![img](/assets/docs/http-requests/set-query-string.png)
+![img](https://igniteresources.blob.core.windows.net/public/docs/static/assets/docs/http-requests/set-query-string.png)
 
 <b>Flow JSON</b>
 

@@ -15,7 +15,7 @@ receive messages published to matching topics.
 
 ## Example
 
-![img](/assets/docs/mqtt/subscribe-to-topic.png)
+![img](https://igniteresources.blob.core.windows.net/public/docs/static/assets/docs/mqtt/subscribe-to-topic.png)
 
 <b>Flow JSON</b>
 

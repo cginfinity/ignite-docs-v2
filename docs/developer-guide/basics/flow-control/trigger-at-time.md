@@ -15,7 +15,7 @@ time.
 
 ## Example
 
-![img](/assets/docs/flow-control/trigger-at-time.png)
+![img](https://igniteresources.blob.core.windows.net/public/docs/static/assets/docs/flow-control/trigger-at-time.png)
 
 <b>Flow JSON</b>
 

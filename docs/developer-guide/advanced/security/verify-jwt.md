@@ -21,7 +21,7 @@ Use an <code class="node">Http response</code> node to send the response back to
 
     Double click on the node "jwt" and open the properties.
 
-     ![img](/assets/docs/security/select-configuration-validate.png)
+     ![img](https://igniteresources.blob.core.windows.net/public/docs/static/assets/docs/security/select-configuration-validate.png)
 
 - #### Add Configuration
 
@@ -32,7 +32,7 @@ click **"Done"**. Then click **"Deploy"**.
 
 ## Example
 
-![img](/assets/docs/security/verify-jwt.png)
+![img](https://igniteresources.blob.core.windows.net/public/docs/static/assets/docs/security/verify-jwt.png)
 
 <b>Flow JSON</b>
 
@@ -48,11 +48,11 @@ https://ignite-demo.herokuapp.com/jwt/verify
 
 select **"Bearer Token"** under **"Authorization"** tab, provide the access token that you received from [Get Access Token](/docs/developer-guide/advanced/security/generate-jwt#get-access-token)
 
-![img](/assets/docs/security/postman-jwt-verify.png)
+![img](https://igniteresources.blob.core.windows.net/public/docs/static/assets/docs/security/postman-jwt-verify.png)
  
 Click on button **“Send”** and you will get message as **“Jwt is verified”**
 
-![img](/assets/docs/security/jwt-verified.png)
+![img](https://igniteresources.blob.core.windows.net/public/docs/static/assets/docs/security/jwt-verified.png)
 
 ## Discussion
 

@@ -14,7 +14,7 @@ Use the <code class="node">Change</code> node to move a property.
 
 ## Example
 
-![img](/assets/docs/messages/move-message-property.png)
+![img](https://igniteresources.blob.core.windows.net/public/docs/static/assets/docs/messages/move-message-property.png)
 
 <b>Flow JSON</b>
 

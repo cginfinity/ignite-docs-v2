@@ -17,7 +17,7 @@ Use an <code class="node">Odata-in</code> node and connect it to <code class="no
 Use a <code class="node">Debug</code> node and connect it to the <code class="node">Odata-in</code> node to log out the msg.model in the debug window to verify.
 Double click on <code class="node">Odata-in</code> node and select "Add new EDM..."
 
-![img](/assets/docs/odata/metadata-model-using-edm-1.png)
+![img](https://igniteresources.blob.core.windows.net/public/docs/static/assets/docs/odata/metadata-model-using-edm-1.png)
 
 Click edit icon and provide the Namespace name and Schema.
 
@@ -25,20 +25,20 @@ Click edit icon and provide the Namespace name and Schema.
 <strong>NOTE: </strong>When schema name is provided schema, name is prefixed to the entity names in queries.
 
 
-![img](/assets/docs/odata/metadata-model-using-edm-2.png)
+![img](https://igniteresources.blob.core.windows.net/public/docs/static/assets/docs/odata/metadata-model-using-edm-2.png)
 
 
 To add an entity/table select "Add new entity..." and click the edit icon.
 
 
-![img](/assets/docs/odata/metadata-model-using-edm-3.png)
+![img](https://igniteresources.blob.core.windows.net/public/docs/static/assets/docs/odata/metadata-model-using-edm-3.png)
 
 
 Click "Add" and then "Done" to save your changes.
 
 ## Example
 
-![img](/assets/docs/odata/metadata-model-using-edm-4.png)
+![img](https://igniteresources.blob.core.windows.net/public/docs/static/assets/docs/odata/metadata-model-using-edm-4.png)
 
 <b>Flow JSON</b>
 

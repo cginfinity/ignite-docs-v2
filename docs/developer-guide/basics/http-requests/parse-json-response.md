@@ -16,7 +16,7 @@ can be easily accessed by downstream nodes.
 
 ## Example
 
-![img](/assets/docs/http-requests/parse-json-response.png)
+![img](https://igniteresources.blob.core.windows.net/public/docs/static/assets/docs/http-requests/parse-json-response.png)
 
 <b>Flow JSON</b>
 

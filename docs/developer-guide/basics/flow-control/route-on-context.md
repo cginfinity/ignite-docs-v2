@@ -16,7 +16,7 @@ property against different values corresponding to different outputs of the node
 
 ## Example
 
-![img](/assets/docs/flow-control/route-on-context.png)
+![img](https://igniteresources.blob.core.windows.net/public/docs/static/assets/docs/flow-control/route-on-context.png)
 
 <b>Flow JSON</b>
 

@@ -17,7 +17,7 @@ arrived after a defined interval.
 
 ## Example
 
-![img](/assets/docs/flow-control/trigger-timeout.png)
+![img](https://igniteresources.blob.core.windows.net/public/docs/static/assets/docs/flow-control/trigger-timeout.png)
 
 <b>Flow JSON</b>
 

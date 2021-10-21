@@ -14,7 +14,7 @@ Use the <code class="node">MQTT Output</code> node to publish messages to a topi
 
 ## Example
 
-![img](/assets/docs/mqtt/publish-to-topic.png)
+![img](https://igniteresources.blob.core.windows.net/public/docs/static/assets/docs/mqtt/publish-to-topic.png)
 
 <b>Flow JSON</b>
 

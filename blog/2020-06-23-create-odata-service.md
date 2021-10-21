@@ -24,7 +24,7 @@ To create an OData service we will need an API endpoint to serve the incoming re
 
 Go ahead, drag and drop a http-in node and configure it. To make it compatible with incoming OData requests which comprises of dynamic URLs, you need to append a **/Root/*** or **/Serviceroot/*** variable to the endpoint. This endpoint will now serve all the incoming get requests matching in  **Serviceroot/** or **Root/**.
 
-![img](/assets/blogs/odata/odata-httpin.jpg)
+![img](https://igniteresources.blob.core.windows.net/public/docs/static/assets/blogs/odata/odata-httpin.jpg)
 
 :::note 
 
@@ -56,31 +56,31 @@ msg.model = model;
 return msg;
 ```
 
-![img](/assets/blogs/odata/odata-metadata.jpg)
+![img](https://igniteresources.blob.core.windows.net/public/docs/static/assets/blogs/odata/odata-metadata.jpg)
 
 ## OData Magic
 
 Next, drag and drop an OData-in node and connect a wire from the function node to the OData-in node. Great job, we are halfway through now!
 
-![img](/assets/blogs/odata/odata-odatain.jpg)
+![img](https://igniteresources.blob.core.windows.net/public/docs/static/assets/blogs/odata/odata-odatain.jpg)
 
 ## Database Operation
 
 Drag and drop an Ignite-Sequelize node and connect a wire from the OData-in node to the Sequelize node. Configure your Sequelize node and provide your database connection variables.
 
-![img](/assets/blogs/odata/odata-sequelize.jpg)
+![img](https://igniteresources.blob.core.windows.net/public/docs/static/assets/blogs/odata/odata-sequelize.jpg)
 
 ## OData Out
 
 Now that we have data, we need to enable our workflow to give us an OData compatible response. In order to do this add an OData-out node to your flow and draw a wire from the Sequelize node to the OData-out node.
 
-![img](/assets/blogs/odata/odata-odataout.jpg)
+![img](https://igniteresources.blob.core.windows.net/public/docs/static/assets/blogs/odata/odata-odataout.jpg)
 
 ## Http Response
 
 Once you reach this step, give yourself a pat on the back. Now all you need to do is add an http-response node to send that response back to the client.
 
-![img](/assets/blogs/odata/odata-response.jpg)
+![img](https://igniteresources.blob.core.windows.net/public/docs/static/assets/blogs/odata/odata-response.jpg)
 
 Click the "Deploy" button and your shining new OData service workflow is ready. You can use Postman client or `OData Client` node to [test your service](/blog/test-odata-service).
 

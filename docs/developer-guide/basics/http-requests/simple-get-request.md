@@ -15,7 +15,7 @@ Use the <code class="node">HTTP Request</code> node to make an HTTP request and 
 
 ## Example
 
-![img](/assets/docs/http-requests/simple-get-request.png)
+![img](https://igniteresources.blob.core.windows.net/public/docs/static/assets/docs/http-requests/simple-get-request.png)
 
 <b>Flow JSON</b>
 

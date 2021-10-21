@@ -18,7 +18,7 @@ Use an <code class="node">Http response</code> node to send the http response ba
 
 ## Example
 
-![img](/assets/docs/odata/read-only-odata-service.png)
+![img](https://igniteresources.blob.core.windows.net/public/docs/static/assets/docs/odata/read-only-odata-service.png)
 
 <b>Flow JSON</b>
 

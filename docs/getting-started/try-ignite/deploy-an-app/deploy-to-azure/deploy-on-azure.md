@@ -12,7 +12,7 @@ Create and configure PostgreSQL database for storing your app related informatio
 
 **<u><a href="https://portal.azure.com/#create/Microsoft.PostgreSQLServer" target="_blank">https://portal.azure.com/#create/Microsoft.PostgreSQLServer</a></u>**
 
-![img](/assets/docs/deploy-to-azure/postgresql-basic.png)
+![img](https://igniteresources.blob.core.windows.net/public/docs/static/assets/docs/deploy-to-azure/postgresql-basic.png)
 
 ### Review & Create
 
@@ -34,25 +34,25 @@ Visit: **<u><a href="https://dashboard.cgignite.io/#/apps" target="_blank">https
 
 Click on button **“New App”**
 
-![](/assets/docs/deploy-to-azure/new-app.png)
+![img](https://igniteresources.blob.core.windows.net/public/docs/static/assets/docs/deploy-to-azure/new-app.png)
 
 ### Set App Name
 
 Provide a suitable name for your application and click on button **“Create App”**
 
-![](/assets/docs/deploy-to-azure/new-app-popup.png)
+![img](https://igniteresources.blob.core.windows.net/public/docs/static/assets/docs/deploy-to-azure/new-app-popup.png)
 
 ### Get Key for AWS Container Creation
 
 You will get the IGNIT_EDITOR_API_SECRET key, copy or save this key for later use in <u>**[Azure App Registration Step](#3-deploy-application-using-docker-hub-public-repository)**</u>.
 
-![](/assets/docs/deploy-to-azure/ignite-runtime-registration.png)
+![img](https://igniteresources.blob.core.windows.net/public/docs/static/assets/docs/deploy-to-azure/ignite-runtime-registration.png)
 
 ### Set Ignite Runtime URL
 
 We will setup this URL once we will finish the "<u>**[deploy-on-azure](#3-deploy-application-using-docker-hub-public-repository)**</u>".
 
-![](/assets/docs/deploy-to-azure/ignite-runtime-url-popup.png)
+![img](https://igniteresources.blob.core.windows.net/public/docs/static/assets/docs/deploy-to-azure/ignite-runtime-url-popup.png)
 
 
 ## 3. Deploy Application Using Docker Hub Public Repository
@@ -65,7 +65,7 @@ After the Ignite Platform team provisions your account, you may use the followin
 
 > *You will be redirected to Azure after clicking this button.*
 
-![img](/assets/docs/deploy-to-azure/custom-deployment.png)
+![img](https://igniteresources.blob.core.windows.net/public/docs/static/assets/docs/deploy-to-azure/custom-deployment.png)
 
 Below are required parameters details-
 
@@ -96,19 +96,19 @@ All resources in an Azure subscription are billed together.
 ### Observation 1 
 If someone else is using the same web app name then during deployment, you will get error like below-
 
-![img](/assets/docs/deploy-to-azure/deployment-failed.png)
-![img](/assets/docs/deploy-to-azure/website-already-exist.png)
+![img](https://igniteresources.blob.core.windows.net/public/docs/static/assets/docs/deploy-to-azure/deployment-failed.png)
+![img](https://igniteresources.blob.core.windows.net/public/docs/static/assets/docs/deploy-to-azure/website-already-exist.png)
 
 ### Observation 2
 If there is any validation issue, you will get the status like below–
 
-![img](/assets/docs/deploy-to-azure/custom-deployment-failed.png)
-![img](/assets/docs/deploy-to-azure/custom-deployment-success.png)
+![img](https://igniteresources.blob.core.windows.net/public/docs/static/assets/docs/deploy-to-azure/custom-deployment-failed.png)
+![img](https://igniteresources.blob.core.windows.net/public/docs/static/assets/docs/deploy-to-azure/custom-deployment-success.png)
 
 ### Observation 3: 
 Once deployment completed you will get message as below–
 
-![img](/assets/docs/deploy-to-azure/deployment-complete-msg.png)
+![img](https://igniteresources.blob.core.windows.net/public/docs/static/assets/docs/deploy-to-azure/deployment-complete-msg.png)
 
 ## 4. Finish Ignite Runtime URL
 
@@ -116,8 +116,8 @@ Once deployment completed you will get message as below–
 
 - Go back to [Runtime regisration step](#set-ignite-runtime-url) and paste the runtime url and click on **"Test Connection"** 
 
-![img](/assets/docs/deploy-to-azure/finish-runtime-registration.png)
+![img](https://igniteresources.blob.core.windows.net/public/docs/static/assets/docs/deploy-to-azure/finish-runtime-registration.png)
 
 - Click **Launch** button on your application in the [Dashboard](https://dashboard.cgignite.io/#/apps) and start execution.
 
-    ![img](/assets/docs/deploy-to-azure/launch-app.png)
+    ![img](https://igniteresources.blob.core.windows.net/public/docs/static/assets/docs/deploy-to-azure/launch-app.png)

@@ -17,7 +17,7 @@ Use the <code class="node">HTTP In</code> node to listen for requests, a
 
 ## Example
 
-![img](/assets/docs/http-endpoints/create-an-http-endpoint.png)
+![img](https://igniteresources.blob.core.windows.net/public/docs/static/assets/docs/http-endpoints/create-an-http-endpoint.png)
 
 <b>Flow JSON</b>
 

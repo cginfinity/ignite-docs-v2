@@ -17,7 +17,7 @@ Use a <code class="node">Debug</code> node and connect it to the <code class="no
 
 ## Example
 
-![img](/assets/docs/odata/convert-req-to-query.png)
+![img](https://igniteresources.blob.core.windows.net/public/docs/static/assets/docs/odata/convert-req-to-query.png)
 
 <b>Flow JSON</b>
 

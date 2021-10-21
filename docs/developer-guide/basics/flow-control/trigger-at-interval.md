@@ -16,7 +16,7 @@ interval.
 
 ## Example
 
-![img](/assets/docs/flow-control/trigger-at-interval.png)
+![img](https://igniteresources.blob.core.windows.net/public/docs/static/assets/docs/flow-control/trigger-at-interval.png)
 
 <b>Flow JSON</b>
 

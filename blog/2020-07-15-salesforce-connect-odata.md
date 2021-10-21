@@ -24,7 +24,7 @@ From Setup, type External Data Sources into the Quick Find box, then select **Ex
 
 Click **New External Data Source**.
 
-![img](/assets/blogs/odata/odata-sf-1.jpg)
+![img](https://igniteresources.blob.core.windows.net/public/docs/static/assets/blogs/odata/odata-sf-1.jpg)
 
 Enter a valid label for your external data source and then select **Salesforce Connect: OData 4.0** as the type.
 
@@ -36,7 +36,7 @@ You should check the Writable External Object only when you have added http-in n
 
 :::
 
-![img](/assets/blogs/odata/odata-sf-2.jpg)
+![img](https://igniteresources.blob.core.windows.net/public/docs/static/assets/blogs/odata/odata-sf-2.jpg)
 
 Phew! That was tricky, but stick to the steps because we're almost there.
 
@@ -44,7 +44,7 @@ Phew! That was tricky, but stick to the steps because we're almost there.
 
 Now that we have an external data source, we need to sync the tables/metadata to create objects inside of our Salesforce Organization. which can be easily done by clicking the "Validate and Sync button."
 
-![img](/assets/blogs/odata/odata-sf-3.jpg)
+![img](https://igniteresources.blob.core.windows.net/public/docs/static/assets/blogs/odata/odata-sf-3.jpg)
 
 Remember the model we provided in step 1?
 
@@ -58,7 +58,7 @@ Have you done that? Well then congratulations! You've successfully added your OD
 
 To confirm if the objects have been created inside Salesforce, click the drop-down arrow next to the Object Manager,  Here you'll see the tables that you just synced.
 
-![img](/assets/blogs/odata/odata-sf-4.jpg)
+![img](https://igniteresources.blob.core.windows.net/public/docs/static/assets/blogs/odata/odata-sf-4.jpg)
 
 Hooray! We're done and the end result is even sweeter than you expected. 
 

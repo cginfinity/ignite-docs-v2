@@ -18,7 +18,7 @@ in order to set or clear cookies.
 
 ## Example
 
-![img](/assets/docs/http-endpoints/work-with-cookies.png)
+![img](https://igniteresources.blob.core.windows.net/public/docs/static/assets/docs/http-endpoints/work-with-cookies.png)
 
 <b>Flow JSON</b>
 

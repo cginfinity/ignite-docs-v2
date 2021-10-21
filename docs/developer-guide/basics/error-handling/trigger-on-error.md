@@ -14,7 +14,7 @@ Use the <code class="node">Catch</code> node to receive the error and trigger a 
 
 ## Example
 
-![img](/assets/docs/error-handling/trigger-on-error.png)
+![img](https://igniteresources.blob.core.windows.net/public/docs/static/assets/docs/error-handling/trigger-on-error.png)
 
 <b>Flow JSON</b>
 

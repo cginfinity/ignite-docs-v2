@@ -15,7 +15,7 @@ have their `Content-Type` set to `text/plain` and access the posted data as `msg
 
 ## Example
 
-![img](/assets/docs/http-endpoints/post-raw-data-to-a-flow.png)
+![img](https://igniteresources.blob.core.windows.net/public/docs/static/assets/docs/http-endpoints/post-raw-data-to-a-flow.png)
 
 <b>Flow JSON</b>
 

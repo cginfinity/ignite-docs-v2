@@ -23,7 +23,7 @@ property and then access the specific value provided in a request using the
 
 ## Flow
 
-![img](/assets/docs/http-endpoints/handle-url-parameters.png)
+![img](https://igniteresources.blob.core.windows.net/public/docs/static/assets/docs/http-endpoints/handle-url-parameters.png)
 
 <b>Flow JSON</b>
 

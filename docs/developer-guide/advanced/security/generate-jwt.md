@@ -22,23 +22,23 @@ Use another <code class="node">Function</code> node to send the token as an acce
 
     Double click on the node "jwt" and open the properties.
 
-     ![img](/assets/docs/security/open-properties.png)
+     ![img](https://igniteresources.blob.core.windows.net/public/docs/static/assets/docs/security/open-properties.png)
 
 - #### Add Configuration
 
     Click on the edit button and add configuration. Set any secret key. Give some name to this configuration like **igniteadmin**. You can also change the expiration time for the JWT and algorithm. Then click on button **Add**.
 
-     ![img](/assets/docs/security/edit-configuration.png)
+     ![img](https://igniteresources.blob.core.windows.net/public/docs/static/assets/docs/security/edit-configuration.png)
 
 Select mode as generate and then click **"Done"**
 
-![img](/assets/docs/security/done-configuration.png)
+![img](https://igniteresources.blob.core.windows.net/public/docs/static/assets/docs/security/done-configuration.png)
  
 Click **"Deploy"**
 
 ## Example
 
-![img](/assets/docs/security/generate-jwt.png)
+![img](https://igniteresources.blob.core.windows.net/public/docs/static/assets/docs/security/generate-jwt.png)
 
 <b>Flow JSON</b>
 
@@ -49,7 +49,7 @@ Click **"Deploy"**
 ## Get Access Token
 Copy runtime URL from menu.
 
-![img](/assets/docs/security/copy-runtime-url.png)
+![img](https://igniteresources.blob.core.windows.net/public/docs/static/assets/docs/security/copy-runtime-url.png)
  
 Paste the URL in new tab, without press enter. Below is the sample runtime. Your runtime URL will be different.
 
@@ -61,7 +61,7 @@ https://ignite-demo.herokuapp.com/jwt/generate
 
 Hit enter to go to the URL. You will get access token
 
-![img](/assets/docs/security/access-token.png)
+![img](https://igniteresources.blob.core.windows.net/public/docs/static/assets/docs/security/access-token.png)
 
 ## Discussion
 

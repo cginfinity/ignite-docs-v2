@@ -15,7 +15,7 @@ and an associated <code class="node">MQTT Config</code> node to connect to an MQ
 
 ## Example
 
-![img](/assets/docs/mqtt/connect-to-broker.png)
+![img](https://igniteresources.blob.core.windows.net/public/docs/static/assets/docs/mqtt/connect-to-broker.png)
 
 <b>Flow JSON</b>
 

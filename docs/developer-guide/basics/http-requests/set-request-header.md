@@ -15,7 +15,7 @@ message sent to the <code class="node">HTTP request</code> node.
 
 ## Example
 
-![img](/assets/docs/http-requests/set-request-header.png)
+![img](https://igniteresources.blob.core.windows.net/public/docs/static/assets/docs/http-requests/set-request-header.png)
 
 <b>Flow JSON</b>
 

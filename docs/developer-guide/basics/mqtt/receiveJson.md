@@ -14,7 +14,7 @@ Use the <code class="node">MQTT Input</code> node and a <code class="node">JSON 
 
 ## Example
 
-![img](/assets/docs/mqtt/receive-json.png)
+![img](https://igniteresources.blob.core.windows.net/public/docs/static/assets/docs/mqtt/receive-json.png)
 
 <b>Flow JSON</b>
 

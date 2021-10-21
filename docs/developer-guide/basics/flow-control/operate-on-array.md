@@ -18,7 +18,7 @@ them back into a single array.
 
 ## Example
 
-![img](/assets/docs/flow-control/operate-on-array.png)
+![img](https://igniteresources.blob.core.windows.net/public/docs/static/assets/docs/flow-control/operate-on-array.png)
 
 <b>Flow JSON</b>
 

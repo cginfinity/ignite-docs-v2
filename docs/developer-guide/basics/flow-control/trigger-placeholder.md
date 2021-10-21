@@ -22,7 +22,7 @@ to send the placeholder messages at a regular interval.
 
 ## Example
 
-![img](/assets/docs/flow-control/trigger-placeholder.png)
+![img](https://igniteresources.blob.core.windows.net/public/docs/static/assets/docs/flow-control/trigger-placeholder.png)
 
 <b>Flow JSON</b>
 

@@ -13,17 +13,17 @@ breakpoint allows you to pause the execution of the flow and helps you to explor
 
 The <b>breakpoint</b> node initially starts with status <b>Stopped</b>.
 
-![img](/assets/docs/breakpoint/ignite-breakpoint-stopped.png)
+![img](https://igniteresources.blob.core.windows.net/public/docs/static/assets/docs/breakpoint/ignite-breakpoint-stopped.png)
 
 When you initiate a message within it, the node changes to status <b>Running</b>.
 
-![img](/assets/docs/breakpoint/ignite-breakpoint-running.png)
+![img](https://igniteresources.blob.core.windows.net/public/docs/static/assets/docs/breakpoint/ignite-breakpoint-running.png)
 
 Once the node finishes the timeout value and stops running service, the node changes to status <b>Resumed</b>.
 
-![img](/assets/docs/breakpoint/ignite-breakpoint-resumed.png)
+![img](https://igniteresources.blob.core.windows.net/public/docs/static/assets/docs/breakpoint/ignite-breakpoint-resumed.png)
 
-![img](/assets/docs/breakpoint/Ignite-breakpoint-status.gif)
+![img](https://igniteresources.blob.core.windows.net/public/docs/static/assets/docs/breakpoint/Ignite-breakpoint-status.gif)
 
 ## Properties
 
@@ -39,4 +39,4 @@ Set the amount of time that you want to pause the execution of the flow and want
 
 When the node is in <b>Running</b> status, data will be available in breakpoint node and when you will click on the button, data will be automatically loaded into JSONata explorer in another tab.
 
-![img](/assets/docs/breakpoint/ignite-breakpoint-properties.png)
+![img](https://igniteresources.blob.core.windows.net/public/docs/static/assets/docs/breakpoint/ignite-breakpoint-properties.png)

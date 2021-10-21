@@ -16,7 +16,7 @@ Use a <code class="node">Debug</code> node and connect it to the <code class="no
 
 ## Example
 
-![img](/assets/docs/odata/define-metadata-model.png)
+![img](https://igniteresources.blob.core.windows.net/public/docs/static/assets/docs/odata/define-metadata-model.png)
 
 <b>Flow JSON</b>
 

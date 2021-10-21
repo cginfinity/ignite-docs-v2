@@ -19,7 +19,7 @@ Use a <code class="node">basic-auth</code> node and configure the settings. Chec
 Drag and drop two <code class="node">Function</code> nodes and set the response for good and bad cases.
 Use an <code class="node">Http response</code> node to send the response back to the client
 
-![img](/assets/docs/security/basic-authentication.png)
+![img](https://igniteresources.blob.core.windows.net/public/docs/static/assets/docs/security/basic-authentication.png)
 
 
 
@@ -29,21 +29,21 @@ Use an <code class="node">Http response</code> node to send the response back to
 
     Double click on the node "basic-auth" and open the properties.
 
-    ![img](/assets/docs/security/basic-auth-edit-properties.png)
+    ![img](https://igniteresources.blob.core.windows.net/public/docs/static/assets/docs/security/basic-auth-edit-properties.png)
 
 - #### Add Configuration
 
     Click on the edit button and add configuration. Set any username and password that you want to match when any user passed it to using basic authorization header to access the API end point that you want to create. In this case we are adding username=admin and password=admin.
 
-    ![img](/assets/docs/security/basic-auth-add-configuration.png)
+    ![img](https://igniteresources.blob.core.windows.net/public/docs/static/assets/docs/security/basic-auth-add-configuration.png)
 
     Click "Done"
 
-    ![img](/assets/docs/security/basic-auth-add-configuration-done.png)
+    ![img](https://igniteresources.blob.core.windows.net/public/docs/static/assets/docs/security/basic-auth-add-configuration-done.png)
 
     Click "Deploy"
 
-    ![img](/assets/docs/security/deploy.png)
+    ![img](https://igniteresources.blob.core.windows.net/public/docs/static/assets/docs/security/deploy.png)
 
 ### Example
 
@@ -57,11 +57,11 @@ Use an <code class="node">Http response</code> node to send the response back to
 
 Open postman, provide API end point, select **"Basic Auth"** under **"Authorization"** tab, provide same Username and Password that you mentioned in the flow and click on button **"Send"**
 
-![img](/assets/docs/security/basic-auth-testing.png)
+![img](https://igniteresources.blob.core.windows.net/public/docs/static/assets/docs/security/basic-auth-testing.png)
 
 If the username and password will not match with flow under **"basic-auth"** node then you will get different message.
 
-![img](/assets/docs/security/basic-auth-testing-1.png)
+![img](https://igniteresources.blob.core.windows.net/public/docs/static/assets/docs/security/basic-auth-testing-1.png)
 
 ## Discussion
 

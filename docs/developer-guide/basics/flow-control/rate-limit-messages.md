@@ -18,7 +18,7 @@ passing through it.
 
 ## Example
 
-![img](/assets/docs/flow-control/rate-limit-messages.png)
+![img](https://igniteresources.blob.core.windows.net/public/docs/static/assets/docs/flow-control/rate-limit-messages.png)
 
 <b>Flow JSON</b>
 

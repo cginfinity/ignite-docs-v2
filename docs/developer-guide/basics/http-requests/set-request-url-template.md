@@ -14,7 +14,7 @@ Configure the <code class="node">HTTP Request</code> node to generate a URL dyna
 
 ## Example
 
-![img](/assets/docs/http-requests/set-request-url-template.png)
+![img](https://igniteresources.blob.core.windows.net/public/docs/static/assets/docs/http-requests/set-request-url-template.png)
 
 <b>Flow JSON</b>
 

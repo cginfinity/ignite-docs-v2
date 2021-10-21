@@ -15,7 +15,7 @@ back to the node that needs to retry the action.
 
 ## Example
 
-![img](/assets/docs/error-handling/retry-on-error.png)
+![img](https://igniteresources.blob.core.windows.net/public/docs/static/assets/docs/error-handling/retry-on-error.png)
 
 <b>Flow JSON</b>
 

@@ -16,7 +16,7 @@ the form data as properties of `msg.payload`.
 
 ## Example
 
-![img](/assets/docs/http-endpoints/post-form-data-to-a-flow.png)
+![img](https://igniteresources.blob.core.windows.net/public/docs/static/assets/docs/http-endpoints/post-form-data-to-a-flow.png)
 
 <b>Flow JSON</b>
 

@@ -19,7 +19,7 @@ recombine them back into a single block of text.
 
 ## Example
 
-![img](/assets/docs/data-formats/split-text.png)
+![img](https://igniteresources.blob.core.windows.net/public/docs/static/assets/docs/data-formats/split-text.png)
 
 <b>Flow JSON</b>
 

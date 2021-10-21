@@ -18,7 +18,7 @@ passing through it with the option to drop intermediate messages enabled.
 
 ## Example
 
-![img](/assets/docs/flow-control/rate-limit-message-stream.png)
+![img](https://igniteresources.blob.core.windows.net/public/docs/static/assets/docs/flow-control/rate-limit-message-stream.png)
 
 <b>Flow JSON</b>
 

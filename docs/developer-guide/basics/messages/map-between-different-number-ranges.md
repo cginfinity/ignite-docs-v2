@@ -15,7 +15,7 @@ Use the <code class="node">Range</code> node to map between the defined ranges.
 
 ## Example
 
-![img](/assets/docs/messages/map-between-different-number-ranges.png)
+![img](https://igniteresources.blob.core.windows.net/public/docs/static/assets/docs/messages/map-between-different-number-ranges.png)
 
 <b>Flow JSON</b>
 

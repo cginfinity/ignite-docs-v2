@@ -16,7 +16,7 @@ JavaScript objects from it.
 
 ## Example
 
-![img](/assets/docs/data-formats/parse-csv.png)
+![img](https://igniteresources.blob.core.windows.net/public/docs/static/assets/docs/data-formats/parse-csv.png)
 
 <b>Flow JSON</b>
 

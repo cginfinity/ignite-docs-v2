@@ -14,7 +14,7 @@ Set the `topic` message property, before sending the message to an <code class="
 
 ## Example
 
-![img](/assets/docs/mqtt/set-publish-topic.png)
+![img](https://igniteresources.blob.core.windows.net/public/docs/static/assets/docs/mqtt/set-publish-topic.png)
 
 <b>Flow JSON</b>
 

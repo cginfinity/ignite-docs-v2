@@ -16,7 +16,7 @@ message sent to the node.
 
 ## Example
 
-![img](/assets/docs/mqtt/publish-retained-message.png)
+![img](https://igniteresources.blob.core.windows.net/public/docs/static/assets/docs/mqtt/publish-retained-message.png)
 
 <b>Flow JSON</b>
 

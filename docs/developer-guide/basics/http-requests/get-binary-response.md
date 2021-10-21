@@ -15,7 +15,7 @@ Change the `Return` configuration of this node to `a binary buffer` to return th
 
 ## Example
 
-![img](/assets/docs/http-requests/get-binary-response.png)
+![img](https://igniteresources.blob.core.windows.net/public/docs/static/assets/docs/http-requests/get-binary-response.png)
 
 <b>Flow JSON</b>
 

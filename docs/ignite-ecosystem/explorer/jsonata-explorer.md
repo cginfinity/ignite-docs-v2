@@ -29,13 +29,13 @@ It is an Open-editor to explore your JSON. It has 3 sections as shown in the bel
 
 - <b>Section-3:</b> You will get the customized result value.
 
-![img](/assets/docs/explorer/ignite-jsonata-editor-detail-1.png)
+![img](https://igniteresources.blob.core.windows.net/public/docs/static/assets/docs/explorer/ignite-jsonata-editor-detail-1.png)
 
 ## Redirect to Explorer From Editor
 
 You can redirect to Ignite JSONata from the editor
 
-![img](/assets/docs/explorer/ignite-editor-link-to-jsonata-explorer.gif)
+![img](https://igniteresources.blob.core.windows.net/public/docs/static/assets/docs/explorer/ignite-editor-link-to-jsonata-explorer.gif)
 
 ## How to Use the Explorer
 
@@ -61,9 +61,9 @@ You can redirect to Ignite JSONata from the editor
 
 - <b>Step-4:</b> You will get the result "John" in the Section-3 inside JSONata Explorer
 
-![img](/assets/docs/explorer/ignite-jsonata-example.png)
+![img](https://igniteresources.blob.core.windows.net/public/docs/static/assets/docs/explorer/ignite-jsonata-example.png)
 
-![img](/assets/docs/explorer/ignite-jsonata-sample-1.gif)
+![img](https://igniteresources.blob.core.windows.net/public/docs/static/assets/docs/explorer/ignite-jsonata-sample-1.gif)
 
 ## Example
 
@@ -71,23 +71,23 @@ Here are some example expressions and their results when applied to the JSON doc
 
 - <b>Basic Query</b>
 
-![img](/assets/docs/explorer/ignite-jsonata-basic-query.gif)
+![img](https://igniteresources.blob.core.windows.net/public/docs/static/assets/docs/explorer/ignite-jsonata-basic-query.gif)
 
 - <b>String Function</b>
 
-![img](/assets/docs/explorer/ignite-jsonata-string-function.gif)
+![img](https://igniteresources.blob.core.windows.net/public/docs/static/assets/docs/explorer/ignite-jsonata-string-function.gif)
 
 - <b>Numeric Function</b>
 
-![img](/assets/docs/explorer/ignite-jsonata-numeric-function.gif)
+![img](https://igniteresources.blob.core.windows.net/public/docs/static/assets/docs/explorer/ignite-jsonata-numeric-function.gif)
 
 - <b>String Expressions</b>
 
-![img](/assets/docs/explorer/ignite-jsonata-string-expression.gif)
+![img](https://igniteresources.blob.core.windows.net/public/docs/static/assets/docs/explorer/ignite-jsonata-string-expression.gif)
 
 - <b>Numeric Expressions</b>
 
-![img](/assets/docs/explorer/ignite-jsonata-numeric-expressions.gif)
+![img](https://igniteresources.blob.core.windows.net/public/docs/static/assets/docs/explorer/ignite-jsonata-numeric-expressions.gif)
 
 ## Additional Resources
 

@@ -15,7 +15,7 @@ node to access the headers.
 
 ## Example
 
-![img](/assets/docs/http-endpoints/access-http-request-headers.png)
+![img](https://igniteresources.blob.core.windows.net/public/docs/static/assets/docs/http-endpoints/access-http-request-headers.png)
 
 <b>Flow JSON</b>
 

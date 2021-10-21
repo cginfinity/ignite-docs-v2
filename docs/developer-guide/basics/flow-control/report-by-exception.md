@@ -17,7 +17,7 @@ unless its value has changed.
 
 ## Example
 
-![img](/assets/docs/flow-control/report-by-exception.png)
+![img](https://igniteresources.blob.core.windows.net/public/docs/static/assets/docs/flow-control/report-by-exception.png)
 
 <b>Flow JSON</b>
 

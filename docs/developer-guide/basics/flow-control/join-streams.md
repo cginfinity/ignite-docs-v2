@@ -19,7 +19,7 @@ node to group them into a single message.
 
 ## Example
 
-![img](/assets/docs/flow-control/join-streams.png)
+![img](https://igniteresources.blob.core.windows.net/public/docs/static/assets/docs/flow-control/join-streams.png)
 
 <b>Flow JSON</b>
 

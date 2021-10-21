@@ -17,7 +17,7 @@ Drag and drop a <code class="node">Debug</code> node and connect to sequelize no
 
 ## Example
 
-![img](/assets/docs/sequelize/execute-a-query.png)
+![img](https://igniteresources.blob.core.windows.net/public/docs/static/assets/docs/sequelize/execute-a-query.png)
 
 <b>Flow JSON</b>
 
